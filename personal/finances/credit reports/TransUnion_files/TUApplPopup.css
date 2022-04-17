@@ -1,0 +1,1065 @@
+/* CONTENT POP-UP WINDOWS (SAME BROWSER)
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.contentPopupArea,
+div.contentPopupAreaError,
+div.contentPopupAreaWarning,
+div.contentPopupAreaInfo,
+div.contentPopupAreaSuccess,
+div.contentPopupAreaProcessing,
+div.contentPopupAreaFixedHeight {
+	width: 551px;
+	background-color: #FFFFFF;
+	border: 1px solid #ededed;
+	padding: 0px; 
+	position: absolute;
+	top: 120px;
+	left: 210px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .15);
+}
+div.contentPopupAreaFixedHeight {
+	height: 299px;
+}
+
+div#staticPopupLayer,
+div#nestedStaticPopupLayer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 930px;
+	/* HEIGHT TO BE SET FOR INDIVIDUAL PAGES */
+	background-image: url("../images/fraudAlert/pixel_clear.gif");
+	background-repeat: repeat;
+}
+div#fixedPopupLayer {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/fraudAlert/pixel_clear.gif");
+	background-repeat: repeat;
+}
+
+iframe#staticPopupHack,
+iframe#nestedStaticPopupHack {
+	position: absolute;
+}
+iframe#fixedPopupHack {
+	position: absolute;
+	top: 120px;
+	left: 210px;
+	width: 557px;
+}
+iframe.cancelPopupHack {
+	height: 184px;
+}
+iframe.processingPopupHack {
+	height: 140px;
+}
+iframe.contentPopupHack {
+	height: 305px;
+}
+iframe.challengePopupHack {
+	height: 235px;
+}
+
+
+/* POPUP DETAILS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+iframe.detailPopupHack {
+	width: 249px;
+	height: 183px;
+}
+div.detailPopupArea {
+	position: absolute;
+	width: 249px;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+div#detailPopupHeader {
+	height: 27px;
+	/*background-image: url("../images/fraudAlert/text_selection_header_background.gif");*/
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+div#detailPopupCloseLink  {
+	padding: 8px 8px 0px 7px;
+	float: left;
+	display: inline;
+}
+div#detailPopupHeader p {
+	padding: 6px 10px 5px 7px;
+	text-align: right;
+	display: block;
+	text-transform: lowercase;
+}
+
+div#detailPopupHeader a,
+div#detailPopupHeader a:link,
+div#detailPopupHeader a:visited,
+div#detailPopupHeader a:hover,
+div#detailPopupHeader a:active {
+}
+
+div.detailPopupDisplay {
+	/*background-image: url("../images/fraudAlert/text_selection_body_background.gif");*/
+	background-repeat: repeat-y;
+	background-position: top right;
+}
+div.detailPopupFields {
+	/*background-image: url("../images/fraudAlert/text_selection_body_border.gif");*/
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	padding: 4px 0px 0px 0px;
+}
+
+div#staticPopupArea div.detailPopupFields div.field,
+div#staticPopupArea div.detailPopupFields div.fieldWideLabel {
+	padding: 3px 8px 3px 8px;
+	margin: 0px;
+}
+
+div#staticPopupArea div.detailPopupFields span.label {
+	float: none;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+	letter-spacing: 1px;
+	width: 70px;
+    text-transform: uppercase;
+}
+div#staticPopupArea div.detailPopupFields div.fieldWideLabel span.label {
+	width: 110px;
+}
+
+div#staticPopupArea div.detailPopupFields span.value {
+	float: none;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: -15px 0px 0px 80px;
+}
+div#staticPopupArea div.detailPopupFields div.fieldWideLabel span.value {
+	margin-left: 120px;
+}
+
+div.detailPopupFields div.contentStretchHackLeft,
+div.detailPopupFields div.contentStretchHackRight {
+	width: 200px;
+}
+
+/* CONTACT DETAILS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+iframe.contactPopupHack {
+	width: 249px;
+	height: 183px;
+}
+div.contactPopupArea {
+	position: absolute;
+	width: 249px;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+div#contactPopupHeader {
+	height: 27px;
+	/*background-image: url("../images/fraudAlert/text_selection_header_background.gif");*/
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+div#contactPopupCloseLink  {
+	padding: 8px 8px 0px 7px;
+	float: left;
+	display: inline;
+}
+div#contactPopupHeader p {
+	padding: 6px 10px 5px 7px;
+	text-align: right;
+	display: block;
+	text-transform: lowercase;
+}
+
+div#contactPopupHeader a,
+div#contactPopupHeader a:link,
+div#contactPopupHeader a:visited,
+div#contactPopupHeader a:hover,
+div#contactPopupHeader a:active {
+}
+
+div.contactPopupDisplay {
+	/*background-image: url("../images/fraudAlert/text_selection_body_background.gif");*/
+	background-repeat: repeat-y;
+	background-position: top right;
+}
+div.contactPopupFields {
+	/*background-image: url("../images/fraudAlert/text_selection_body_border.gif");*/
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	padding: 4px 0px 0px 0px;
+}
+
+div#staticPopupArea div.contactPopupFields div.field {
+	padding: 3px 8px 3px 8px;
+	margin: 0px;
+}
+
+div#staticPopupArea div.contactPopupFields span.label {
+	float: left;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+	letter-spacing: 1px;
+	width: 70px;
+    text-transform: uppercase;
+}
+div#staticPopupArea div.contactPopupFields span.value {
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 80px;
+}
+
+div.contactPopupFields div.contentStretchHackLeft,
+div.contactPopupFields div.contentStretchHackRight {
+	width: 200px;
+}
+
+/* POPUP CONTENT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#contentPopupHeader {
+	height: 27px;
+	/*background-image: url("../images/fraudAlert/popup_header_background.gif");*/
+	background-repeat: no-repeat;
+	background-position: top right;
+    border-bottom: 4px solid #ededed;
+}
+div.contentPopupAreaError div#contentPopupHeader,
+div.contentPopupAreaAlert div#contentPopupHeader {
+	/*background-image: url("../images/fraudAlert/popup_header_background_error.gif");*/
+    border-bottom: 4px solid #D74025;
+}
+div.contentPopupAreaWarning div#contentPopupHeader {
+	/*background-image: url("../images/fraudAlert/popup_header_background_warning.gif");*/
+    border-bottom: 4px solid #F16E00;
+}
+div.contentPopupAreaInfo div#contentPopupHeader {
+	/*background-image: url("../images/fraudAlert/popup_header_background_info.gif");*/
+    border-bottom: 4px solid #0295BE;
+}
+
+div#contentPopupCloseLink {
+	padding: 7px 8px 0px 7px;
+	float: right;
+	display: inline;
+}
+div#contentPopupHeader p {
+	padding: 6px 10px 5px 7px;
+	text-align: left;
+	display: block;
+	text-transform: lowercase;
+}
+div#contentPopupHeader a,
+div#contentPopupHeader a:link,
+div#contentPopupHeader a:visited,
+div#contentPopupHeader a:hover,
+div#contentPopupHeader a:active {
+}
+
+div#interruptPopupHeader {
+	height: 1px;
+	/*background-image: url("../images/fraudAlert/popup_body_border.gif");*/
+	background-repeat: no-repeat;
+	background-position: top right;
+    border-bottom: 4px solid #ededed;
+}
+div.contentPopupAreaError div#interruptPopupHeader,
+div.contentPopupAreaAlert div#interruptPopupHeader {
+	/*background-image: url("../images/fraudAlert/popup_body_border_error.gif");*/
+    border-bottom: 4px solid #D74025;
+}
+div.contentPopupAreaWarning div#interruptPopupHeader {
+	/*background-image: url("../images/fraudAlert/popup_body_border_warning.gif");*/
+    border-bottom: 4px solid #F16E00;
+}
+div.contentPopupAreaInfo div#interruptPopupHeader,
+div.contentPopupAreaProcessing div#interruptPopupHeader {
+	/*background-image: url("../images/fraudAlert/popup_body_border_info.gif");*/
+    border-bottom: 4px solid #0295BE;
+}
+
+div.popupContent {
+	/*background-image: url("../images/fraudAlert/popup_body_background.gif");*/
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 551px;
+	display: block;
+}
+div.contentPopupAreaError div.popupContent,
+div.contentPopupAreaAlert div.popupContent {
+	/*background-image: url("../images/fraudAlert/popup_body_background_error.gif");*/
+}
+div.contentPopupAreaWarning div.popupContent {
+	/*background-image: url("../images/fraudAlert/popup_body_background_warning.gif");*/
+}
+div.contentPopupAreaInfo div.popupContent,
+div.contentPopupAreaProcessing div.popupContent {
+	/*background-image: url("../images/fraudAlert/popup_body_background_info.gif");*/
+}
+
+div.popupContent div.contentDisplayArea {
+	/*background-image: url("../images/fraudAlert/popup_body_border.gif");*/
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding: 10px 0px 10px 0px;
+	display: block;
+	width: 550px;
+	float: none;
+	overflow-y: auto;
+    border-bottom: 1px solid #ededed;
+}
+div.popupContent ol.popup {
+	margin: 0px 15px 0px 33px;
+	padding: 0px 20px 0px 0px;
+}
+
+ol.popup li {
+	padding: 0px 3px 8px 0px;
+	line-height: 18px;
+}
+ol.popup li ul {
+	padding-top: 5px;
+}
+div.popupContent ol.popup ul li {
+	padding: 0px 20px 0px 15px;
+	margin: 0px 15px 0px 10px;
+	background-image: url("../images/fraudAlert/bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 8px;
+	line-height: 16px;
+}
+div.contentPopupAreaFixedHeight div.popupContent div.contentDisplayArea {
+	height: 252px;
+}
+div.contentPopupAreaError div.contentDisplayArea,
+div.contentPopupAreaAlert div.contentDisplayArea {
+	/*background-image: url("../images/fraudAlert/popup_body_border_error.gif");*/
+    border-bottom: 1px solid #D74025;
+}
+div.contentPopupAreaWarning div.contentDisplayArea {
+	/*background-image: url("../images/fraudAlert/popup_body_border_warning.gif");*/
+    border-bottom: 1px solid #F16E00;
+}
+div.contentPopupAreaInfo div.contentDisplayArea,
+div.contentPopupAreaProcessing div.contentDisplayArea {
+	/*background-image: url("../images/fraudAlert/popup_body_border_info.gif");*/
+    border-bottom: 1px solid #0295BE;
+}
+
+div.popupContent div.contentPageMessageArea {
+}
+div.popupContent div.messageArea {
+	border: none;	
+	padding: 0px 0px 5px 0px;
+	margin: 5px 10px 0px 10px;
+	display: block;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+}
+div.contentPopupAreaError div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_error.png");
+}
+div.contentPopupAreaAlert div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_alert.gif");
+}
+div.contentPopupAreaWarning div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_warning.png");
+}
+div.contentPopupAreaInfo div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_info.png");
+}
+div.contentPopupAreaSuccess div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_success.png");
+}
+div.contentPopupAreaProcessing div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_processing.gif");
+}
+
+div.popupContent div.messageArea h4 {
+	font-size: 12px;
+	padding-left: 50px;
+}
+div.contentPopupAreaError div.popupContent div.messageArea h4,
+div.contentPopupAreaAlert div.popupContent div.messageArea h4 {
+	color: #D74025;
+}
+div.contentPopupAreaWarning div.popupContent div.messageArea h4 {
+	color: #000000;
+}
+div.contentPopupAreaInfo div.popupContent div.messageArea h4 {
+	color: #0295BE;
+}
+div.contentPopupAreaSuccess div.popupContent div.messageArea h4 {
+	color: #008A00;
+}
+div.contentPopupAreaProcessing div.popupContent div.messageArea h4 {
+	color: #000000;
+}
+
+/* POPUP CONTENT WIDE GROUP
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.popupContent div.firstGroupArea,
+div.popupContent div.groupArea {
+	padding: 5px 0px 0px 0px;
+	border-top: 1px solid #ededed;
+	margin: 5px 15px 0px 15px;
+}
+div.popupContent div.firstGroupArea h4,
+div.popupContent div.firstGroupArea h5,
+div.popupContent div.firstGroupArea p,
+div.popupContent div.groupArea h4,
+div.popupContent div.groupArea h5,
+div.popupContent div.groupArea p {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.popupContent div.firstGroupArea ul,
+div.popupContent div.groupArea ul {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+div.popupContent div.groupHeaderArea {
+	width: 515px;
+	padding: 0px;
+	height: 24px;
+}
+
+div.popupContent span.groupControls {
+	text-align: left;
+	float: left;
+	display: block;
+	padding: 7px 0px 0px 0px;
+}
+div.popupContent div.groupHeaderArea h4 {
+	padding: 5px 7px 0px 7px;
+	float: left;
+	display: block;
+}
+div.popupContent div.groupHeaderArea h4 a {
+	color: #0295BE;
+}
+
+
+/* POPUP LIST
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.popupContent div.list {
+	padding: 0px;
+	margin: 7px 15px 10px 15px;
+	background-color: transparent;
+}
+div.popupContent div.list table {
+	width: 504px;
+}
+
+div.popupContent div.list table tr.head {
+	background-color: #ededed;
+}
+div.popupContent div.list table tr.odd,
+div.popupContent div.list table tr.even {
+	background-color: transparent;
+}
+
+
+/* POPUP ACTIONS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.popupActionSection {
+	clear: both;
+	margin: 5px 15px 3px 15px;
+	border-top: 1px solid #0295BE;
+}
+div.popupActionSection div.sectionHeaderArea {
+	display: none;
+}
+
+div.popupActionsHorizontal div.actionArea {
+	padding-top: 10px;
+	float: right;
+	display: inline;
+}
+div.popupActionsHorizontal div.action {
+	float: left;
+	display: inline;
+}
+div.popupActionsHorizontal div.action input.button,
+div.popupActionsHorizontal div.action input.buttonCancel,
+div.popupActionsHorizontal div.action input.buttonDisabled {
+	margin: 0px 5px 0px 0px;
+}
+
+div.popupActionsVertical div.actionArea {
+	display: block;
+	padding: 5px 0px 0px 0px;
+}
+div.popupActionsVertical div.action {
+	height: 20px;
+	display: block;
+	margin-top: 5px;
+	padding: 0px;
+}
+div.popupActionsVertical span.buttonArea {
+	float: right;
+	display: inline;
+}
+div.popupActionsVertical span.description {
+	float: right;
+	display: inline;
+	margin-right: 10px;
+	padding-top: 2px;
+}
+
+div.popupActionSection span.button,
+div.popupActionSection span.alternateButton, 
+div.popupActionSection span.buttonCancel,
+div.popupActionSection span.buttonClose {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+div.popupActionSection span.button { 
+}
+div.popupActionSection span.alternateButton { 
+	background-color: #0295BE;
+    color: #fff;
+}
+div.popupActionSection span.buttonCancel { 
+}
+div.popupActionSection span.buttonClose { 
+}
+
+/* POPUP OPTIONS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.popupOptions ul {
+	list-style: none;
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+}
+div.popupOptions ul li {
+	font-size: 11px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 8px;
+	padding: 3px 0px 0px 15px;
+}
+div.popupOptions ul li a {
+	font-weight: 700;
+}
+
+/* POPUP FORM
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.popupFieldArea {
+	margin: 5px;
+}
+
+div.popupFieldArea div.field span.label {
+	width: 130px;
+	padding: 5px 0px 7px 0px;
+	margin-left: 10px;
+	float: left;
+	display: block;
+}
+div.popupFieldArea span.value {
+	display: block;
+	margin-left: 140px;
+	padding: 5px 0px 5px 3px;
+}
+div.popupFieldArea span.input span.value {
+	margin-left: 0px;
+	display: inline;
+}
+
+div.popupFieldArea div.required span.label {
+	width: 130px;
+	padding: 5px 0px 7px 0px;
+	float: left;
+	display: block;
+}
+div.popupFieldArea div.required span.input,
+div.popupFieldArea div.question span.input {
+	float: left;
+	display: block;
+	padding: 3px 0px 3px 0px;
+}
+div.popupFieldArea div.required span.error,
+div.popupFieldArea div.optional span.error,
+div.popupFieldArea div.questionShort span.error {
+	display: none;
+}
+div.popupFieldArea div.requiredError span.error,
+div.popupFieldArea div.optionalError span.error,
+div.popupFieldArea div.questionShortError span.error {
+	color: #D74025;
+	font-weight: 700;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	margin: 6px 0px 3px 130px;
+}
+div.popupFieldArea div.requiredError span.hint {
+	display: block;
+	font-size: 10px;
+	margin: 0px 0px 0px 130px;
+}
+div.popupFieldArea span.hint {
+	display: block;
+	font-size: 10px;
+}
+
+div.popupFieldArea div.question {
+	display: block;
+	padding: 0px 0px 10px 2px;
+	clear: both;
+}
+div.popupFieldArea div.question span.question {
+	font-weight: 700;
+	float: left;
+	display: block;
+	padding: 5px 10px 5px 0px;
+	margin: 0px;
+}
+
+div.popupFieldArea div.fieldNoLabel {
+	display: block;
+	padding: 0px 5px 1px 5px;
+	clear: both;
+}
+div.popupFieldArea div.protTextareaFullWidth8rows {
+	width: 493px;
+}
+
+div.popupFieldArea div.contentStretchHackLeft,
+div.popupFieldArea div.contentStretchHackRight {
+	width: 300px;
+}
+
+div.popupActionSection input.button,
+div.popupActionSection input.buttonDisabled,
+div.popupActionSection input.buttonCancel {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	background-repeat: no-repeat;
+	background-position: right;
+}
+div.popupActionSection input.button {
+	background-color: #0295BE;
+	color: #fff;
+}
+div.popupActionSection input.buttonDisabled {
+	background-color: #ededed;
+	color: #7f7f7f;
+}
+div.popupActionSection input.buttonCancel {
+	background-color: #0295BE;
+	background-image: url("../images/fraudAlert/form_button_cancel_symbol.gif");
+	color: #fff;
+}
+
+/* DETAIL FORM POP-UP WINDOWS (SAME BROWSER)
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.formPopupArea,
+div.formPopupAreaFixedHeight,
+div.narrowFormPopupArea,
+div.narrowFormPopupAreaFixedHeight {
+	width: 767px;
+	background-color: #FFFFFF;
+	border: 4px ridge #ededed;
+	padding: 0px; 
+	position: absolute;
+}
+div.narrowFormPopupArea,
+div.narrowFormPopupAreaFixedHeight {
+	width: 407px;
+}
+div.formPopupAreaFixedHeight,
+div.narrowFormPopupAreaFixedHeight {
+	height: 469px;
+}
+
+div#formPopupHeader,
+div#narrowFormPopupHeader {
+	height: 1px;
+	background-image: url("../images/fraudAlert/popupForm_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+div#narrowFormPopupHeader {
+	background-image: url("../images/fraudAlert/narrowPopupForm_body_border.gif");
+}
+
+div.formPopupCloseLink {
+	float: right;
+	text-align: right;
+	padding: 5px 7px 0px 0px;
+	text-transform: lowercase;
+}
+div.formPopupCloseLink a,
+div.formPopupCloseLink a:link,
+div.formPopupCloseLink a:visited,
+div.formPopupCloseLink a:hover,
+div.formPopupCloseLink a:active {
+}
+
+div.popupForm,
+div.narrowPopupForm {
+	background-image: url("../images/fraudAlert/popupForm_body_background.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+	padding: 0px 1px 0px 0px;
+}
+div.narrowPopupForm {
+	background-image: url("../images/fraudAlert/narrowPopupForm_body_background.gif");
+}
+
+div.popupFormDisplayArea {
+	background-image: url("../images/fraudAlert/popupForm_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-bottom: 2px;
+}
+div.narrowPopupForm div.popupFormDisplayArea {
+	background-image: url("../images/fraudAlert/narrowPopupForm_body_border.gif");
+}
+
+div.popupForm div.titleArea,
+div.narrowPopupForm div.titleArea {
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	padding: 10px 14px 15px 13px;
+	margin-left: 1px;
+}
+div.popupForm div.titleArea h1,
+div.narrowPopupForm div.titleArea h1 {font-size: 22px;
+}
+
+div.popupForm div.dataArea,
+div.narrowPopupForm div.dataArea {
+	padding: 10px 0px 10px 0px;
+	display: block;
+	width: 766px;
+	float: none;
+	overflow-y: scroll;
+}
+div.narrowPopupForm div.dataArea {
+	width: 406px;
+}
+div.formPopupAreaFixedHeight div.popupForm div.dataArea,
+div.narrowFormPopupAreaFixedHeight div.narrowPopupForm div.dataArea {
+	height: 397px;
+}
+
+div.popupForm div.formArea,
+div.narrowPopupForm div.formArea {
+	padding-right: 13px;
+}
+
+div.popupForm div.dataDisplayArea,
+div.narrowPopupForm div.dataDisplayArea {
+	padding-right: 13px;
+}
+
+div.narrowPopupForm div.required span.label {
+	width: 110px;
+}
+div.narrowPopupForm div.optional span.label {
+	width: 110px;
+}
+
+div.narrowPopupForm div.required span.input span.value {
+	margin-left: 0px;
+	display: inline;
+}
+
+div.narrowPopupForm span.radioVertical {
+	width: 232px;
+}
+div.narrowPopupForm span.radioVertical span.radio,
+div.narrowPopupForm span.radioVertical span.radioFirst {
+	float: left;
+	display: block;
+	width: 15px;
+}
+div.narrowPopupForm span.radioVertical span.value,
+div.narrowPopupForm span.checkboxVertical span.value {
+	width: 200px;
+	margin-left: 15px;
+	padding-top: 2px;
+	float: left;
+	display: block;
+}
+
+
+/* SEPARATE BROWSER POP-UP WINDOWS (NEW BROWSER)
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body.newBrowserPopup {
+	background-color: #FFFFFF;
+	background-image: none;
+	padding: 0px;
+	margin: 0px;
+}
+div#newBrowserPopupArea {
+	padding: 0px;
+}
+div#newBrowserPopupHeader {
+	background-image: url("../images/fraudAlert/nb_popup_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin: 0px;
+	padding: 1px 0px 0px 0px;
+}
+div#newBrowserPopupArea div.popupContent {
+	background-image: url("../images/fraudAlert/nb_popup_body_background.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 625px;
+	display: block;
+}
+div#newBrowserPopupArea div.popupContent div.contentDisplayArea {
+	background-image: url("../images/fraudAlert/nb_popup_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding: 10px 0px 10px 0px;
+	display: block;
+	width: 624px;
+	height: 579px;
+	float: none;
+	overflow-y: scroll;
+}
+
+div#newBrowserPopupArea div.errorArea,
+div#newBrowserPopupArea div.alertArea,
+div#newBrowserPopupArea div.warningArea,
+div#newBrowserPopupArea div.infoArea,
+div#newBrowserPopupArea div.successArea {
+	background-color: #FFFFFF;
+}
+div#newBrowserPopupArea div.errorArea h4,
+div#newBrowserPopupArea div.errorArea p,
+div#newBrowserPopupArea div.alertArea h4,
+div#newBrowserPopupArea div.alertArea p,
+div#newBrowserPopupArea div.warningArea h4,
+div#newBrowserPopupArea div.warningArea p,
+div#newBrowserPopupArea div.infoArea h4,
+div#newBrowserPopupArea div.infoArea p,
+div#newBrowserPopupArea div.successArea h4,
+div#newBrowserPopupArea div.successArea p {
+	width: 530px;
+}
+
+div#newBrowserPopupArea div.taskSteps {
+	padding: 0px;
+	border-top: 1px solid #0295BE;
+	margin: 5px 15px 0px 15px;
+}
+
+div#newBrowserPopupArea div.taskSteps ul {
+	list-style: none;
+	padding: 0px;
+	margin: 5px 0px 0px 0px;
+}
+div#newBrowserPopupArea div.taskSteps li {
+	float: none;
+	width: 571px;
+	background-image: url("../images/fraudAlert/list_row_separator.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 5px 0px 5px 0px;
+	clear: both;
+}
+div#newBrowserPopupArea div.taskSteps li.first {
+	background-image: none;
+	padding-top: 0px;
+}
+
+div#newBrowserPopupArea div.stepHeaderArea {
+}
+div#newBrowserPopupArea span.taskIconLeft {
+	margin: 0px 5px 0px 0px;
+	float: left;
+	display: block;
+}
+div#newBrowserPopupArea div.stepHeaderArea span.label {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 11px;
+	letter-spacing: 1px;
+	float: left;
+	display: block;
+	padding: 7px 7px 0px 1px;
+    text-transform: uppercase;
+}
+div#newBrowserPopupArea div.stepHeaderArea h5 {
+	font-size: 12px;
+	padding: 7px 0px 0px 0px;
+	margin: 1px;
+}
+
+div#newBrowserPopupArea div.taskSteps li p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+div#newBrowserPopupArea div.taskSteps li img.screenShot {
+	margin: 10px 0px 5px 0px;
+}
+
+div#newBrowserPopupArea div.taskSteps li div.popupFieldArea {
+	margin-left: -10px;
+	margin-bottom: 5px;
+}
+
+div#newBrowserPopupArea div.contentStretchHackLeft {
+	width: 100px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+	height: 1px;
+	clear: both;
+}
+div#newBrowserPopupArea div.contentStretchHackRight {
+	width: 580px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+	height: 1px;
+	clear: both;
+}
+
+div#newBrowserPopupArea div.alternative {
+	clear: both;
+	padding: 38px 0px 0px 0px;
+	margin: 0px 15px 0px 15px;
+	background-image: url("../images/fraudAlert/alternative_separator.gif");
+	background-repeat: repeat-x;
+	background-position: 0px 20px;
+}
+div#newBrowserPopupArea div.alternative h4,
+div#newBrowserPopupArea div.alternative p {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div#newBrowserPopupArea div.alternative div.popupActionSection {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+div#newBrowserPopupArea div.callouts {
+	padding: 5px 10px 5px 10px;
+}
+div#newBrowserPopupArea div.callouts ul {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+}
+div#newBrowserPopupArea div.callouts li {
+	padding: 0px 0px 5px 18px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	font-size: 12px;
+	width: 227px;
+}
+
+div#newBrowserPopupArea div.taskSteps div.callouts li {
+	font-weight: 700;
+}
+
+/* SEPARATE BROWSER POP-UPS (SESSION TIME-OUT)
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body.timeOutPopup {
+	background-color: #FFFFFF;
+	background-image: none;
+}
+
+div.popupAreaWarning,
+div.popupAreaError {
+	width: 550px;
+	height: 200px;
+}
+
+div.popupAreaError div#interruptPopupHeader {
+	background-image: url("../images/fraudAlert/popup_header_background_error.gif");
+}
+div.popupAreaWarning div#interruptPopupHeader {
+	background-image: url("../images/fraudAlert/popup_header_background_warning.gif");
+}
+div.popupAreaError div.popupContent {
+	background-image: url("../images/fraudAlert/popup_body_background_error.gif");
+}
+div.popupAreaWarning div.popupContent {
+	background-image: url("../images/fraudAlert/popup_body_background_warning.gif");
+}
+div.popupAreaError div.contentDisplayArea {
+	background-image: url("../images/fraudAlert/popup_body_border_error.gif");
+}
+div.popupAreaWarning div.contentDisplayArea {
+	background-image: url("../images/fraudAlert/popup_body_border_warning.gif");
+}
+div.popupAreaError div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_error.png");
+}
+div.popupAreaWarning div.popupContent div.messageArea {
+	background-image: url("../images/fraudAlert/popup_icon_warning.png");
+}
+div.popupAreaError div.popupContent div.messageArea h4 {
+	color: #D74025;
+}
+div.popupAreaWarning div.popupContent div.messageArea h4 {
+	color: #f17123;
+}
+
+div.popupReAlign {
+    left: 525px;
+    margin-top: 100px;
+    overflow-x: hidden;
+}
+.introBoldText {
+    font-weight: 700;
+}
+.surveyWindow {
+    margin-bottom: 10px;
+}
+div.popupActionSection span.popupButton {
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+div.contentPopupAreaProcessing div.popupContent div.messageArea h4.popupMsg {
+	color: #000000;
+}

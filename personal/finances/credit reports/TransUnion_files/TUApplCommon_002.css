@@ -1,0 +1,3002 @@
+/* GLOBAL STYLES
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+html, body, div, span, ul, li, table, form, input, img, h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body, input, select, textarea {
+	font-family: Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+	font-size: 11px;
+	color: #000000;
+}
+b, h1, h2, h3, h4, h5, h6, strong, th {
+    font-weight: 700;
+}
+.introTextBold, .IntroTextBold, .introBold, .bold {
+    font-weight: 700;
+}
+.masked, #password, #confirmPassword, input[type="password"], #ssn1, #ssn2, #ssn3, #ssnc1, #ssnc2, #ssnc3 {
+    font-family: Arial !important;
+}
+
+
+/* DEFINITIONS USED TO CONTROL THE LAYOUT OF THE PAGE */
+body.fullWidth {
+}
+body.withContext {
+}
+
+p {
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px 15px 5px 15px;
+}
+
+ol {
+
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+
+a, a:link {
+	color: #0295BE;
+	cursor: pointer;
+    text-decoration: underline;
+}
+a:visited {
+	color: #0189ab;
+}
+a:hover {
+	color: #0189ab;
+}
+
+img {
+	border: 0px;
+}
+
+span.unavailable {
+	color: #7f7f7f;
+}
+span.disabled {
+	color: #7f7f7f;
+}
+span.note {
+    font-weight: 700;
+}
+span.note span.label {
+	margin-right: 5px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 11px;
+    text-transform: uppercase;
+}
+
+div.introductionArea span.note {
+	font-size: 11px;
+}
+div.introductionArea span.note span.label {
+	margin-right: 5px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 11px;
+    text-transform: uppercase;
+}
+
+span.key span.icon {
+	vertical-align: 1px;
+	padding-right: 3px;
+}
+span.key span.required {
+	color: #f17123;
+}
+
+span.profit {
+	color: #a9d161;
+}
+span.loss {
+	color: #e14025;
+}
+span.error {
+	color: #e14025;
+    font-weight: 700;
+}
+span.urgent {
+	color: #f17123;
+    font-weight: 700;
+}
+span.warning {
+	color: #f17123;
+    font-weight: 700;
+}
+span.alert {
+	color: #e14025;
+    font-weight: 700;
+}
+span.new {
+	color: #f17123;
+    font-weight: 700;
+}
+span.overdue {
+	color: #e14025;
+    font-weight: 700;
+}
+span.complete {
+	color: #0295BE;
+    font-weight: 700;
+}
+span.estimate {
+	color: #f17123;
+}
+
+span.highlight {
+    font-weight: 700;
+	font-size: 14px;
+	margin: -1px 0px -2px 0px;
+	display: block;
+}
+span.nameHighlight {
+    font-weight: 700;
+	font-size: 12px;
+}
+
+
+span.normal {
+	font-weight: 400;
+	color: #000000;
+}
+
+span.disclaimer {
+    font-weight: 700;
+	font-size: 11px;
+}
+span.disclaimer span.label {
+	margin-right: 5px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 11px;
+    text-transform: uppercase;
+}
+
+/* PAGE LAYOUT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#displayArea {
+	width: 930px;
+    margin: 0 auto;
+}
+
+/* PAGE HEADER
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#headerArea {
+	height: 80px;
+	margin-bottom: 0px;
+}
+
+div#headerComponents {
+}
+
+div#logo {
+	float: left;
+	display: inline;
+	width: 150px;
+	padding: 10px 0px 8px 0;
+}
+
+/* h2 used for application title*/
+div#headerComponents h2 {
+    font-weight: 700;
+	font-size: 14px;
+    text-transform: uppercase;
+	float: left;
+	margin: 40px 0px 0px 0px;
+	padding-left: 5px;
+}
+
+/* ~~~ GLOBAL NAVIGATION ~~~ */
+div#globalNavArea {
+}
+
+div#globalLinks {
+	float: right;
+	display: block;
+}
+div#globalLinks ul {
+	list-style: none;
+}
+div#globalLinks li {
+	float: left;
+	display: inline;
+	margin: 5px 15px 0px 0px;
+}
+div#globalLinks li.first {
+}
+div#globalLinks a:link,
+div#globalLinks a:visited,
+div#globalLinks a:active,
+div#globalLinks a:hover {
+    color: #000;
+}
+
+/* h5 used for welcome message to left of global links*/
+div#globalNavArea h5 {
+	height: 15px;
+	margin: 0px 15px 0px 0px;
+	padding: 6px 0px 0px 0px;
+	font-size: 11px;
+	color: #000000;
+	font-size: 10px;
+	text-align: right;
+	float: right;
+	display: block;
+}
+
+/* ~~~ PORTAL CONTEXT AND SELECTION ~~~ */
+div#portalContext {
+	float: right;
+	display: block;
+	padding: 0px 7px 0px 8px;
+	background-image: url("../images/fraudAlert/portal_context_separator.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+div#portalContext ul {
+	list-style: none;
+	float: left;
+}
+div#portalContext li {
+	font-size: 12px;
+	padding: 5px 8px 0px 7px;
+	float: left;
+}
+div#portalContext li.first {
+	background-image: none;
+}
+div#portalContext li span.label {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+	letter-spacing: 1px;
+	padding-right: 5px;
+    text-transform: uppercase;
+}
+div#portalContext li a {
+    color: #000;
+}
+div#portalSelectionLink {
+	padding: 7px 0px 0px 0px;
+	float: left;
+}
+
+div#portalSelectionArea {
+	display: block;
+	position: absolute;
+	width: 201px;
+}
+div#portalSelectionHeader {
+	height: 27px;
+	background-image: url("../images/fraudAlert/portal_selection_header_background.gif");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+div#portalSelection {
+	background-image: url("../images/fraudAlert/portal_selection_body_background.gif");
+	background-repeat: repeat-y;
+	background-position: top right;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+div#portalSelectionAreaCloseLink {
+	padding: 7px 7px 0px 8px;
+	float: right;
+	display: inline;
+}
+div#portalSelectionHeader p {
+	padding: 6px 10px 5px 7px;
+	text-align: left;
+	display: block;
+	text-transform: lowercase;
+}
+div#portalSelectionHeader a,
+div#portalSelectionHeader a:link,
+div#portalSelectionHeader a:visited,
+div#portalSelectionHeader a:hover,
+div#portalSelectionHeader a:active {
+}
+
+div#portalSelection ul {
+	list-style: none;
+	background-image: url("../images/fraudAlert/portal_selection_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+div#portalSelection li {
+	display: block;
+	clear: left;
+	height: 24px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px 1px 0px 0px;
+}
+div#portalSelection li.first {
+	height: 34px;
+	padding-top: 0px;
+}
+
+div.portalLink,
+div.portalLinkCurrent {
+	padding: 0px 15px 10px 15px;
+}
+div#portalSelection li.first div.portalLink,
+div#portalSelection li.first div.portalLinkCurrent {
+	padding: 10px 15px 10px 15px;
+}
+div.portalLinkCurrent {
+    font-weight: 700;
+}
+
+div#portalSelection ul li div.callout {
+	font-size: 11px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding: 0px 0px 0px 15px;
+	margin-left: 15px;
+}
+
+/* ~~~ SESSION CONTEXT AND SELECTION ~~~ */
+div#sessionContextArea {
+	height: 25px;
+	text-align: left;
+	display: block;
+	margin-left: -3px;
+	padding-right: 15px;
+	clear: right;
+}
+
+div#sessionContextArea ul {
+	list-style: none;
+	float: right;
+}
+div#sessionContextArea li {
+	font-size: 10px;
+	padding: 3px 8px 0px 7px;
+	float: left;
+}
+div#sessionContextArea li.first {
+	background-image: none;
+}
+div#sessionContextArea li span.label {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+	letter-spacing: 1px;
+	padding-right: 5px;
+    text-transform: uppercase;
+}
+div#sessionContextArea ul li a {
+}
+div#sessionSelectionLink {
+	padding: 5px 0px 0px 0px;
+	float: right;
+	display: block;
+}
+
+div#sessionSelectionArea {
+	display: block;
+	position: absolute;
+	width: 201px;
+}
+div#sessionSelectionHeader {
+	height: 27px;
+	background-image: url("../images/fraudAlert/session_selection_header_background.gif");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+div#sessionSelection {
+	background-image: url("../images/fraudAlert/session_selection_body_background.gif");
+	background-repeat: repeat-y;
+	background-position: top right;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+div#sessionSelectionAreaCloseLink {
+	padding: 7px 7px 0px 8px;
+	float: right;
+	display: inline;
+}
+div#sessionSelectionHeader p {
+	padding: 6px 10px 5px 7px;
+	text-align: left;
+	display: block;
+	text-transform: lowercase;
+}
+div#sessionSelectionHeader a,
+div#sessionSelectionHeader a:link,
+div#sessionSelectionHeader a:visited,
+div#sessionSelectionHeader a:hover,
+div#sessionSelectionHeader a:active {
+}
+
+div#sessionSelectionFormArea {
+	background-image: url("../images/fraudAlert/session_selection_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	padding: 0px;
+}
+div#sessionSelectionFormArea div.required {
+	padding: 0px 15px 0px 15px;
+}
+div#sessionSelectionFormArea div.required span.label {
+	float: none;
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+	display: block;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+}
+div#sessionSelectionFormArea div.required span.input {
+	padding: 0px;
+	margin: 0px;
+	float: none;
+	display: block;
+}
+div#sessionSelectionFormArea div.action span.button {
+	display: block;
+}
+
+div#sessionSelectionFormArea div.required span.input input.stdWidth {
+	width: 158px;
+}
+div#sessionSelectionFormArea div.required span.input select.stdWidth {
+	width: 173px;
+}
+div#sessionSelectionFormArea input.button { 
+	background-color: #0295BE;
+	color: #fff;
+}
+
+div#sessionSelectionFormArea div.callouts {
+	padding: 0px;
+}
+div#sessionSelectionFormArea div.callouts ul {
+	list-style: none;
+	margin: -2px 16px 0px 16px;
+	padding-bottom: 8px;
+}
+div#sessionSelectionFormArea div.callouts ul li {
+	font-size: 11px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding: 3px 0px 0px 15px;
+}
+
+/* MESSAGES 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#messageArea {
+	width: 160px;
+	float: right;
+	display: block;
+	padding-bottom: 15px;
+	margin-top: 3px;
+}
+
+div#messageNotice {
+	margin: 0px 14px 0px 0px;
+	padding: 3px 8px 0px 8px;
+	height: 24px;
+	width: 138px;
+	display: block;
+	background-color: #fcd800;
+}
+
+/* h4 used for message title */
+div#messageNotice h4 {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+	padding-left: 4px;
+	float: left;
+	display: inline;
+    text-transform: uppercase;
+}
+div#messageNotice h4 a {
+    color: #000;
+}
+
+div#messageNotice p {
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+}
+
+div#messageDetailsLink {
+	padding: 5px 0px 0px 0px;
+	float: right;
+	display: inline;
+}
+
+div.messageMessage {
+	padding: 4px 10px 5px 10px;
+}
+span.messageIconLeft {
+	margin-right: 5px;
+	vertical-align: -1px;
+}
+
+div#messageDetailsArea {
+	position: absolute;
+	width: 237px;
+}
+div#messageDetailsHeader {
+	height: 27px;
+	background-image: url("../images/fraudAlert/message_details_header_background.gif");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+div#messageDetailsBody {
+	background-image: url("../images/fraudAlert/message_details_body_background.gif");
+	background-repeat: repeat-y;
+	background-position: top right;
+}
+
+div#messageDetailsAreaCloseLink {
+	padding: 8px 7px 0px 8px;
+	float: right;
+	display: inline;
+}
+div#messageDetailsHeader p {
+	padding: 6px 7px 5px 10px;
+	text-align: left;
+	display: block;
+	text-transform: lowercase;
+}
+div#messageDetailsHeader a,
+div#messageDetailsHeader a:link,
+div#messageDetailsHeader a:visited,
+div#messageDetailsHeader a:hover,
+div#messageDetailsHeader a:active {
+}
+
+div#messageDetails {
+	background-image: url("../images/fraudAlert/message_details_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+div#messageDetails ul {
+	list-style: none;
+	padding: 0px 8px 2px 8px;
+}
+div#messageDetails li {
+	float: none;
+	padding: 6px 5px 0px 5px;
+	background-image: url("../images/fraudAlert/list_row_separator.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	clear: both;
+}
+div#messageDetails li.first {
+	background-image: none;
+}
+
+div#messageDetails span.label {
+    font-weight: 700;
+	font-size: 11px;
+	width: 75px;
+	float: left;
+	clear: both;
+	padding: 0px 0px 5px 0px;
+}
+div#messageDetails li span.value {
+	display: block;
+	padding: 0px 0px 5px 0px;
+	margin-left: 75px;
+}
+
+div#messageDetails div.callouts {
+	padding: 0px 8px 0px 8px;
+}
+div#messageDetails div.callouts ul {
+	background-image: url("../images/fraudAlert/list_row_separator.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 5px 5px 5px 5px;
+}
+div#messageDetails div.callouts li {
+	font-size: 11px;
+	line-height: 16px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	padding: 3px 0px 3px 15px;
+}
+
+div#messageDetails div.contentStretchHackLeft {
+	width: 200px;
+}
+
+/* APPLICATION NAVIGATION
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#applicationNavArea {
+    border-top: 2px solid #0295be;
+    border-bottom: 1px solid #ddd;
+	height: 26px;
+}
+div#applicationNavArea a {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+div#applicationNavComponents {
+}
+
+div#supportLinkArea {
+	padding-right: 15px;
+	float: right;
+	display: block;
+}
+div#supportLinkArea ul {
+	list-style: none;
+}
+div#supportLinkArea li {
+	float: left;
+	height: 19px;
+	margin: 0px;
+	padding: 6px 0px 0px 15px;
+}
+
+div#currentSectionArea {
+	padding: 0px 0px 0px 7px;
+}
+
+div#sectionTitleArea,
+div#sectionTitleAreaNoLinks {
+	width: 157px;
+	height: 25px;
+	float: left;
+	display: inline;
+	background-image: url("../images/fraudAlert/section_selection_separator.gif");
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+/* h3 used for section title*/
+div#applicationNavArea h3 {
+	font-size: 12px;
+	padding: 5px 15px 4px 8px;
+	float: left;
+	display: inline;
+}
+
+/* ~~~ APPLICATION SECTION AND SELECTION ~~~ */
+div#sectionTitleArea h3 a {
+	color: #0295be;
+}
+
+div#sectionSelectionLink {
+	padding: 5px 0px 0px 0px;
+	float: left;
+	display: inline;
+}
+
+div#sectionQuickLinks {
+	height: 25px;
+	padding: 0px 15px 0px 0px;
+}
+div#sectionQuickLinks ul {
+	list-style: none;
+}
+div#sectionQuickLinks li {
+	float: left;
+	height: 19px;
+	margin: 0px;
+	padding: 5px 0px 0px 15px;
+	font-size: 12px;
+	display: inline;
+}
+
+div#sectionQuickLinks span.hint {
+	font-size: 11px;
+	margin-left: 5px;
+	vertical-align: 1px;
+}
+div#sectionQuickLinks span.hintIconLeft {
+	margin-right: 5px;
+	vertical-align: -1px;
+}
+
+div#sectionSelectionArea {
+	position: absolute;
+	width: 165px;
+}
+div#sectionSelectionHeader {
+	height: 27px;
+    background-color: #0189ab;
+}
+div#sectionSelection {
+	background-color: #0295BE;
+}
+
+div#sectionSelectionAreaCloseLink {
+	padding: 6px 0px 0px 7px;
+	float: left;
+	display: inline;
+}
+div#sectionSelectionHeader p {
+	padding: 6px 7px 5px 10px;
+	text-align: right;
+	display: block;
+	text-transform: lowercase;
+}
+div#sectionSelectionHeader a,
+div#sectionSelectionHeader a:link,
+div#sectionSelectionHeader a:visited,
+div#sectionSelectionHeader a:hover,
+div#sectionSelectionHeader a:active {
+}
+
+div#sectionSelection ul {
+	list-style: none;
+	background-image: url("../images/fraudAlert/section_selection_body_border.gif");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+div#sectionSelection li {
+	display: block;
+	clear: left;
+	width: 164px;
+	height: 24px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px 1px 0px 0px;
+}
+div#sectionSelection li.first {
+	height: 34px;
+	padding-top: 0px;
+}
+
+div.sectionLink {
+	padding: 0px 15px 10px 15px;
+}
+div.sectionLinkCurrent {
+	padding: 0px 15px 10px 15px;
+    font-weight: 700;
+}
+div#sectionSelection li.first div.sectionLink,
+div#sectionSelection li.first div.sectionLinkCurrent {
+	padding: 10px 15px 10px 15px;
+}
+
+/* PAGE TITLE
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#titleArea,
+div#titleAreaNoAppNavigation {
+	padding: 0;
+	clear: both;
+	height: 56px;
+}
+div#titleAreaWithContextLinks,
+div#titleAreaNoAppNavWithCtxLinks {
+	padding: 0;
+	clear: both;
+	height: 76px;
+    border-top: 1px solid #0295BE;
+}
+div#titleAreaNoAppNavigation,
+div#titleAreaNoAppNavWithCtxLinks {
+	height: 57px;
+}
+
+div#titleAreaNoTabNavigation,
+div#titleAreaNoAppNavNoTabNav {
+	padding: 0;
+	clear: both;
+	height: 45px;
+}
+div#titleAreaNoTabNavWithCtxLinks,
+div#titleAreaNoAppNavNoTabNavWithCtxLinks {
+	padding: 0;
+	clear: both;
+	height: 60px;
+}
+div#noTitleArea {
+	font-size: 1px;
+	height: 1px;
+}
+
+div#titleComponents {
+	width: 930px;
+
+	padding: 0;
+	float: left;
+	display: inline;
+}
+div#titleComponentsWithActionComponents {
+	width: 615px;
+	height: 56px;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+div#titleAreaNoTabNavigation div#titleComponents,
+div#titleAreaNoTabNavigation div#titleComponentsWithActionComponents {
+	height: 45px;
+}
+div#titleAreaNoTabNavWithCtxLinks div#titleComponents,
+div#titleAreaNoTabNavWithCtxLinks div#titleComponentsWithActionComponents {
+	height: 59px;
+	border-bottom: 1px solid #0295BE;
+}
+div#titleAreaNoAppNavigation div#titleComponents,
+div#titleAreaNoAppNavigation div#titleComponentsWithActionComponents {
+	border-top: 1px solid #0295BE;
+	background-image: none;
+}
+div#titleAreaNoAppNavWithCtxLinks div#titleComponents,
+div#titleAreaNoAppNavWithCtxLinks div#titleComponentsWithActionComponents {
+	border-top: 1px solid #0295BE;
+	background-image: none;
+}
+div#titleAreaNoAppNavNoTabNav div#titleComponents,
+div#titleAreaNoAppNavNoTabNav div#titleComponentsWithActionComponents {
+	height: 43px;
+	border-top: 1px solid #0295BE;
+	border-bottom: 1px solid #939393;
+	background-image: none;
+}
+div#titleAreaNoAppNavNoTabNavWithCtxLinks div#titleComponents,
+div#titleAreaNoAppNavNoTabNavWithCtxLinks div#titleComponentsWithActionComponents {
+	height: 58px;
+	border-top: 1px solid #0295BE;
+	border-bottom: 1px solid #939393;
+	background-image: none;
+}
+
+/* h1 used for page title*/
+div#titleArea h1,
+div#titleAreaNoAppNavigation h1,
+div#titleAreaNoTabNavigation h1,
+div#titleAreaNoAppNavNoTabNav h1,
+div#titleAreaWithContextLinks h1,
+div#titleAreaNoAppNavWithCtxLinks h1,
+div#titleAreaNoTabNavWithCtxLinks h1,
+div#titleAreaNoAppNavNoTabNavWithCtxLinks h1 {
+    font-size: 22px;
+	clear: left;
+	padding: 10px 0 0 0;
+}
+div#titleArea h1,
+div#titleAreaNoTabNavigation h1 {
+	padding: 10px 0px;
+    font-weight: 700;
+    font-size: 24px;
+}
+div#titleAreaNoAppNavigation h1 {
+}
+div#titleAreaNoAppNavNoTabNav h1 {
+	padding: 9px 0px 10px 0;
+}
+div#titleAreaWithContextLinks h1,
+div#titleAreaNoTabNavWithCtxLinks h1 {
+	padding: 10px 0px 3px 0px;
+}
+div#titleAreaNoAppNavWithCtxLinks h1 {
+	padding: 9px 0px 3px 0;
+}
+div#titleAreaNoAppNavNoTabNavWithCtxLinks h1 {
+	padding: 9px 0px 3px 0;
+}
+
+div#titleArea h1.error {
+	padding-left: 47px;
+	color: #D74025;
+	background-image: url("../images/fraudAlert/popup_icon_error.png");
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	
+}
+
+div#titleAreaWithContextLinks span.linkIconLeft,
+div#titleAreaNoTabNavWithCtxLinks span.linkIconLeft {
+	padding-right: 8px;
+	padding-top: 1px;
+}
+
+div#contextLinkArea {
+	margin: 0px 0px 5px 30px;
+	padding: 0px 0px 0px 0px;
+	height: 14px;
+	clear: left;
+}
+
+div#pageReturnLink {
+	float: left;
+	display: inline;
+}
+div#pageContextLinks {
+}
+div#pageContextLinks ul {
+	list-style: none;
+}
+div#pageContextLinks li {
+	float: left;
+	margin: 0px 0px 0px 20px;
+}
+
+div#actionComponents {
+	width: 300px;
+	padding: 6px 0px 30px 0px;
+	float: left;
+	display: inline;
+}
+
+div#titleAreaNoTabNavigation div#actionComponents {
+	padding-bottom: 19px;
+}
+div#titleAreaNoTabNavWithCtxLinks div#actionComponents {
+	padding-bottom: 33px;
+	border-bottom: 1px solid #ededed;
+}
+div#titleAreaNoAppNavigation div#actionComponents,
+div#titleAreaNoAppNavWithCtxLinks div#actionComponents {
+	border-top: 1px solid #ededed;
+	background-image: none;
+}
+div#titleAreaNoAppNavNoTabNav div#actionComponents {
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-image: none;
+	padding-bottom: 17px;
+}
+div#titleAreaNoAppNavNoTabNavWithCtxLinks div#actionComponents {
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-image: none;
+	padding-bottom: 32px;
+}
+
+
+div#pageActionLinks {
+	float: right;
+	display: inline;
+}
+div#pageActionLinks ul {
+	list-style: none;
+}
+div#pageActionLinks li {
+	float: left;
+	display: inline;
+	margin: 5px 15px 0px 0px;
+	font-size: 11px;
+}
+div#pageActionLinks li.first {
+}
+
+/* WELCOME AND STATUS OVERVIEW
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#welcomeArea {
+}
+
+div#welcomeArea div.introductionArea {
+	border-top: 1px solid #0295BE;
+	border-bottom: 1px solid #ededed;
+	padding-bottom: 8px;
+}
+
+div#welcomeArea div.introductionArea h1 {
+    font-size: 22px;
+	padding: 10px 0px 10px 15px;
+	clear: left;
+}
+div#welcomeArea div.introductionArea p {
+	font-size: 12px;
+	margin-right: 255px;
+}
+
+div#welcomeArea div.statusArea {
+	position: absolute;
+	top: 85px;
+	height: 107px;
+    margin-left: 698px;
+	width: 229px;
+    border: 1px solid #0295be;
+    background-image: url("../images/coss/status_area_background_gray.jpg");
+}
+
+div.statusArea h5 {
+	font-size: 12px;
+	padding: 9px 10px 0px 10px;
+	font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+div.statusBarArea {
+}
+div.statusBar {
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	height: 19px;
+	width: 218px;
+	margin: 10px 5px 9px 5px;
+}
+div.statusProgress {
+	background-color: #0295BE;
+	height: 15px;
+	width: 0px;
+	padding: 2px;
+	text-align: right;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+}
+div.statusProgressNew {
+	height: 15px;
+	width: 210px;
+	padding: 2px;
+	text-align: left;
+	color: #000000;
+	background-image: url("../images/fraudAlert/status_progress_ind.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+div.statusProgressInd {
+	float: left;
+	width: 0px;
+	overflow: hidden;
+}
+
+div.statusDetails {
+}
+div.statusDetails div.field {
+	margin: 0px 8px 0px 8px;
+}
+div.statusDetails span.label {
+    font-weight: 700;
+	padding: 0px 5px 3px 0px;
+	float: none;
+	display: block;
+}
+div.statusDetails span.value {
+	display: block;
+	padding: 0px 0px 3px 0px;
+}
+
+
+/* FOOTER
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#footerArea {
+	width: 930px;
+	padding-left: 0;
+    margin-top: 60px;
+	display: block;
+	clear: both;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	letter-spacing: .5px;
+    font-size: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 20px solid #0295be;
+    text-transform: uppercase;
+}
+div#footerArea a {
+	color: #000;
+}
+
+div#footerComponents {
+}
+
+div#followUpOotions {
+}
+div#followUpOptions h5 {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+	letter-spacing: 1px;
+	padding: 6px 15px 0px 15px;
+    text-transform: uppercase;
+}
+div#followUpOptions ul {
+	list-style: none;
+	margin-left: 15px;
+}
+div#followUpOptions ul li {
+	font-size: 11px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding: 3px 0px 0px 15px;
+}
+
+div#serviceProvider {
+	float: right;
+	display: block;
+}
+div#serviceProvider h6 {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 10px;
+	padding: 5px 15px 0px 0px;
+    text-transform: uppercase;
+}
+div#serviceProvider div#logo {
+	padding: 5px 15px 2px 0px;
+}
+
+div#contactInformation,
+div#contactInformationMulti {
+	padding: 40px 15px 5px 0;
+	height: 15px;
+}
+
+div#contactInformationMulti ul {
+	list-style: none;
+	display: block;
+}
+div#contactInformationMulti ul li {
+	float: none;
+	display: block;
+	clear: left;
+	margin: 0px 0px 7px 0px;
+}
+
+
+/* h6 used for contact information lead-in*/
+div#contactInformation h6,
+div#contactInformationMulti ul li h6 {
+    margin-right: 15px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+	letter-spacing: 1px;
+	float: left;
+    text-transform: uppercase;
+}
+div#contactInformation ul,
+div#contactInformationMulti ul li ul {
+	list-style: none;
+	text-align: left;
+}
+div#contactInformation li,
+div#contactInformationMulti ul li ul li {
+	float: left;
+    margin-right: 15px;
+	clear: none;
+}
+div#contactInformation a:link,
+div#contactInformation a:visited,
+div#contactInformation a:active,
+div#contactInformation a:hover,
+div#contactInformationMulti a:link,
+div#contactInformationMulti a:visited,
+div#contactInformationMulti a:active,
+div#contactInformationMulti a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+}
+
+
+div#footerLinks {
+	padding: 5px 0 35px 0;
+	height: 20px;
+	clear: left;	
+}
+
+p.copyright {
+	float: left;
+	padding: 0px 15px 0px 0px;
+	margin-right: 15px;
+}
+
+div#footerLinks ul {
+	float: left;
+	list-style: none;
+	text-align: left;
+}
+div#footerLinks li {
+	float: left;
+	padding: 1px 15px 0px 0px;
+}
+div#footerLinks a:link,
+div#footerLinks a:visited,
+div#footerLinks a:active,
+div#footerLinks a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+}
+
+/* PAGE BODY
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#bodyArea {
+    margin-top: 60px;
+    border-top: 1px solid #00a6ca;
+	width: 930px;
+	display: block;
+	clear: both;
+}
+body.withContext div#bodyArea {
+	width: 930px;
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	display: block;
+	clear: both;
+}
+/* TAB NAVIGATION
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#tabNavigationArea {
+	padding: 0;
+	margin-bottom: 0px;
+}
+body.withContext div#tabNavigationArea {
+	margin: 0px 0px 0px 179px;
+}
+div#noTabNavigation {
+}
+div#tabNavigation,
+div#tabNavNarrowTabs,
+div#tabNavWideTabs {
+	height: 43px;
+    border-bottom: 1px solid #939393;
+}
+
+div#tabNavigation ul,
+div#tabNavNarrowTabs ul,
+div#tabNavWideTabs ul {
+	list-style: none;
+}
+div#tabNavigation li,
+div#tabNavNarrowTabs li,
+div#tabNavWideTabs li {
+	float: left;
+	display: inline;
+    margin-right: 2px;
+}
+div#tabNavigation div.tab,
+div#tabNavNarrowTabs div.tab,
+div#tabNavWideTabs div.tab,
+div#tabNavigation div.tabCurrent,
+div#tabNavNarrowTabs div.tabCurrent,
+div#tabNavWideTabs div.tabCurrent {
+	padding: 0;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    height: 43px;
+}
+div#tabNavNarrowTabs div.tab {
+}
+div#tabNavWideTabs div.tab {
+}
+div#tabNavigation div.tab div.tabFormat1,
+div#tabNavNarrowTabs div.tab div.tabFormat1,
+div#tabNavWideTabs div.tab div.tabFormat1 {
+}
+div#tabNavigation div.tab div.tabFormat2,
+div#tabNavNarrowTabs div.tab div.tabFormat2,
+div#tabNavWideTabs div.tab div.tabFormat2 {
+}
+div#tabNavigation div.tabCurrent,
+div#tabNavNarrowTabs div.tabCurrent,
+div#tabNavWideTabs div.tabCurrent {
+    height: 43px;
+}
+div#tabNavNarrowTabs div.tabCurrent {
+}
+div#tabNavWideTabs div.tabCurrent {
+}
+
+div#tabNavigation div.tabCurrent div.tabFormat1,
+div#tabNavNarrowTabs div.tabCurrent div.tabFormat1,
+div#tabNavWideTabs div.tabCurrent div.tabFormat1 {
+}
+div#tabNavigation div.tabCurrent div.tabFormat2,
+div#tabNavNarrowTabs div.tabCurrent div.tabFormat2,
+div#tabNavWideTabs div.tabCurrent div.tabFormat2 {
+}
+div#tabNavigation div.tab a:link,
+div#tabNavigation div.tab a:visited,
+div#tabNavNarrowTabs div.tab a:link,
+div#tabNavNarrowTabs div.tab a:visited,
+div#tabNavWideTabs div.tab a:link,
+div#tabNavWideTabs div.tab a:visited,
+div#tabNavigation div.tabCurrent a:link,
+div#tabNavigation div.tabCurrent a:visited,
+div#tabNavNarrowTabs div.tabCurrent a:link,
+div#tabNavNarrowTabs div.tabCurrent a:visited,
+div#tabNavWideTabs div.tabCurrent a:link,
+div#tabNavWideTabs div.tabCurrent a:visited {
+    display: block;
+    height: 32px;
+    padding: 10px 20px 0 20px;
+    color: #000;
+    text-decoration: none;
+    background-color: #ededed;
+    border-color: #ededed;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+}
+div#tabNavigation div.tabCurrent a:link,
+div#tabNavigation div.tabCurrent a:visited,
+div#tabNavNarrowTabs div.tabCurrent a:link,
+div#tabNavNarrowTabs div.tabCurrent a:visited,
+div#tabNavWideTabs div.tabCurrent a:link,
+div#tabNavWideTabs div.tabCurrent a:visited {
+    background-color: #fff;
+    height: 33px;
+    padding-top: 7px;
+    border-color: #ddd;
+    border-top: 4px solid #0295be;
+}
+div#tabNavigation div.tab a:hover,
+div#tabNavNarrowTabs div.tab a:hover,
+div#tabNavWideTabs div.tab a:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #ddd;
+    border-color: #ddd;
+}
+div#tabNavigation div.tabCurrent a:hover,
+div#tabNavNarrowTabs div.tabCurrent a:hover,
+div#tabNavWideTabs div.tabCurrent a:hover {
+    background-color: #fff;
+    border-color: #ddd;
+    border-top: 4px solid #0295be;
+}
+
+
+/* TAB SUB-NAVIGATION
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#tabSubNavigationArea {
+	margin-left: 15px;
+}
+body.withContext div#tabSubNavigationArea {
+	width: 751px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	margin: 0px 0px 0px 179px;
+}
+
+div#tabSubNavigation {
+	height: 20px;
+	padding: 3px 0 1px 0;
+}
+
+div#tabSubNavigation ul {
+	list-style: none;
+}
+div#tabSubNavigation li {
+	float: left;
+	display: inline;
+	padding-left: 25px;
+	margin-left: 25px;
+}
+div#tabSubNavigation li.first {
+	float: left;
+	display: inline;
+	padding-left: 0px;
+	margin-left: 0px;
+	background-image: none;
+}
+div#tabSubNavigation a:link,
+div#tabSubNavigation a:visited {
+    color: #0295BE;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div#tabSubNavigation a:hover {
+    color: #0189ab;
+    text-decoration: underline;
+}
+div#tabSubNavigation a.current:link,
+div#tabSubNavigation a.current:active,
+div#tabSubNavigation a.current:visited {
+	color: #000;
+}
+
+
+/* PAGE CONTENT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#contentArea {
+	width: 930px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+}
+body.withContext div#contentArea {
+	width: 751px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	border-left: 0px;
+    margin: 0px 0px 0px 179px;
+}
+
+/* PAGE DATA
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#dataArea {
+	padding-top: 17px;
+	display: block;
+}
+
+/* DISPLAYED CONTENT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.introductionArea p {
+	margin-right: 180px;
+}
+body.withContext div.introductionArea p,
+body.home div.introductionArea p,
+div.popupForm div.introductionArea p,
+div.narrowPopupForm div.introductionArea p {
+	margin-right: 0px;	
+}
+
+div.contentDisplayArea,
+div.contentDisplayAreaNoHeading,
+div.errorDisplayArea {
+	padding: 5px 0px 3px 0px;
+	width: 601px;
+	float: left;
+}
+div.contentDisplayAreaNoHeading {
+	padding-top: 10px;
+}
+
+body.withContext div.contentDisplayArea,
+body.withContext div.contentDisplayAreaNoHeading,
+body.withContext div.errorDisplayArea {
+	padding: 5px 0px 3px 0px;
+	width: 436px;
+	float: left;
+}
+div.dataDisplaySection div.contentDisplayArea,
+div.dataDisplaySection div.contentDisplayAreaNoHeading,
+div.formFieldSection div.contentDisplayArea,
+div.formFieldSection div.contentDisplayAreaNoHeading {
+	float: none;
+	width: 100%;
+}
+
+
+div.introductionArea p,
+div.introductionArea li,
+div.contentDisplayArea p,
+div.contentDisplayArea li,
+div.contentDisplayAreaNoHeading p,
+div.contentDisplayAreaNoHeading li,
+div.errorDisplayArea p,
+div.errorDisplayArea li {
+	font-size: 12px;
+	line-height: 18px;
+}
+div.introductionArea p.hint,
+div.contentDisplayArea p.hint {
+	font-size: 11px;
+}
+div.contentDisplayArea h3,
+div.introductionArea h3 {
+	color: #0295BE;
+	font-size: 15px;
+	padding: 10px 15px 5px 15px;
+}
+div.contentDisplayArea h4,
+div.introductionArea h4  {
+	color: #0295BE;
+	font-size: 13px;
+	padding: 5px 15px 5px 15px;
+}
+div.contentDisplayArea h5 {
+	font-size: 12px;
+	padding: 5px 15px 5px 15px;
+}
+div.errorDisplayArea h3 {
+	color: #e14025;
+	font-size: 15px;
+	background-repeat: no-repeat;
+	padding: 0px 15px 5px 15px;
+}
+
+div.introductionArea ul,
+div.contentDisplayArea ul,
+div.errorDisplayArea ul {
+	list-style: none;
+	margin: 0px 15px 0px 15px;
+	padding: 0px 20px 0px 10px;
+    letter-spacing: -.15px;
+}
+div.contentDisplayArea ul li {
+	padding: 0px 0px 0px 14px;
+	background-image: url("../images/fraudAlert/bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+}
+div.errorDisplayArea ul li {
+	padding: 0px 0px 0px 14px;
+	background-image: url("../images/fraudAlert/error_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+}
+div.introductionArea ul li {
+	padding: 0px 0px 0px 14px;
+	background-image: url("../images/fraudAlert/bullet_large.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+}
+div.introductionArea ul li h5,
+div.contentDisplayArea ul li h5,
+div.errorDisplayArea ul li h5 {
+	font-size: 12px;
+	padding: 0px;
+}
+div.introductionArea ul li p,
+div.contentDisplayArea ul li p,
+div.errorDisplayArea ul li p {
+	padding: 0px 0px 5px 0px
+}
+
+div.introductionArea ol,
+div.contentDisplayArea ol,
+div.errorDisplayArea ol {
+	margin: 0px 15px 5px 42px;
+	padding: 0px 20px 0px 0px;
+}
+div.introductionArea ol li,
+div.contentDisplayArea li,
+div.errorDisplayArea li {
+	padding: 0px 0px 0px 0px;
+}
+div.errorDisplayArea li {
+    font-weight: 700;
+}
+
+
+/* CALLOUTS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.calloutDisplayArea,
+div.stepDisplayArea {
+	width: 285px;
+	float: left;
+	margin: 5px 0px 0px 15px;
+}
+
+div.calloutSection {
+	border-top: 1px solid #0295BE;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+div.calloutSection div.sectionHeaderArea {
+	background-repeat: repeat-x;
+	background-position: top left;
+	clear: none;
+	display: block;
+	width: 283px;
+	height: 28px;
+}
+div.calloutSection h3 {
+	font-size: 13px;
+	padding: 6px 9px 6px 9px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+div.callouts,
+div.steps {
+	padding: 10px 10px 5px 10px;
+}
+div.callouts ul,
+div.steps up {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+}
+div.callouts li,
+div.steps li {
+	padding: 0px 0px 5px 18px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+    font-weight: 700;
+	font-size: 12px;
+}
+div.callouts li.noBullet {
+	padding: 0px 0px 5px 0px;
+	background-image: none;
+}
+div.callouts li.disabled {
+	background-image: url("../images/fraudAlert/callout_bullet_disabled.gif");
+	color: #ededed;
+}
+
+div.callouts p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+div.callouts div.fieldArea {
+	padding: 10px 2px 5px 2px;
+}
+div.callouts div.fieldArea div.required span.label {
+	width: 80px;
+}
+div.callouts input.stdWidth {
+	width: 150px;
+}
+div.callouts div.actionArea {
+	padding: 10px 5px 5px 0px;
+	text-align: right;
+}
+
+div.callouts div.actionArea input.button,
+div.callouts div.actionArea input.buttonLarge { 
+}
+div.callouts div.actionArea input.buttonLarge { 
+}
+
+div.calloutStretchHack {
+	width: 250px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.calloutSection div.calloutFollowUp {
+	padding-bottom: 5px;
+}
+div.calloutSection p {
+	padding: 0px 9px 5px 9px;
+}
+
+/* NOTICES
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.noticeDisplayArea {
+	width: 285px;
+	float: left;
+	margin: 0px 0px 0px 15px;
+}
+
+div.noticeSection {
+	background-image: url("../images/fraudAlert/notice_body_border.gif");
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	padding-bottom: 1px;
+	margin: 0px 0px 10px 0px;
+}
+
+div.noticeHeaderArea {
+	background-image: url("../images/fraudAlert/notice_header_background.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-top: 5px;
+}
+div.noticeHeaderArea h4 {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+	letter-spacing: .5px;
+	padding: 5px 15px 0px 15px;
+    text-transform: uppercase;
+}
+
+div.notice {
+	padding: 5px 0px 5px 0px;
+	background-image: url("../images/fraudAlert/notice_body_background.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+	margin: 0px;
+}
+div.notice p {
+}
+
+/* ICONS INCLUDED WITH LINKS/TEXT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+span.linkIconLeft {
+	display: block;
+	float: left;
+	padding-right: 5px;
+	vertical-align: -1px;
+}
+span.linkIconRight {
+	padding-left: 5px;
+	vertical-align: -1px;
+}
+span.statusIconLeft {
+	float: left;
+	display: block;
+	padding-right: 5px;
+}
+span.statusIconRight {
+	padding-left: 5px;
+}
+span.warningIconLeft {
+	float: left;
+	display: block;
+	padding-right: 5px;
+}
+span.quickButtonLeft {
+	display: block;
+	float: left;
+	padding: 1px 5px 0px 0px;
+}
+span.detailButtonRight {
+	padding-left: 5px;
+	vertical-align: -1px;
+}
+span.pagingSymbolLeft {
+	padding-right: 2px;
+	vertical-align: 0px;
+}
+span.pagingSymbolRight {
+	padding-left: 2px;
+	vertical-align: 0px;
+}
+span.contactIcon {
+	padding-left: 5px;
+	vertical-align: -2px;
+}
+span.docIconLeft {
+	padding-right: 5px;
+	vertical-align: -1px;
+}
+
+/* TEXT INCLUDED WITH ICONS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+span.statusValue {
+	display: block;
+	margin-left: 12px;
+}
+span.statusValueBigIcon {
+	display: block;
+	margin-left: 17px;
+}
+span.warningValue {
+	display: block;
+	margin-left: 18px;
+}
+
+/* STATUS MESSAGES
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.errorArea,
+div.alertArea {
+	border: 1px solid #D74025;
+	margin: 5px 14px 0px 14px;
+}
+div.warningArea {
+	border: 1px solid #FCD800;
+	margin: 5px 14px 0px 14px;
+}
+div.infoArea {
+	border: 1px solid #0295BE;
+	margin: 5px 14px 0px 14px;
+}
+div.successArea {
+	border: 1px solid #008A00;
+	margin: 5px 14px 0px 14px;
+}
+div.contentPageMessageArea {
+	margin-bottom: 10px;
+}
+div.errorArea div.details,
+div.alertArea div.details,
+div.warningArea div.details,
+div.infoArea div.details,
+div.successArea div.details {
+	display: block;
+	padding: 0px 165px 5px 0px;
+}
+body.withContext div.errorArea div.details,
+body.withContext div.alertArea div.details,
+body.withContext div.warningArea div.details,
+body.withContext div.infoArea div.details,
+body.withContext div.successArea div.details {
+	padding: 0px 0px 5px 0px;
+}
+
+div.errorArea div.details h4,
+div.alertArea div.details h4,
+div.warningArea div.details h4,
+div.infoArea div.details h4,
+div.successArea div.details h4 {
+	font-size: 14px;
+	line-height: 19px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	padding: 9px 10px 5px 38px;
+}
+div.errorArea div.details h4 {
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_large_error.png");
+}
+div.alertArea div.details h4 {
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_large_alert.png");
+}
+div.warningArea div.details h4 {
+	color: #000;
+	background-image: url("../images/fraudAlert/msg_icon_large_warning.png");
+}
+div.infoArea div.details h4 {
+	color: #0295BE;
+	background-image: url("../images/fraudAlert/msg_icon_large_info.png");
+}
+div.successArea div.details h4 {
+	color: #008a00;
+	background-image: url("../images/fraudAlert/msg_icon_large_success.png");
+}
+
+div.errorArea div.details p,
+div.alertArea div.details p,
+div.warningArea div.details p,
+div.infoArea div.details p,
+div.successArea div.details p {
+	padding: 5px 14px 0px 14px;
+	font-size: 12px;
+	line-height: 18px;
+}
+div#pDetails {
+padding-right:0px;
+}
+
+div.errorArea div.details ul,
+div.alertArea div.details ul,
+div.warningArea div.details ul,
+div.infoArea div.details ul,
+div.successArea div.details ul {
+	padding: 5px 24px 0px 24px;
+	list-style: none;
+}
+
+div.errorArea div.details li,
+div.alertArea div.details li,
+div.warningArea div.details li,
+div.infoArea div.details li,
+div.successArea div.details li {
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding: 0px 0px 0px 15px;
+	font-size: 12px;
+	line-height: 18px;
+}
+div.errorArea div.details li p,
+div.alertArea div.details li p,
+div.warningArea div.details li p,
+div.infoArea div.details li p,
+div.successArea div.details li p {
+	padding: 0px 0px 5px 0px;
+}
+div.errorArea div.details li,
+div.alertArea div.details li {
+	background-image: url("../images/fraudAlert/error_bullet_large.gif");
+}
+div.errorArea div.details li p,
+div.alertArea div.details li p {
+    font-weight: 700;
+}
+div.warningArea div.details li {
+	background-image: url("../images/fraudAlert/warning_bullet_large.gif");
+}
+div.infoArea div.details li {
+	background-image: url("../images/fraudAlert/info_bullet_large.gif");
+}
+div.successArea div.details li {
+	background-image: url("../images/fraudAlert/success_bullet_large.gif");
+}
+
+div.dataDisplaySection div.successHeader,
+div.dataDisplaySection div.errorHeader,
+div.dataDisplaySection div.warningHeader,
+div.dataDisplaySection div.infoHeader {
+	padding: 10px 180px 0px 5px;
+}
+div.wideGroupArea div.successHeader,
+div.firstWideGroupArea div.successHeader,
+div.wideGroupArea div.errorHeader,
+div.firstWideGroupArea div.errorHeader,
+div.wideGroupArea div.warningHeader,
+div.firstWideGroupArea div.warningHeader,
+div.wideGroupArea div.infoHeader,
+div.firstWideGroupArea div.infoHeader {
+	padding: 5px 180px 0px 5px;
+}
+body.withContext div.dataDisplaySection div.successHeader,
+body.withContext div.dataDisplaySection div.errorHeader,
+body.withContext div.dataDisplaySection div.warningHeader,
+body.withContext div.dataDisplaySection div.infoHeader,
+body.withContext div.wideGroupArea div.successHeader,
+body.withContext div.firstWideGroupArea div.successHeader,
+body.withContext div.wideGroupArea div.errorHeader,
+body.withContext div.firstWideGroupArea div.errorHeader,
+body.withContext div.wideGroupArea div.warningHeader,
+body.withContext div.firstWideGroupArea div.warningHeader,
+body.withContext div.wideGroupArea div.infoHeader,
+body.withContext div.firstWideGroupArea div.infoHeader {
+	padding-right: 5px;
+}
+
+div.groupArea div.successHeader h4,
+div.groupArea div.errorHeader h4,
+div.groupArea div.alertHeader h4,
+div.groupArea div.warningHeader h4,
+div.groupArea div.infoHeader h4,
+div.dataDisplaySection div.successHeader h4,
+div.dataDisplaySection div.errorHeader h4,
+div.dataDisplaySection div.warningHeader h4,
+div.dataDisplaySection div.infoHeader h4,
+div.wideGroupArea div.successHeader h4,
+div.firstWideGroupArea div.successHeader h4,
+div.wideGroupArea div.errorHeader h4,
+div.firstWideGroupArea div.errorHeader h4,
+div.wideGroupArea div.warningHeader h4,
+div.firstWideGroupArea div.warningHeader h4,
+div.wideGroupArea div.infoHeader h4,
+div.firstWideGroupArea div.infoHeader h4 {
+	font-size: 12px;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	padding: 0px 10px 0px 25px;
+	background-position: 4px 1px;
+}
+div.groupArea div.successHeader p,
+div.groupArea div.errorHeader p,
+div.groupArea div.alertHeader p,
+div.groupArea div.warningHeader p,
+div.groupArea div.infoHeader p,
+div.dataDisplaySection div.successHeader p,
+div.dataDisplaySection div.errorHeader p,
+div.dataDisplaySection div.warningHeader p,
+div.dataDisplaySection div.infoHeader p,
+div.wideGroupArea div.successHeader p,
+div.firstWideGroupArea div.successHeader p,
+div.wideGroupArea div.errorHeader p,
+div.firstWideGroupArea div.errorHeader p,
+div.wideGroupArea div.warningHeader p,
+div.firstWideGroupArea div.warningHeader p,
+div.wideGroupArea div.infoHeader p,
+div.firstWideGroupArea div.infoHeader p {
+	padding: 5px 10px 0px 10px;
+}
+div.groupArea div.successHeader h4 span.hint,
+div.groupArea div.errorHeader h4 span.hint,
+div.groupArea div.alertHeader h4 span.hint,
+div.groupArea div.warningHeader h4 span.hint,
+div.groupArea div.infoHeader h4 span.hint,
+div.dataDisplaySection div.successHeader h4 span.hint,
+div.dataDisplaySection div.errorHeader h4 span.hint,
+div.dataDisplaySection div.warningHeader h4 span.hint,
+div.dataDisplaySection div.infoHeader h4 span.hint,
+div.wideGroupArea div.successHeader span.hint,
+div.firstWideGroupArea div.successHeader span.hint,
+div.wideGroupArea div.errorHeader span.hint,
+div.firstWideGroupArea div.errorHeader span.hint,
+div.wideGroupArea div.warningHeader span.hint,
+div.firstWideGroupArea div.warningHeader span.hint,
+div.wideGroupArea div.infoHeader span.hint,
+div.firstWideGroupArea div.infoHeader span.hint {
+	display: block;
+	font-size: 11px;
+	padding-bottom: 5px;
+}
+div.groupArea div.successHeader h4,
+div.dataDisplaySection div.successHeader h4,
+div.wideGroupArea div.successHeader h4,
+div.firstWideGroupArea div.successHeader h4 {
+	color: #008a00;
+	background-image: url("../images/fraudAlert/msg_icon_success.png");
+}
+div.groupArea div.errorHeader h4,
+div.dataDisplaySection div.errorHeader h4,
+div.wideGroupArea div.errorHeader h4,
+div.firstWideGroupArea div.errorHeader h4 {
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_error.png");
+}
+div.groupArea div.alertHeader h4 {
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_alert.png");
+}
+div.groupArea div.warningHeader h4,
+div.dataDisplaySection div.warningHeader h4,
+div.wideGroupArea div.warningHeader h4,
+div.firstWideGroupArea div.warningHeader h4 {
+	color: #000;
+	background-image: url("../images/fraudAlert/msg_icon_warning.png");
+}
+div.groupArea div.infoHeader h4,
+div.dataDisplaySection div.infoHeader h4,
+div.wideGroupArea div.infoHeader h4,
+div.firstWideGroupArea div.infoHeader h4 {
+	color: #0295BE;
+	background-image: url("../images/fraudAlert/msg_icon_info.png");
+}
+
+div.dataDisplaySection div.alertHeader,
+div.dataDisplaySection div.warningHeaderLarge {
+	padding: 5px 180px 0px 5px;
+}
+div.wideGroupArea div.alertHeader,
+div.firstWideGroupArea div.alertHeader {
+	padding: 0px 180px 0px 5px;
+}
+body.withContext div.dataDisplaySection div.alertHeader,
+body.withContext div.dataDisplaySection div.warningHeaderLarge,
+body.withContext div.wideGroupArea div.alertHeader,
+body.withContext div.firstWideGroupArea div.alertHeader {
+	padding-right: 5px;
+}
+div.dataDisplaySection div.alertHeader h4,
+div.dataDisplaySection div.warningHeaderLarge h4,
+div.wideGroupArea div.alertHeader h4,
+div.firstWideGroupArea div.alertHeader h4 {
+	font-size: 14px;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 4px 6px;
+	padding: 10px 10px 5px 40px;
+}
+div.dataDisplaySection div.alertHeader h4,
+div.wideGroupArea div.alertHeader h4,
+div.firstWideGroupArea div.alertHeader h4 {
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_large_alert.png");
+}
+div.dataDisplaySection div.warningHeaderLarge h4 {
+	color: #000;
+	background-image: url("../images/fraudAlert/msg_icon_large_warning.png");
+}
+div.contentPageMessageArea div.callouts {
+	padding: 5px 0px 5px 0px;
+}
+div.contentPageMessageArea div.callouts ul {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+}
+div.contentPageMessageArea div.callouts li {
+	padding: 0px 0px 5px 18px;
+	background-image: url("../images/fraudAlert/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	font-size: 12px;
+    font-weight: 700;
+}
+
+div.contentPageMessageArea div.actionArea {
+	padding: 15px 15px 8px 15px;
+	width: 690px;
+}
+div.contentPageMessageArea div.action {
+	padding: 0px 0px 5px 0px;
+}
+div.contentPageMessageArea div.action span.description {
+	display: block;
+	width: 584px;
+	float: right;
+	text-align: left;
+	padding: 3px 0px 0px 0px;
+}
+div.contentPageMessageArea div.action span.button {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #0295BE;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	display: block;
+	margin-left: 7px;
+}
+
+/* RETURN TO TOP LINKS 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.topLink {
+	padding: 0px 8px 10px 0px;
+	text-align: right;
+}
+div.topLink span.linkIconLeft {
+	float: right;
+	padding: 0px 0px 0px 5px;
+}
+
+
+/* HACK TO STRETCH BORDERS AND BACKGROUNDS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.bodyStretchHack {
+	font-size: 5px;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+}
+div.contentStretchHackLeft {
+	width: 250px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+div.contentStretchHackCenter {
+	width: 400px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+div.contentStretchHackCallouts {
+	width: 600px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+div.contentStretchHackRight {
+	width: 800px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+body.withContext div.contentStretchHackLeft,
+div.popupForm div.contentStretchHackLeft,
+div.narrowPopupForm div.contentStretchHackLeft {
+	width: 200px;
+}
+body.withContext div.contentStretchHackRight,
+div.popupForm div.contentStretchHackRight {
+	width: 650px;
+}
+div.narrowPopupForm div.contentStretchHackRight {
+	width: 300px;
+}
+body.withContext div.contentStretchHackCallouts {
+	width: 500px;
+}
+
+/* POPUP LAYER TO DISABLE THE CURRENT PAGE
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#staticPopupLayer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/fraudAlert/pixel_clear.gif");
+	background-repeat: repeat;
+}
+
+div#fixedPopupLayer {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/fraudAlert/pixel_clear.gif");
+	background-repeat: repeat;
+}
+div.formActionsSplitHorizontal div.actionArea {
+	float: right;
+	display: inline;
+}
+div.formActionsSplitHorizontal div.action {
+	float: left;
+	display: inline;
+}
+div.formActionsHorizontalAlertPage div.actionArea {
+	float: right;
+	display: inline;
+}
+div.formActionsHorizontalAlertPage div.action {
+	float: left;
+	display: inline;
+}
+div.noteContent{
+   margin-left:14px;
+}
+a.imageLinkClass span.zendoughAd {
+	border: none;
+	width: 885px;
+	height: 388px;
+	margin-left: 14px;
+}
+a.imageLinkClass span.logoutAd {
+	border: none;
+	width: 915px;
+	height: 392px;
+}
+div.contentStretchHackRightPrivacy {
+	width: 850px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.contentStretchHackLeftPrivacy {
+	width: 555px;
+	font-size: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+div.errorAreas{
+	border: 2px solid #CC0000;
+	margin: 5px 2px 0px 14px;
+	background-color: #F9E8E6;
+	background-color: #F8F5F1;
+}
+
+
+div.errorAreas div.details{
+	display: block;
+	padding: 0px 165px 5px 0px;
+}
+
+div.errorAreas div.details h4 {
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_large_error.png");
+}
+
+div.errorAreas div.details h4{
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	padding: 9px 10px 5px 38px;
+}
+div.errorAreas div.details h4 span.para{
+ font-size: 12px;
+}
+div.errorAreas div.details p{
+	padding: 5px 14px 0px 14px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+}
+div.errorAreas div.details ul {
+	padding: 5px 24px 0px 24px;
+	list-style: none;
+}
+div.errorAreas div.details li {
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding: 0px 0px 0px 15px;
+	font-size: 12px;
+	line-height: 18px;
+}
+div.errorAreas div.details li p {
+	padding: 0px 0px 5px 0px;
+}
+div.errorAreas div.details li {
+	background-image: url("../images/fraudAlert/error_bullet_large.gif");
+}
+div.errorAreas div.details ol li {
+	background-image: none;
+	padding-left: 5px;
+}
+div.errorAreas div.details li p {
+	font-weight: bold;
+}
+div#errorAds {
+    margin-right: -30px;
+}
+div.imageIconArea{
+    height: 0px;
+    margin:0px 0px 0px 9px;
+    padding: 0px 0px 0px 1px;
+}
+div.NoteArea{
+    margin:0px 15px 0px 40px;
+    padding: 0px 0px 0px 5px;
+}
+div.warningAreaPopup div.info h5 {
+	font-size: 11px;
+	line-height: 19px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	padding: 9px 0px 5px 35px;
+    width: 500px;
+	color: #000;
+	background-image: url("../images/fraudAlert/msg_icon_large_warning.png");
+}
+div.warningAreaPopup {
+	margin: 5px 14px 0px 14px;
+	margin: 5px 14px 0px 14px;
+}
+div.warningAreaPopup div.info {
+	display: block;
+	padding: 0px 165px 5px 0px;
+}
+
+div.extraSpace{
+	height:16px;
+}
+div.extraSpaces{
+	height:23px;
+}
+div#requiredId{
+	margin-left:1px;
+	margin-bottom:5px;
+	font-size: 11px;
+}
+span#helpLinkId {
+	margin: 5px 0px 5px 18px;
+    padding-top:15px;
+}
+div.orangeText{
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:3px;
+	margin-bottom:6px;
+}
+
+div#introSectionWrapper {
+	display:block;
+	width:899px;
+    margin-top: 5px;
+}
+div#introSectionWrapper div.introductionArea {
+	display:inline;
+	float:left;
+	width:580px;
+}
+
+
+/* NOTICES
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+input[type="button"],
+input[type="submit"],
+input.button,
+input.buttonLarge {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input.button:hover,
+input.buttonLarge:hover {
+    background-color: #e0c000;
+}
+input[type="button"]:active,
+input[type="submit"]:active,
+input.button:active,
+input.buttonLarge:active {
+    margin: 4px 0 0 4px;
+    box-shadow: none;
+}
+div#introSectionWrapper div.noticeSectionStmt {
+	display:inline;
+	float:right;
+	width: 285px;
+}
+div.noticeSectionStmt {
+	border:1px dotted #000000;
+	padding-bottom: 1px;
+	margin: 0px 0px 10px 0px;
+}
+
+div.noticeHeaderAreaStmt {
+	background-color: #f9f5f2;
+	padding-top: 5px;
+}
+div.noticeHeaderAreaStmt h4 {
+	font-family: Times New Roman;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	padding: 5px 33px 0px 15px;
+}
+
+div.noticeStmt {
+	padding: 5px 0px 5px 0px;
+	background-color: #f9f5f2;
+	margin: 0px;
+}
+div.noticeStmt p {
+	color: #000000;
+	font-weight: normal;
+}
+div.clearRow{
+   clear:both;
+}
+
+a {color:#004873; text-decoration: none;}
+
+/************** for 2.3_Common_Nav_Bar_CF.html only ****************/
+
+#container {
+	max-width: 930px;
+	max-height: 112px;
+	padding: 7px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 0 auto;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#container span.line {
+	display: block;
+	width: 100%;
+	margin: 30px auto;
+	border-bottom: 3px solid #034872;
+}
+
+#container,#nav,#nav li,#nav p,#nav .spacer {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#nav {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 0 30px 0 0;
+	max-width: 516px;
+	min-width: 460px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#nav li {
+	font-size: 22px;
+	font-family: sans-serif;
+	position: relative;
+	list-style: none;
+	color: white;
+	background: #014873;
+	width: 30px;
+	height: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border: 4px solid #014873;
+	border-radius: 50%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+#nav li:focus {
+	outline : 2px solid lightblue;
+}
+#container .indicator {
+	color: transparent;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	overflow: hidden;
+}
+
+#nav li.selected {
+	background: #014873;
+	color: white;
+}
+
+#nav li.current {
+	background: white;
+	color: #014873;
+	font-size:15px;
+}
+
+#nav li.complete > span {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 1000' fill='%23fff'%3E%3Cpath d='M10 553.8l82.1-88.7L450 778.8l-82.1 88.7L10 553.8z'/%3E%3Cpath d='M283.5 781.2l622.1-648.7 84.4 86.3-622.1 648.7-84.4-86.3z'/%3E%3C/svg%3E");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#nav li:before {
+	font-size: 15px;
+}
+
+
+#step4 {
+	border: 0;
+	background: #932324;
+	border-radius: 7px;
+	color: white;
+}
+
+#nav p {
+	color: black;
+	position: absolute;
+	bottom: -35px;
+	white-space: nowrap;
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+#nav .spacer {
+	height: 4px;
+	background: #014873;
+	padding: 0;
+	width: initial;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	border: 0;
+	border-radius: 0;
+}
+
+#nav .spacer::before {
+  display: none;
+}
+
+#container span.visually-hidden {
+	visibility: hidden;
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#step1 p {
+  right: -40px;
+}
+
+#step2 p {
+    right: -80px;
+}
+
+#step3 p {
+	right: -69px;
+}
+
+span#step4 {
+	height: 44px;
+	border: 0;
+	border-radius: 4px;
+	background: #932324;
+	color: white;
+	padding: 5px 17px 8px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-shadow: 0 3px 4px -2px black;
+	box-shadow: 0 3px 4px -2px black;
+}
+
+#step4:focus {
+	outline: 2px solid lightblue;
+}
+
+#container #step4 a {
+	color: white;
+}
+
+#step4 p {
+    margin: 0;
+    padding: 0px;
+}
+
+#container .indicatorText {
+  margin:0;
+  padding:0px;
+  color: white !important; 
+  font-size:small !important;
+}
+.indicator4_p{
+	color:white !important;
+	font-size:small !important;
+	font-family: arial, sans-serif ! important;
+}
+
+#contact {
+	font-size:12px;
+	font-family: sans-serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+}
+
+#contact a:focus {
+	outline: 2px solid lightblue;
+}
+#contact p {
+  margin: 0;
+}
+
+#container .nextSteps {
+	width: 40%;
+	min-width: 400px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+#container a {
+	color: #004877;
+}
+
+@media(max-width: 930px) {
+	#container .nextSteps {
+		margin: 20px auto 15px;
+	}
+}
+
+
+
+@media(max-width: 875px) {
+  #container {
+    padding: 0 20px;
+  }
+	#container span.line {
+		margin-top: 0;
+	}
+}
+
+@media(max-width: 505px) {
+	#container span.line {
+    width: calc(100% - 30px);
+  }
+  #container {
+    padding: 0;
+  }
+  #nav {
+    min-width: 100%;
+    margin: 0;
+  }
+  #step1 p, #step2 p, #step3 p {
+    display: none;
+  }
+  #step3 p {
+    right: -53px;
+  }
+	#container .nextSteps {
+		width: 100%;
+		min-width: 100%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		margin: 0 0 10px;
+	}
+	#step4 {
+		max-width: 85%;
+		margin: 0 auto 10px;
+		padding: 5px 17px 8px;
+	}
+	#nav li {
+		position:  relative;
+		overflow: hidden;
+		width: 25px;
+		height: 25px;
+		font-size: 14px;
+		border: 2px solid #014873;
+	}
+	#nav .spacer {
+		height: 3px;
+	}
+}
+
+@media(max-width: 320px) {
+  #step4 {
+	  -webkit-transform: scale(.9);
+	  -ms-transform: scale(.9);
+	  transform: scale(.9);
+  }
+}
+
+span.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important; border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+SPAN.linkIconLeftReturn{
+	color: #000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding: 0px 8px 0px 0px;
+	float: left;
+	display: block;
+	vertical-align:-1px;
+}
+
+div.errorArea div.errorAreaDetails  ul {
+	padding: 5px 0px 0px 24px;
+	list-style: none;
+    font-weight:normal;
+}
+div.errorArea div.errorAreaDetails h4{
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	padding: 9px 10px 5px 38px;
+	color: #D74025;
+	background-image: url("../images/fraudAlert/msg_icon_large_error.png");
+}
+
+div.errorArea div.errorAreaDetails p {
+	padding: 5px 14px 0px 14px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+div.errorArea div.errorAreaDetails li{
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding: 0px 0px 0px 15px;
+	font-size: 12px;
+	line-height: 18px;
+	background-image: url("../images/fraudAlert/error_bullet_large.gif");
+
+}
+div.errorArea div.errorAreaDetails{
+	display: block;
+	padding: 0px 165px 5px 0px;
+}
+div.introductionCallouts div.callouts {
+	float: right;
+}
+div.dataDisplaySection span.sectionActions span.button,
+div.dataDisplaySection span.sectionActions span.buttonWide,
+div.dataDisplaySection span.sectionActions span.buttonWidest,
+div.dataDisplaySection span.sectionActions span.buttonUpdate,
+div.formFieldSection span.sectionActions span.buttonUpdate,
+div.dataDisplaySection span.sectionActions span.alternateButton,
+div.formFieldSection span.sectionActions span.alternateButton,
+div.dataDisplaySection span.sectionActions span.buttonMore,
+div.formFieldSection span.sectionActions span.buttonMore,
+div.dataDisplaySection span.sectionActions span.buttonDisabled,
+span.wideGroupActions span.button {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+	display: inline;
+	margin-left: 7px;
+
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+span.requiredSelectError {
+    border: 1px solid #CC0000;
+}
+#loginSpin {
+    height: 26px;
+    padding: 2px 30px;
+    background: #808080;
+    color: #FFFFFF;
+    float: left;
+    width: 45px;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#registerSpin {
+    height: 26px;
+    background: #808080;
+    padding: 2px 30px;
+    color: #FFFFFF;
+    float: left;
+    width: 70px;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+div.introArea {
+    margin-top: 10px;
+}
+.introBoldText {
+    font-weight: 700;
+}
+span.checkboxVertical span.checkBoxValue{
+	width: 380px;
+}
+span.requiredSelectedError select.stdWidth {
+    border: 1px solid #CC0000;
+}
+
+div.pageNoteArea {
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 5px 0px;
+	background-image: url("../images/fraudAlert/list_row_separator.gif");
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+div#dataFreezeArea {
+    width: 672px;
+	padding-top: 17px;
+	background-repeat: repeat-x;
+	background-position: top left;
+	display: block;
+    float:left;
+}
+div.suArea {
+}
+div.stArea {
+	margin-left: 710px;
+	top: 207px;
+	left: 710px;
+	height: 325px;
+	width: 229px;
+}
+div.freezeFeaturedAd {
+	height: 312px;
+	padding: 0px;
+    margin: 5px 7px 20px 0px;
+}
+div#contentFreezeArea,
+div.contentFreezeArea {
+	width: 672px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+}
+div#freezeHorizontalLine{
+    width: 915px;
+	padding-top: 17px;
+}
+div#adArea {
+	padding: 3px 0px 0px 0px;
+	margin: 8px 0px 0px 8px;
+}
+div.warningArea div.info {
+	display: block;
+	padding: 0px 165px 5px 0px;
+}
+div.info h4 {
+	font-size: 14px;
+	line-height: 19px;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	padding: 9px 10px 5px 10px;
+}
+div.warningArea div.info h4 {
+    margin-left: 5px;
+	color: #000;
+	background-image: url("../images/fraudAlert/msg_icon_large_warning.png");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 0px;
+    line-height: 22px;
+}
+a#sessionCloseButton,
+a#sessionContinueButton{
+	cursor: pointer;
+}
+div#welcomeArea div.progressBarNonACR {
+    top: 60px;
+}
+div#welcomeArea div.progressBarACR {
+    top: 197px !important;
+}
+div#stAreaGlobalAdd {
+	margin-top: -85px;
+}
+div#stAreaSelective {
+	margin-top: -100px;
+}
+div#stAreaDeleteFreeze {
+	margin-top: -180px;
+}
+div#stAreaApplyFreeze {
+	margin-top: -188px;
+}
+div#stAreaUpadatePin {
+	margin-top: -145px;
+}
+div#stAreaEndLift {
+	margin-top: -155px;
+}
+div#introAreaGlobalAdd {
+	margin-top: -240px;
+}
+div#introAreaSelective {
+	margin-top: -230px;
+}
+div#introAreaDeleteFreeze {
+	margin-top: -140px;
+}
+div#introAreaApplyFreeze {
+	margin-top: -140px;
+}
+div#introAreaUpadatePin {
+	margin-top: -180px;
+}
+div#introAreaEndLift {
+	margin-top: -145px;
+}
+span#phone1ErrorText, span#phone2ErrorText {
+    padding-top: 12px;
+}
+div.extraBorder {border-bottom: 1px solid #0295BE; margin-top:12px; margin-bottom:1px;}
+div.introductionArea p.paraText {
+	margin-right: 120px;
+}
+div.sectionBottomArea {
+	border-bottom: 1px solid #0295BE;
+    border-top: 1px solid #0295BE;
+}
+div.sectionBottomText {
+	border-top: 0px;
+}
+.statusHeight {
+    height:300px;
+}
+#freezeBodyContent{
+    height: 310px;
+}
+#freezeBodyContent1{
+    height: 325px;
+}
+#splitFreezelength {
+    height: 350px;
+}

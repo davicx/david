@@ -1,0 +1,28 @@
+P.breakhere {
+   PAGE-BREAK-AFTER: always
+}
+.crTableBackground {
+   FONT-SIZE: 9px; COLOR: #000000; LINE-HEIGHT: 10px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+.crTableBackgroundBigger {
+   FONT-SIZE: 10px; COLOR: #000000; LINE-HEIGHT: 10px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+.crTableBackgroundLight {
+   FONT-SIZE: 9px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+.crTradelineHeaderBackground {
+   FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; BACKGROUND-COLOR: #efefef
+}
+.crTradelineHeaderBackgroundColor {
+   FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; BACKGROUND-COLOR: #daecfd
+}
+.crTradelineHeader {
+   FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: verdana; BACKGROUND-COLOR: #efefef
+}
+.crTradelineHeaderLightBackground {
+   FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: verdana;
+}
+.crLightTableBackground {
+   FONT-SIZE: 9px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+.crTableSubpressionHeader { FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff }

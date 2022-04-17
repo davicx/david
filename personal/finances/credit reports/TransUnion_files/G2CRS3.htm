@@ -1,0 +1,602 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+
+   <script src="https://cdn.optimizely.com/js/4242406432.js"></script>
+   <script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-54788283-1']);
+ _gaq.push(['_setDomainName', 'transunion.com']);
+ _gaq.push(['_setAllowLinker', true]);
+ _gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+   <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2854562-5', 'auto', {
+   'allowLinker': true // enables autolinking, cross-domain
+  });
+
+  ga('require', 'adfeatures'); // enables display/RLSA remarketing
+  ga('require', 'linkid', 'linkid.js'); // enables link attribution
+
+  ga('send', 'pageview');
+
+</script>
+
+   <TITLE>TransUnion</TITLE>
+   
+   <!-- credit report:equifax, transunion, credit bureau, credit check, credit score -->
+   <!-- Copyright 2000-2018 -->
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <meta http-equiv="Expires" CONTENT="-1">
+   <meta http-equiv="Cache-Control" CONTENT="no-cache">
+   <meta http-equiv="Pragma" CONTENT="no-cache">
+   <link rel="stylesheet" type="text/css" href="/stylesheet/TUApplPopup.css" >
+   <link rel="stylesheet" type="text/css" href="/stylesheet/TUApplCommon.css" >
+   <link rel="stylesheet" type="text/css" href="/stylesheet/TuFonts-wo-import-Legacy.css" >
+
+<link rel="stylesheet" type="text/css" href="https://ezapp.com/stylesheet/default.css" >
+
+<link rel="stylesheet" type="text/css" href="https://ezapp.com/stylesheet/default.css" >
+
+<link rel="stylesheet" type="text/css" href="https://ezapp.com/stylesheet/TUApplCommon.css" >
+
+<link rel="stylesheet" type="text/css" href="https://ezapp.com/stylesheet/TUApplDetails.css" >
+
+	<script type='text/javascript'>
+		(function () {
+			var tv = document.createElement('script'); tv.type = 'text/javascript'; tv.async = true;
+			tv.src = 'https://app.trustev.com/api/v2.0/TrustevJS?key=ee0d90d59274415a9d72bb2501ba9076';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tv, s);
+		}());
+	 </script>
+
+
+
+
+
+<script language="javascript">
+var isSessionTimeout = false;
+function deleteAllCookies() {
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+			document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+		}
+    }
+var nextpage = false;
+function disableBackButton(){
+    if(window.history.forward(1) != null){
+        window.history.forward(1);
+    }
+}
+
+     disableBackButton();
+
+var alreadPrompted = false,
+    timeoutID = 0,
+    reset = function () {
+        alreadPrompted = false;
+        timeoutID = 0;
+    };
+</script>
+
+
+<script type="text/javascript" src="/shared/cncr/js/coss/TuFontsCounter.js"></script>
+<script type="text/javascript" src="/shared/cncr/js/fraudAlert/common.js"></script>
+</head>
+
+<body class="fullWidth" onload="disableBackButton();" onUnload="onUnloadCheck()" id="body">
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PHJ6QH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PHJ6QH');</script>
+<!-- End Google Tag Manager -->
+	
+<!-- CONTENT POPUPS -->
+<script language="JavaScript" src="/shared/cncr/js/coss/popupContent.js"></script>
+<script type="text/javascript">
+    window.setTimeout(alertSessionTimeout,1500000);
+    var sessionTimeOutTimerID;
+    function alertSessionTimeout() {
+        setupSessionTimeOutCustomListeners();
+        showTimeoutInterruptPopupElements("warning");
+		show("fixedTimeoutPopupArea", "block");
+        sessionTimeOutTimerID = window.setTimeout('sessionTimedOut()',300000);
+    }
+    function sessionTimeOutCloseWindow() {
+        isSessionTimeout = true;
+		window.location="/coss/common/logoutProcess";
+	}
+    function sessionTimeOutContinueWindow() {
+        window.clearTimeout(sessionTimeOutTimerID);
+        window.setTimeout(alertSessionTimeout,1500000);
+        var sessionTimeOutImg = document.getElementById("sessionTimeOutImage");
+        sessionTimeOutImg.src = sessionTimeOutImg.src + "?" + new Date().getTime();
+        hideTimeoutInterruptPopupElements("warning");
+        hide("timeoutError");
+	}
+    function sessionTimeOutLogOutWindow() {
+        isSessionTimeout = true;
+		window.location="/coss/common/logoutProcess";
+	}
+
+	function setupSessionTimeOutCustomListeners() {
+		document.getElementById("sessionLogOutButton").onclick = sessionTimeOutLogOutWindow;
+		document.getElementById("sessionContinueButton").onclick = sessionTimeOutContinueWindow;
+		document.getElementById("sessionCloseButton").onclick = sessionTimeOutCloseWindow;
+	}
+    function sessionTimedOut() {
+        isSessionTimeout = true;
+        hide("timeoutWarning");
+        showTimeoutInterruptPopupElements("error");
+        show("timeoutError", "block");
+	}
+    function disableBrowserWidgets() {
+
+    }
+    function enableBrowserWidgets() {
+
+    }
+    function showTimeoutInterruptPopupElements (popupType, hackClass, topDiffOverride) {
+	if (popupType == "error") {
+		setObjectClass("fixedTimeoutPopupArea", "contentPopupAreaError");
+	} else if (popupType == "warning") {
+		setObjectClass("fixedTimeoutPopupArea", "contentPopupAreaWarning");
+	} else if (popupType == "info") {
+		setObjectClass("fixedTimeoutPopupArea", "contentPopupAreaInfo");
+	} else if (popupType == "success") {
+		setObjectClass("fixedTimeoutPopupArea", "contentPopupAreaSuccess");
+	} else if (popupType == "processing") {
+		setObjectClass("fixedTimeoutPopupArea", "contentPopupAreaProcessing");
+	} else {
+		setObjectClass("fixedTimeoutPopupArea", "contentPopupArea");
+	}
+	positionFixedTimeoutPopup(topDiffOverride);
+	show("fixedTimeoutPopupLayer", "block");
+	if (document.getElementById("fixedPopupHack") != null) {
+		if (hackClass != null) setObjectClass("fixedPopupHack", hackClass);
+		show("fixedPopupHack", "block");
+	}
+	show("fixedTimeoutPopupArea", "block");
+	show("interruptPopupHeader", "block");
+	disableBrowserWidgets();
+    }
+    function hideTimeoutInterruptPopupElements (hackId) {
+	hide("fixedTimeoutPopupLayer");
+	if (hackId != null) hide(hackId);
+	hide("fixedTimeoutPopupArea");
+	hide("interruptPopupHeader");
+	enableBrowserWidgets();
+    }
+    function positionFixedTimeoutPopup (topDiffOverride) {
+	var winHeight = 0;
+	var winWidth = 0;
+	var topDiff = 150;
+	if (browser == "ie" || browser == "ie6" || browser == "ie7") {
+		winHeight = document.documentElement.clientHeight;
+		winWidth = document.documentElement.clientWidth;
+	} else {
+		winHeight = window.innerHeight;
+		winWidth = window.innerWidth;
+	}
+
+	if (topDiffOverride != null) {
+		topDiff = topDiffOverride;
+	}
+
+	var popupHackObject = document.getElementById("fixedPopupHack");
+	var popupObject = document.getElementById("fixedTimeoutPopupArea");
+	var topString = "";
+	var leftString = "";
+	topString += ((winHeight/2)-((winHeight/2)%1) - topDiff) + "px";
+	leftString += ((winWidth/2)-((winWidth/2)%1) - 250) + "px";
+
+	popupObject.style.top = topString;
+	popupObject.style.left = leftString;
+
+	if (popupHackObject != null) {
+		popupHackObject.style.top = topString;
+		popupHackObject.style.left = leftString;
+	}
+    }
+
+</script>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- END JAVASCRIPT -->
+ <div id="fixedTimeoutPopupLayer" class="timeOutPopup" style="display:none;" >
+ <img src="/images/clear.gif" id="sessionTimeOutImage" height="1" width="1" />
+ <div id="fixedTimeoutPopupArea" style="display:none;z-index:100;">
+
+     <div id="interruptPopupHeader"></div>
+     <div class="popupContent" id="timeoutWarning">
+
+     <div class="contentDisplayArea">
+           <h3>Warning: your session is about to time out</h3>
+
+         <div class="contentPageMessageArea">
+
+         <div class="messageArea">
+           <h4>Your user session will be terminated in five (5) minutes unless you resume activity.</h4>
+         </div>
+         </div>
+
+             <p>To keep your session active, click <span class="introBoldText">Continue</span>.  To log out, click <span class="introBoldText">Logout</span>.</p>
+
+             <div class="popupActionSection">
+             <div class="sectionHeaderArea">
+             <h3>Action Section Title</h3>
+             </div>
+             <div class="popupActionsHorizontal">
+                 <div class="actionArea">
+                     <div class="action"><a id="sessionContinueButton"><span class="button popupButton">Continue</span></a></div>
+                     <div class="action"><img src="https://ezapp.com/images/clear.gif" height="10px" width="10px" border="0" alt="" /></div>
+                     <div class="action"><a id="sessionLogOutButton"><span class="alternateButton popupButton" >Logout</span></a></div>
+                 </div>
+             </div>
+             </div>
+
+         </div>
+     </div>
+     <div class="popupContent" id="timeoutError" style="display: none;">
+
+     <div class="contentDisplayArea">
+       <h3>Your session has timed out</h3>
+
+         <div class="contentPageMessageArea">
+
+         <div class="messageArea">
+         <h4><span style="color: #990000;">Your user session has been terminated due to inactivity.</span></h4>
+         </div>
+         </div>
+
+
+           <p>To close this window, click <span class="introBoldText">Close</span>.</p>
+
+             <div class="popupActionSection">
+             <div class="sectionHeaderArea">
+             <h3>Action Section Title</h3>
+             </div>
+             <div class="popupActionsHorizontal">
+                 <div class="actionArea">
+                     <div class="action"><a id="sessionCloseButton"><span class="button popupButton" >Close</span></a></div>
+                 </div>
+             </div>
+             </div>
+
+         </div>
+     </div>
+
+ </div>
+
+ </div>
+ 
+
+
+<div id="displayArea">
+
+
+
+
+
+
+<!-- name the main window so that it may be referenced as a 'target' by popups -->
+<script language="javascript">
+<!--
+window.name="mainWin";
+var dc_tile=0;
+//-->
+</script>
+<script language="JavaScript" src="/shared/cncr/js/common.js"></script>
+
+
+
+                    <div id="container">
+  <ul id="nav" style="list-style:none">
+    <li tabindex="0" id="step1" class="disabled complete"><span class="indicator">Step 1. Fill out a form. Complete</span><p aria-hidden="true">Fill out a form</p><span class="visually-hidden">Completed</span></li>
+    <li class="spacer"></li>
+    <li tabindex="0" id="step2" class="disabled complete"><span class="indicator">Step 2. Pick the reports you want. Complete</span><p aria-hidden="true">Pick the reports you want</p><span class="visually-hidden">Completed</span></li>
+    <li class="spacer"></li>
+    <li tabindex="0" id="step3" class="current"><span class="indicator">Step 3. Review your reports online.</span><span aria-hidden="true">3</span><p aria-hidden="true"><span class="visually-hidden">Step 3</span>Review your reports online</p><span class="visually-hidden">Current Step</span></li>
+  </ul>
+  <div class="nextSteps">
+    <span id="step4">
+      <a href="/returnToACR?cb=FA" style="text-decoration: none;" onclick="nextpage=true"><span class="indicator4"></span><p class="indicator4_p"><strong>Get your next report or finish</strong></p><span class="visually-hidden">Not Completed</span></a>
+      <div id="repeatIndicator">
+        <p class="indicatorText"><span class="blueText">Repeat</span>&nbsp;these steps for each credit report</p>
+      </div>
+    </span>
+    <div id="contact">
+      <a href="https://www.annualcreditreport.com/contactUs.action" style="text-decoration: none;" onclick="nextpage=true" target="_blank">
+        <span class="greyText">Have questions?</span><br>
+        <span style="text-decoration: underline;">Contact us</span>
+      </a>
+    </div>
+  </div>
+  <span class="line"></span>
+</div>
+
+                
+             
+
+
+<!-- PAGE HEADER -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<div id="headerArea">
+	<div id="headerComponents">
+		<div id="logo">
+			<img src="https://ezapp.com/images/coss/TU_logo_2014.gif" height="45" width="137" border="0" alt="TransUnion" />
+		</div>
+        
+		<div id="globalNavArea">
+			<!-- ~~~ GLOBAL NAVIGATION AND USER NAME ~~~-->
+			<div id="globalLinks">
+             <ul><li class="first">
+             
+                 
+                     
+                     
+                         
+                          <span class="boldText"><span class="introBoldText">Welcome, David Vasquez&nbsp;&nbsp;</span></span>
+                          
+                       
+                     
+                   
+
+				 
+             
+               <a href="http://www.transunion.com/customer-support/contact-us-consumers" target="blank" onClick=" _gaq.push(['_trackEvent', 'Link', 'Header','Help']); ga('send', 'event', 'Link', 'Header','Help');">Help</a>
+             
+            
+             
+             </li></ul>
+          </div>
+		</div>
+        
+
+	</div>
+</div>
+
+
+
+
+
+   
+      <!-- PAGE TITLE -->
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+      <div id="titleAreaNoAppNavigation">
+         <div id="titleComponents">
+            <h1>This Page is Unavailable</h1>
+			
+	
+	
+
+
+         </div>
+      </div>
+  
+
+<!--Added for VantageScore cutover for version 3.0 -->
+
+
+
+
+
+<style>
+div.statusProgress {
+	width: 85px;
+}
+div.statusProgressInd {
+	width: 129px;
+}
+</style>
+<script language="JavaScript" src="/shared/cncr/js/coss/common.js"></script>
+<script type="text/javascript">
+
+
+	function initializePage() {
+		setupCommonListeners();
+	}
+
+	window.onload = initializePage;
+
+</script>
+<div id="bodyArea">
+<div id="tabNavigationArea">
+<div id="noTabNavigation"></div>
+</div>
+<div id="contentArea">
+<div id="dataArea">
+<div><img src="https://ezapp.com/images/coss/spacer.gif" height="5" width="915" border="0" alt="" /></div>
+<div class="contentPageMessageArea">
+<div class="errorArea">
+	<div class="details">
+		<h4>The URL is not valid.</h4>
+		<p><span class="introBoldText">What happened:</span></p>
+		<p>The page you requested cannot be found.</p>
+		<p><span class="introBoldText">What to do:</span></p>
+		<p>Please verify that the URL you are looking for is accurate and complete.</p>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bodyStretchHack">&nbsp;</div>
+<!-- END BACKGROUND HACK -->
+</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+<!-- PAGE FOOTER -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--<div id="footerArea" >
+		<div id="footerLinks">
+			<p class="copyright">&copy;2018&nbsp;TransUnion LLC. All Rights Reserved.</p>
+			<ul>
+			<li><a href="http://www.transunion.com" target="_corporate">TransUnion.com</a></li>
+         <li><a href="http://www.transunion.com/corporate/privacyPolicy.page" target="_blank" name="Privacy Policy">Privacy Policy</a></li>
+         <li><a href="http://www.transunion.com/corporate/termsOfUse.page" target="_blank" name="Terms of Use">Terms of Use</a></li>
+			</ul>
+		</div>
+</div>-->
+<div id="footerArea" >
+
+		<div id="footerLinks">
+			<p class="copyright">&copy;2018&nbsp;TransUnion LLC. All Rights Reserved.</p>
+         <ul><li>
+			
+           
+             <a onclick="popWin(this.href, 'popupWindow','640' ,'480'); _gaq.push(['_trackEvent', 'Link', 'Footer', 'TransUnion.com']); ga('send', 'event', 'Link', 'Footer', 'TransUnion.com'); return false;" href="http://www.transunion.com" target="blank" >TransUnion.com</a>
+           
+
+         </li><li>
+         
+           
+             <a onclick="popWin(this.href, 'popupWindow','640' ,'480'); _gaq.push(['_trackEvent', 'Link', 'Footer', 'Privacy Policy']); ga('send', 'event', 'Link', 'Footer', 'Privacy Policy'); return false;" href="http://www.transunion.com/corporate/privacyPolicy.page" target="blank" >Privacy Policy</a>
+           
+
+         </li><li>
+         
+           
+             <a onclick="popWin(this.href, 'popupWindow','640' ,'480'); _gaq.push(['_trackEvent', 'Link', 'Footer', 'Terms of use']); ga('send', 'event', 'Link', 'Footer', 'Terms of use'); return false;" href="http://www.transunion.com/corporate/termsOfUse.page" target="blank">Terms of Use</a>
+           
+
+         
+         
+         </li></ul>
+          
+	</div>
+</div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- END PAGE FOOTER -->
+
+</div>
+
+<input type="hidden" name="emailOptin" id="emailOptin" value="0"/>
+
+
+        
+    
+<script type="text/javascript">
+	var isResponsysEnabled=false;
+    
+   
+</script>
+
+
+
+<script type="text/javascript">
+    function onUnloadCheck() {
+       if ( infoWindow != null ) {
+         infoWindow.close();
+       }
+        
+        
+
+		
+              deleteAllCookies();
+		
+
+    }
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            if (c == "surveyValue=1" || c == "surveyValue=0") {
+              return c.substring(name.length,c.length);
+            } else if(c == " surveyValue=1" || c == " surveyValue=0"){
+              return c.substring(name.length+1,c.length);
+            }
+        }
+        return "";
+    }
+
+function callbackFunction(event) {
+    if(window.event){
+              if (window.event.clientX < 40 && window.event.clientY < 0) {
+                  return true;
+              }else{
+                  return false;
+              }
+    } else {
+        if (event.currentTarget.performance.navigation.type == 1) {
+            return true;
+        }
+        if (event.currentTarget.performance.navigation.type == 2){
+            return false;
+        }
+    }
+    return false;
+}
+</script>
+<script>
+	var docMode = document.documentMode;
+	if (docMode == "8"){
+        if (document.getElementById('footerArea') !=null) {
+		    document.getElementById("footerArea").style.fontSize = "9px";
+        }
+        if (document.getElementById('modalContent1') !=null) {
+            document.getElementById("modalContent1").style.marginLeft = "0px";
+        }
+        if (document.getElementById('modalContent2') !=null) {
+            document.getElementById("modalContent2").style.marginLeft = "0px";
+        }
+        if (document.getElementById('emailBlock') !=null) {
+            document.getElementById("emailBlock").style.width = "58.4%";
+        }
+        if (document.getElementById('signupButton') !=null) {
+            document.getElementById("signupButton").style.width = "25.5%";
+        }
+        if (document.getElementById('emailBlock') !=null) {
+            document.getElementById("emailBlock").style.float = "left";
+        }
+        if (document.getElementById('signupButton') !=null) {
+            document.getElementById("signupButton").style.float = "left";
+        }
+	}
+	if (docMode == "7"){
+        if (document.getElementById('emailBlock') !=null) {
+            document.getElementById("emailBlock").style.width = "58.4%";
+        }
+        if (document.getElementById('signupButton') !=null) {
+            document.getElementById("signupButton").style.width = "25.5%";
+        }
+        if (document.getElementById('emailBlock') !=null) {
+            document.getElementById("emailBlock").style.float = "left";
+        }
+        if (document.getElementById('signupButton') !=null) {
+            document.getElementById("signupButton").style.float = "left";
+        }
+        if (document.getElementById('emailBlock') !=null) {
+            document.getElementById("emailBlock").style.paddingLeft  = "30px";
+        }
+	}
+</script>
+</body>
+</html>
+

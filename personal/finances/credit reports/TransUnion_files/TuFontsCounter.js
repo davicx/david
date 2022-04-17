@@ -1,0 +1,1 @@
+var protocol=document.location.protocol;"https:"!=protocol&&(protocol="http:");var count=document.createElement("script");count.type="text/javascript";count.async=!0;count.src=protocol+"//hello.myfonts.net/count/2ca963";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(count,s);

@@ -1,0 +1,515 @@
+June 1
+162.3
+Gem
+
+May 31
+161.7
+Gem
+
+May 30
+162.2
+Gem
+
+May 29
+161.8
+Gem
+
+May 27
+162.7
+Gem
+
+May 26
+163.1
+Gem
+
+May 25
+163.1
+Gem
+
+May 24
+162.5
+Gem
+
+May 23
+162.6
+Gem
+
+May 22
+162.5
+Gem
+
+May 21
+162.6
+Gem
+
+May 20
+162.7
+Gem
+
+May 19
+163.4
+Gem
+
+May 18
+162.7
+Gem
+
+May 17
+162.3
+Gem
+
+May 16
+163.3
+Gem
+
+May 15
+162.7
+Gem
+
+May 14
+163
+Gem
+
+May 13
+162.8
+Gem
+
+May 12
+162.7
+Gem
+
+May 11
+162.7
+Gem
+
+May 10
+163
+Gem
+
+May 9
+162
+Gem 164.4
+
+May 8
+161.5
+Gem 163.6
+
+May 7
+162.9
+Gem
+
+May 6
+162.3
+Gem
+
+May 5
+162.1
+Gem
+
+May 4
+162.7
+Gem
+
+May 3
+162.5
+Gem
+
+May 2
+162.7
+Gem
+
+May 1
+162.4
+Gem
+
+April 29
+162.2
+Gem
+
+April 28
+163.3
+Gem
+
+April 27
+162.9
+Gem
+
+April 26
+163.2
+Gem
+
+April 25
+162.3
+Gem
+
+April 24
+162.8
+Gem
+
+April 23
+162.7
+Gem
+
+April 22
+162.5
+Gem
+
+April 21
+163
+Gem
+
+April 20
+163
+Gem
+
+April 19
+162.9
+Gem
+
+April 18
+163.4
+Gem 165.2
+
+April 17
+161.8
+Gem 163.8
+
+April 8
+162.7
+Gem
+
+April 7
+162.4
+Gem
+
+April 6
+162.3
+Gem
+
+April 5
+161.7
+Gem
+
+April 3
+161.3
+Gem 163.2
+
+April 2
+162.1
+Gem
+
+April 1
+161.8
+Gem
+
+March 31
+161.6
+Gem
+
+March 30
+162
+Gem 164.4
+
+March 29
+161.5
+Gem
+
+March 28
+161.4
+Gem 163.6
+
+March 27
+161.9
+Gem
+
+March 26
+161.5
+Gem
+
+March 25
+161.8
+Gem
+
+March 24
+162
+Gem 164.3
+
+March 23
+162.1
+Gem 164.4
+
+March 22
+161.7
+Gem 164
+
+March 21
+162.2
+Gem
+
+March 20
+162.6
+Gem
+
+March 19
+162.7
+Gem
+
+March 18
+162.7
+Gem
+
+March 17
+163.2
+Gem
+
+March 16
+163.1
+Gem
+
+March 15
+163.8
+Gem
+
+March 14
+162.8
+Gem
+
+March 13
+162.6
+Gem
+
+March 12
+162.9
+Gem
+
+March 11
+163.4
+Gem
+
+March 10
+163.8
+Gem
+
+March 8
+162.5
+Gem
+
+March 7
+163.1
+Gem
+
+March 6
+163.2
+Gem
+
+March 5
+163
+Gem
+
+March 4
+163
+Gem
+
+March 3
+163.4
+Gem
+
+March 2
+163.7
+Gem
+
+March 1
+163.1
+Gem
+
+February 28
+162.4
+Gem
+
+February 27
+162.8
+Gem
+
+February 17
+161.4
+Gem
+
+February 17
+161.7
+Gem
+
+February 16
+161.9
+Gem
+
+February 15
+161.4
+Gem
+
+February 16
+161.9
+Gem
+
+February 15
+161.4
+Gem
+
+February 14
+160.4
+Gem 162.8
+
+February 13
+161.7
+Gem
+
+February 12
+161.9
+Gem
+
+February 11
+162
+Gem
+
+February 10
+161.7
+Gem
+
+February 9
+161.9
+Gem
+
+February 8
+161.5
+Gem
+
+February 7
+161.7
+Gem
+
+February 5
+161.4
+Gem 163.8
+
+February 4
+161.2
+Gem
+
+February 2
+161.8
+Gem
+
+January 31
+161.3
+Gem
+
+January 30
+161.2
+Gem 163.4
+
+January 29
+161.3
+Gem 163.6
+
+January 28
+162.3
+Gem
+
+January 27
+161.7
+Gem 164
+
+January 26
+162.1
+Gem
+
+January 25
+162
+Gem
+
+January 24
+161.8
+Gem
+
+January 23
+161.3
+Gem 163.4
+
+January 22
+162.2
+Gem
+
+January 21
+162.2
+Gem
+
+January 20
+161.9
+Gem 164
+
+January 19
+162.4
+Gem
+
+January 18
+162.5
+Gem
+
+January 17
+162.3
+Gem
+
+January 16
+162.6
+Gem
+
+January 15
+163
+Gem
+
+January 14
+163.9
+Gem
+
+January 13
+163.9
+Gem
+
+January 12
+163.8
+Gem
+
+January 11
+163.3
+Gem
+
+January 10
+164.1
+Gem
+
+January 9
+163.3
+Gem
+
+January 7
+163.3
+Gem
+
+January 6
+163.9
+Gem
+
+January 4
+163.6
+Gem 165.6
+
+January 3
+163.4
+Gem
+
+January 2
+162.9
+Gem 165
+
+January 1
+163.4
+Gem 165.4

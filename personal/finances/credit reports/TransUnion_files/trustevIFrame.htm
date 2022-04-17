@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head>
+<body>
+<script>
+    var TrustevIFrameV2 = TrustevIFrameV2 || (function() {
+        
+        return{
+            Init:function(){
+                IFrameMessageManager.Init(window, 'message');
+            }
+        }
+    })();
+
+    var IFrameMessageManager = IFrameMessageManager || (function () {
+        messageIdentifier = 'TrustevIFrameMessage';
+        iFrameListener = function(event) {
+            if(event.data && event.data.identifier === 'TrustevIFrameMessage'){
+                switch(event.data.type){
+                    case 'IFrame_Evercookie_Get_Init':
+                        var evercookieIdKey = event.data.evercookieIdKey; 
+                        QuickStorageManager.Get(evercookieIdKey, function(evercookie){
+                            var message = {}
+                            message.type = 'IFrame_Evercookie_Get_Result'
+                            message.evercookie = evercookie;
+                            IFrameMessageManager.Send(message);
+                        });
+                        break;
+                    case 'IFrame_Evercookie_Set_Init':
+                        var evercookieIdKey = event.data.evercookieIdKey; 
+                        var evercookieId = event.data.evercookieId; 
+                        QuickStorageManager.Set(evercookieIdKey, evercookieId, function(){
+                            var message = {}
+                            message.type = 'IFrame_Evercookie_Set_Result'
+                            IFrameMessageManager.Send(message);
+                        });
+                        break;
+                    default:
+                        TrustevLogger.LogMessage('Unrecognized iframe message type');
+                        break;
+                }
+            }
+        };
+        return{
+            Init:function(obj, evt){
+                if ('addEventListener' in obj) {
+                    obj.addEventListener(evt, iFrameListener, false);
+                } else if ('attachEvent' in obj) { //IE
+                    obj.attachEvent('on' + evt, iFrameListener);
+                }
+            },
+            Send:function(message){
+                message.identifier = messageIdentifier;
+                parent.postMessage(message, "*");
+            }
+        }
+    }());
+
+    var SessionStorageManager = SessionStorageManager || (function () {
+        sessionStorage = window.sessionStorage;
+
+        return{
+            Get:function(evercookieIdKey, callback){
+                var evercookie = {}
+                evercookie.source = "sessionstorage";
+                try {
+                    if (sessionStorage) {
+                        var originalValue = sessionStorage.getItem(evercookieIdKey);
+                        if (originalValue !== undefined && originalValue !== null)
+                            evercookie.id = originalValue;
+                    }
+                } catch (e) {
+                    TrustevLogger.LogMessage("evercookie_session_storage - error: " + e.message + "; " + e.description);
+                }
+                callback(evercookie);
+            },
+            Set:function(evercookieIdKey, evercookieId, callback){
+                sessionStorage.setItem(evercookieIdKey, evercookieId);
+                callback();
+            }
+        }
+    }());
+
+    var LocalStorageManager = LocalStorageManager || (function () {
+        localStorage = window.localStorage;
+
+        return{
+            Get:function(evercookieIdKey, callback){
+                var evercookie = {};
+                evercookie.source = "localstorage";;
+                
+                try {
+                    if (localStorage) {
+                        var originalValue = localStorage.getItem(evercookieIdKey);
+                        if (originalValue !== undefined && originalValue !== null)
+                            evercookie.id = originalValue;
+                    }
+                } catch (e) {
+                    TrustevLogger.LogMessage("evercookie_local_storage - error: " + e.message + "; " + e.description);
+                }
+
+                callback(evercookie);
+            },
+            Set:function(evercookieIdKey, evercookieId, callback){
+                localStorage.setItem(evercookieIdKey, evercookieId);
+                callback();
+            }
+        }
+    }());
+
+    var GlobalStorageManager = GlobalStorageManager || (function () {
+        globalStorage = window.globalStorage;
+        host = window.location.host.replace(/:\d+/, '');
+
+        return{
+            Get:function(evercookieIdKey, callback){
+                var evercookie = {}
+                evercookie.source = 'globalstorage';
+
+                if (globalStorage) {
+                    globalStorageEvercookie.id = 'h1';
+                    var originalValue = globalStorage[host][evercookieIdKey];
+                    if (originalValue !== undefined && originalValue !== null)
+                        evercookie.id = originalValue;
+                }
+                callback(evercookie);
+            },
+            Set:function(evercookieIdKey, evercookieId, callback){
+                if (globalStorage)
+                    globalStorage[host][evercookieIdKey] = evercookieId;
+                callback();
+            }
+        }
+    }());
+
+    var QuickStorageManager = QuickStorageManager || (function () {
+        isSetCallbackExecuted = false;
+        quickStorageManagers = [LocalStorageManager, SessionStorageManager, GlobalStorageManager];
+
+        return{
+            Get:function(evercookieIdKey, callback){
+                var callbackCount = 0;
+
+                for(var i = 0;i<quickStorageManagers.length;i++)
+                {
+                    quickStorageManagers[i].Get(evercookieIdKey, function(evercookie){
+                        if (evercookie.id && !isSetCallbackExecuted) {
+                            TrustevLogger.LogMessage('QuickStorageManager-Get : Found evercookie : ' + JSON.stringify(evercookie));
+                            isSetCallbackExecuted = true;
+                            callback(evercookie);
+                        }
+
+                        if(++callbackCount == quickStorageManagers.length) {
+                            if (!isSetCallbackExecuted)
+                                callback(evercookie);
+
+                            isSetCallbackExecuted = false;
+                        }
+                            
+                    });
+                }
+            },
+            Set:function(evercookieIdKey, evercookieId, callback){
+                TrustevLogger.LogMessage('QuickStorageManager-Set : Key ' + evercookieIdKey + ', Id : ' + evercookieId);
+                var callbackCount = 0;
+
+                for(var i = 0;i<quickStorageManagers.length;i++){
+                    quickStorageManagers[i].Set(evercookieIdKey, evercookieId, function(evercookie){
+                        if(++callbackCount === quickStorageManagers.length)
+                            callback();
+                    });
+                }
+            }
+        }
+    }());
+
+    var TrustevLogger = TrustevLogger || (function () {
+        isLoggingEnabled = false;
+        return {
+            LogMessage: function (message) {
+                if (isLoggingEnabled)
+                    console.log((new Date().getTime()) + ' : ' + message);
+            }
+        }
+    }());
+
+    TrustevIFrameV2.Init();
+</script>
+
+</body></html>

@@ -1,0 +1,82 @@
+body { font-family: "arial","helvetica", sans-serif; font-size:16px; color:#000000; }
+a:link { color: #005B88 }
+a:visited { color: #000000 }
+#a:active { color: #FF9900 }
+#a:hover { color: #FF9900 }
+.text { font-family: "arial","helvetica", sans-serif; font-size:13px; color:#000000; }
+.texttwelve { font-family: "arial","helvetica", sans-serif; font-size:12px; color:#000000; }
+.offertext { font-family: "arial","helvetica", sans-serif; font-size:12px; color:#000000; }
+.smallGrayText { font-family: "arial","helvetica", sans-serif; font-size:11px; color:#999999; }
+.title { font-family: "arial","helvetica", sans-serif; font-size:18px; color:#333333; font-weight:700; margin-bottom: .1em;}
+.redTitle { font-family: "arial","helvetica", sans-serif; font-size:18px; color: #FF0000; }
+.subTitle { font-family: "arial","helvetica", sans-serif; font-size:11px; color:#333333; font-weight:700; margin-bottom: .1em;}
+.topicTitle { font-family: "arial","helvetica", sans-serif; font-size:10px; color:#FFFFFF; font-weight:700; }
+.subText { font-family: "arial","helvetica", sans-serif; font-size:11px; color:#000000; }
+.errorTitle { font-family: "arial","helvetica", sans-serif; font-size: 20px; color: #CC0000; }
+.errorText { font-family: "arial","helvetica", sans-serif; font-size: 10px; color: #CC0000; }
+#errorBorder { border-color: #000000; border-width: 2px; border-style: solid; width: 550px; padding: 15px;}
+#specialCharactersBorder { border-color: #000000; border-width: 1px; border-style: solid; width: 620px; padding:5px;}
+.copyWriteText {font-family: "arial", sans-serif; font-size:11px; color:#CCCCCC; }
+.footerText { font-family: "arial","helvetica", sans-serif; font-size:11px; color:#CCCCCC; }
+.smallText { font-family: "arial","helvetica", sans-serif; font-size:11px; color:#999999; }
+.promoText { font-family: "arial","helvetica", sans-serif; font-size: 12px; color: #000000; }
+.smallPromoText { font-family: "arial","helvetica", sans-serif; font-size: 8pt; color: #000000; }
+.readMoreText { font-family: "arial"; font-size:14px; color:#336699; }
+.contactHelpText { font-family: "arial"; font-size:13px; color:#000000; }
+.adServerDisclaimer { font-family: "arial"; font-weight:bold; font-size:11px; color:#006699; }
+.usernamepwdText {font-family: "arial"; font-size:18px; color:#000000; font-weight:bold;}
+
+.veryLargeBlackText {font-family: "arial"; font-size:20px; color:#000000; }
+
+.loginfreeScoreBodyColor {font-family: "arial"; font-size:12px; color:#000000; }
+.loginfreeScoreBodyColor1 {font-family: "arial"; font-size:11px; color:#000000; }
+.loginfreeScoreBodyLink {font-family: "arial"; font-size:12px; color:#006699; }
+.loginfreeScoreBodyLink1 {font-family: "arial"; font-size:10px; color:#666666; }
+
+.closeWindowLink:link { font-family: "arial","helvetica", sans-serif; font-size:13px; color: #0295be }
+.closeWindowLink:visited { font-family: "arial","helvetica", sans-serif; font-size:13px; color: #009966 }
+.closeWindowLink:active { font-family: "arial","helvetica", sans-serif; font-size:13px; color: #FF9900 }
+.closeWindowLink:hover { font-family: "arial","helvetica", sans-serif; font-size:13px; color: #FF9900 }
+
+.cellBack {background-color:#CCCCCC;}
+.cellAltBack {background-color:#CCCCCC;}
+
+.score { font-family: "arial","helvetica", sans-serif; font-size:50px; color:#666666; font-weight:700; }
+.upsellTitle { font-family: "arial","helvetic", sans-serf; font-size:11px; color:#FFFFFF; font-weight:bold;}
+.gcLandingPageText { font-family: "arial"; font-size:12px; color:#000000; }
+.homePageText { font-family: "arial"; font-size:11px; color:#000000; }
+.greenText { font-family: "arial","helvetic", sans-serf; font-size:14px; color: #009966; }
+.greyBorder { background-color:#818286; }
+.greyBorderBottom { background-color:#999999; }
+.lightGrey { background-color:#EEEEEE; }
+
+.adIslandBanner {background: #FFEBD6;}
+
+.ivErrorTitle {font-family: "arial"; font-size:18px; color:#333333;font-weight:bold; }
+.ivErrorSubTitle {font-family: "arial"; font-size:13px; color:#333333;font-weight:bold; }
+.ivErrorText {font-family: "arial"; font-size:13px; color:#333333; }
+.ivGreenTitle {font-family: "arial"; font-size:18px; color:#089E6B;font-weight:bold; }
+.ivGreenSubTitle {font-family: "arial"; font-size:13px; color:#089E6B;font-weight:bold; }
+.ivGreyTitle {font-family: "arial"; font-size:18px; color:#818286;font-weight:bold; }
+.ivGreySubTitle {font-family: "arial"; font-size:13px; color:#818286;font-weight:bold; }
+
+.tcMsgPopupGrayTxt {font-family: "arial"; font-size:20px; color:#999999;font-weight:bold; }
+.contentLarge { font-family: arial; font-size: 12px; color: #333333; }
+.interstitialLargeText { font-family: arial; font-size: 12px; color: #333333; }
+.bullets { line-height: 140% }
+
+.noticeText { font-family: "Verdana"; font-size:11px; color:#6B6B6B; font-weight:bold;}
+.classActionText { font-family: "Verdana"; font-size:11px; color:#000000; }
+
+.copyWriteText_WCAG { font-family: "arial", sans-serif; font-size:11px; color:#333333; }
+.footerText_WCAG { font-family: "arial","helvetica", sans-serif; font-size:11px; color:#333333; }
+.savingsSourceLinkText {font-family:arial; font-size:8pt; color:#336666;font-weight:bold;}
+
+.printerFriendly { font-family: "arial","helvetica", sans-serif; font-size:12px; font-weight:bold; }
+.printerSuggest { font-family: "arial","helvetica", sans-serif; font-size:11px; font-weight:normal; font-style:italic; color:#888888; }
+.getScore { font-family: "arial","helvetica", sans-serif; font-size:16px; color:#005B88; }
+.useData { font-family: "arial","helvetica", sans-serif; font-size:10px; color:#888888; font-weight:bold; }
+.important { font-family: "arial","helvetica", sans-serif; font-size:11px; color: #CC0000; }
+
+.agreementUnderline { text-decoration: underline; }
+.agreementGreenText { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#009966; font-weight:bold; }

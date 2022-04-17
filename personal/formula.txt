@@ -1,0 +1,5 @@
+=IF(MOD(ROW(),3)=2,OFFSET($A2,COLUMN()-2,0),"")
+
+
+//Look up rows 
+=IF(MOD(ROWS(B$1:B2)-2,3)=0, ROW(), 0)

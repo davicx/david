@@ -1,0 +1,95 @@
+/*TOC*/
+/*
+Global
+SECTION 1: Main Body, Global Styles and Site Wrapper
+SECTION 2: Header and Navigation Bar 
+SECTION 3: Off Canvas User Profile
+
+Page Specific CSS
+SECTION 4: Login and Registration Page
+SECTION 5: CSS defaults  
+SECTION 6: Old Code  
+SECTION 7: Fonts 
+*/
+
+/****************************************************
+SECTION 1: Main Body, Global Styles and Site Wrapper
+*****************************************************/
+body {
+	background-color: #FAFAFA;
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#site-wrapper {
+	margin: 0px auto 0px auto; 
+	width: 1024px; 
+	min-height: 500px;
+	border: 1px solid black;
+}
+
+
+/****************************************************
+SECTION 2: Header and Navigation Bar 
+*****************************************************/
+header {
+    position:fixed;
+	width: 100%;
+	height: 48px;
+	border: 1px solid green;
+	
+}
+
+/*Navigation Bar*/
+nav {
+    position:fixed;
+	left: 0;
+    right: 0;
+	margin-right: auto;
+    margin-left: auto;
+	width: 1024px; 
+	height: 48px;
+	border: 1px solid blue;
+	background-color: blue;
+}
+
+
+
+/****************************************************
+SECTION 3: Off Canvas User Profile
+*****************************************************/
+
+
+
+/****************************************************
+SECTION 4: Login and Registration Page
+*****************************************************/
+
+
+/****************************************************
+SECTION 5: CSS defaults  
+*****************************************************/
+
+
+/****************************************************
+SECTION 6: Old Code 
+*****************************************************/
+
+/****************************************************
+SECTION 7: Fonts 
+*****************************************************/
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+
+
+
+
+
+
+
+
+

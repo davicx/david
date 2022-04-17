@@ -1,0 +1,516 @@
+/*TOC*/
+/*
+Global
+SECTION 1: Main Body, Global Styles 
+SECTION 2: Site Structure
+
+Header and Navigation 
+SECTION 3A: Header and Navigation Bar 
+
+Page Specific 
+SECTION 4A: Login Page
+SECTION 4B: Registration Page
+SECTION 4C: Reset Username and Password Page
+SECTION 4D: Groups Page
+
+Component Specific
+SECTION 5A: Menu
+SECTION 5B: Individual Group
+
+Appendix
+APPENDIX A: CSS defaults  
+APPENDIX B: Temporary Code that may be used  
+APPENDIX C: Old Code  
+
+*/
+
+/****************************************************
+SECTION 1: Main Body, Global Styles and Site Wrapper
+*****************************************************/
+body {
+	background-color: #FFFFFF;
+}
+
+/****************************************************
+SECTION 2: Site Structure
+*****************************************************/
+#site-wrapper {
+	width: 1240px;
+	overflow: auto;	
+	margin: 0px auto 0px auto;
+	padding-top: 0px;
+	min-height: 600px;
+	border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+	#site-wrapper {
+		width: 100%;
+		overflow: auto;	
+		min-width: 340px;
+	}
+
+} 
+#site-wrapper-spacer {
+	float: left;
+	height: 70px;
+	width: 100%;
+}
+
+#menu-desktop{
+	float: left;
+	width: 25%;
+	border: 1px solid black;
+}
+
+#wall {
+	float: left;
+	width: 74%;
+	overflow: auto;		
+	min-height: 800px;	
+	border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+	#menu-desktop{
+		display: none;
+	}	
+	
+	#wall {
+		width: 100%;
+		margin-left: 0%;	
+	}	
+} 
+
+#groups {
+	float: left;
+	width: 100%;
+	overflow: auto;		
+	min-height: 800px;	
+}
+
+/****************************************************
+SECTION 3A: Header and Navigation Bar
+*****************************************************/
+/* HEADER STRUCTURE */
+header {
+    position:fixed;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 68px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+	z-index: 10;	
+}
+
+#desktop {
+	margin: 0px auto 0px auto;
+	width: 1240px;
+	min-height: 68px;
+	z-index: 100;		
+}
+
+#logo {
+	float: left;
+	width: 20%;
+	height: 68px;	
+}
+
+#search {
+	float: left;
+	width: 30%;
+	height: 68px;		
+}
+
+#icons {
+	float: left;
+	width: 50%;
+	height: 68px;		
+}
+
+#nav-icon {
+	float: left;
+	width: 5%;
+	height: 68px;	
+}
+
+/* LOGO */
+
+/* SEARCH */
+
+/* ICONS */
+
+/* NAVIGATION ICON */
+#desktop-menu-icon-image {
+	margin: 0xp;
+	padding: 0px;
+	margin-left: 16px;
+	margin-top: 18px;
+	height: 28px;	
+	cursor: pointer;
+}
+
+/* Page Specific */
+/****************************************************
+SECTION 4A: Login Page
+*****************************************************/
+/* STRUCTRE */
+#login-area {
+	overflow: auto;
+	width: 40%;
+	border: 1px solid green;
+	margin: 0px auto 0px auto;	
+	margin-top: 200px;	
+}
+
+@media (max-width: 768px) {
+	#login-area {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+/* FORM FIELD INPUTS */
+.login-form-input {
+	width: 80%;
+	margin: 0px;
+	margin-left: 10%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	height: 46px;
+	line-height: 22.4px;
+	background-color: #FAFAFA;
+	border: 1px solid #E3E3E3;
+	padding: 1px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.login-form-button {
+	width: 80%;
+	margin: 0px;
+	margin-left: 10%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	height: 46px;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+}
+
+/* SUCCESS OUTCOME*/
+.login-success-border {
+	border: 2px solid #02B875;	
+	border: 2px solid #5CD177;	
+	border: 2px solid #51A84B;	
+	padding: 0px;	
+}
+
+/* ERROR OUTCOME */
+.login-error-border {
+	border: 2px solid #EE2D3E;	
+	border: 2px solid #FF6666;	
+	border: 2px solid #FF7878;	
+	border: 2px solid #FF7070;	
+	border: 2px solid #FF5555;		
+	padding: 0px;	
+}
+
+.login-error-message {
+	width: 80%;
+	margin: 0px;
+	margin-left: 10%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.login-error-message-text {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #E0245E;
+}
+
+
+/****************************************************
+SECTION 4B: Registration Page
+*****************************************************/
+.registration-area {
+	overflow: auto;
+	width: 40%;
+	border: 1px solid green;
+	margin: 0px auto 0px auto;	
+	margin-top: 200px;	
+}
+
+@media (max-width: 768px) {
+	.registration-area {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+/* RESPONDING TO INVITE */
+/* Response Holder */
+.registration-invite-response-holder {
+	width: 80%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10%;
+}
+	
+/* ERROR MESSAGE */
+.registration-error-holder {
+	width: 80%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10%;	
+}
+
+.registration-error-message-text {
+	margin: 0px;
+	padding: 0px;
+	color: #ED4956;
+}
+
+
+/****************************************************
+SECTION 4C: Reset Username and Password Page
+*****************************************************/
+.reset-password-submit-text {
+	text-align: center;
+}
+
+
+/****************************************************
+SECTION 4D: Groups Page
+*****************************************************/
+#all-groups {
+	float: left;
+	width: 900px;
+	overflow: auto;
+	border: 1px solid black;
+}
+
+/* This would just be used on my wall */
+#group-list {
+	float: left;
+	width: 300px;
+	overflow: auto;
+	border: 1px solid black;
+}
+
+
+/****************************************************
+SECTION 5A: Menu
+*****************************************************/
+
+
+/****************************************************
+SECTION 5B: Individual Group
+*****************************************************/
+/* STRUCTURE */
+.individual-group {
+	float: left;
+	border: 1px solid red;
+	overflow: auto;
+	width: 300px;
+	margin: 0px auto 0px auto;	
+	background-color: white;
+	margin-top: 20px;	
+	margin-left: 40px;	
+}
+
+
+@media (max-width: 768px) {
+	.individual-group {
+		margin: 0px auto 0px auto;
+		margin-top: 20px;
+		margin-bottom: 10px;			
+	
+		width: 80%;
+		max-width: 500px;
+		margin: 0px auto 0px auto;	
+		background-color: green;	
+	
+	}	
+} 
+
+@media (max-width: 468px) {
+	.individual-group {
+		width: 99%;
+		margin: 0px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+} 
+
+
+/****************************************************
+APPENDIX A: CSS defaults  
+*****************************************************/
+/* FONTS */
+.proxima {
+	font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+}
+
+/* DISPLAY */
+.hide {
+	display: none;
+}
+
+/* BACKGROUND */
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+/* POSITION */
+.absolute-position {
+	position: absolute; 
+}
+ 
+.relative {
+	position: relative;
+}
+
+/* BUTTONS */
+/* Blue Button */
+.button-blue {
+	background-color: #1C9BE9;
+	background-color: #128FDC;
+	border-bottom-color: #FFF;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-source: none;
+	border-image-width: 1 1 1 1;
+	border-left-color: #FFF;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: #FFF;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: #FFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: none;
+	border-top-width: 0px;
+	box-sizing: border-box;
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 32px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	min-width: 100px;
+	text-align: center;
+	text-decoration: none;
+	text-decoration-color: #FFF;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	transition-delay: 0s;
+	transition-duration: 0.15s;
+	transition-propertyopacitytransition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+	vertical-aligntop-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+}
+
+.button-blue:hover {
+	background-color: #1C9BE9;
+	color: #FFF;
+	text-decoration: none;
+	text-decoration-color: #FFF;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+}
+
+
+/* CONTAINERS */
+.container-three-left {
+	float: left;
+	width: 33%;
+	overflow: auto;
+}
+
+.container-three-middle {
+	float: left;
+	width: 34%;
+	overflow: auto;	
+}
+
+.container-three-right {
+	float: left;
+	width: 33%;
+	overflow: auto;	
+}
+
+.grid-1-3 {
+	float: left;
+	width: 33%;
+}
+
+.grid-1-2 {
+	float: left;
+	width: 50%;
+}
+
+.uk-grid { 
+	margin-bottom: -10px; 
+}
+
+ 
+/* CENTER */
+.center-outer {
+	width: 100%;
+}
+
+.center-inner {
+	margin: 0px auto 0px auto;
+}
+					
+					
+/****************************************************
+APPENDIX B: Old Code 
+*****************************************************/
+
+/****************************************************
+APPENDIX C: Fonts
+*****************************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'logo';
+    src: url('fonts/Chunk.eot');
+    src: url('fonts/Chunk.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Chunk.woff') format('woff'),
+        url('fonts/Chunk.ttf') format('truetype'),
+        url('fonts/Chunk.svg#Chunkfive') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+

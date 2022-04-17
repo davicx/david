@@ -1,0 +1,626 @@
+a:link                            {color: #005B88;}
+a:visited                         {color: #000000;}
+.bodystyle                        {text:#000000; vLink:#000000; aLink:#ff9900; link:#006699; bgColor:#ffffff; Margin-left:0; Margin-top:0; Margin-bottom:0; margin-width:0; margin-height:0}
+.section                          {width:555px; padding:0px 0px 0px  0px; font-family:arial;word-wrap:break-word;}
+.crTableBackground1               {FONT-SIZE: 9px; COLOR: #000000; LINE-HEIGHT: 11px; FONT-FAMILY: verdana; Margin-top:0.1em; float:left; margin-left:0.05em;}
+.crTableBackground4               {FONT-SIZE: 9px; width:707px; COLOR: #000000; LINE-HEIGHT: 11px; FONT-FAMILY: verdana; Margin-top:0.1em; float:left; margin-left:0.27em; }
+.crTradelineHeaderBackgroundColor {font-size: 9px; color: #000000; font-family: verdana; background-color: #daecfd; border-width:5px; border-color:#daecfd; border-style:solid; float:left;}
+.crTradelineHeadertextColor       {font-size: 9px; width:705px; color: #000000; font-family: verdana; background-color: #daecfd;}
+.crTradelineHeaderBackgroundColor1{font-size: 9px; color: #000000; font-family: verdana; background-color: #daecfd; border-width:5px; border-color:#e1e2e3; border-style:solid; float:left;}
+.crTradelineHeadertextColor1      {font-size: 9px; width:705px; color: #000000; font-family: verdana; background-color: #e1e2e3;}
+.cellAlign1                       {width:22px; float:left; margin-left:6px; margin-right:2px; text-align:center;}
+.cellAlign2                       {width:22px; float:left; margin-left:2px; margin-right:4px; text-align:center;}
+.cellAlign3                       {width:22px; float:left; margin-left:0px; margin-right:5px; text-align:center;}
+.crLightTableBackground           {FONT-SIZE: 9px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff; float:left; width:400px;}
+.sectionAdvttab1                  {width: 625px; float:left;FONT-SIZE: 9px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff;}
+.sectionAdvttab2                  {width: 290; float:right;FONT-SIZE: 9px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff;}
+.sectionCR                        {display:table; width:715px; padding:0px 0px 0px 0px; font-family:verdana; word-wrap:break-word; float:left;}
+.sectionRow                       {display:table-row; width:715px; font-family:verdana; word-wrap:break-word; float:left; vertical-align:text-top; margin-bottom:0.3em; }
+.sectionCRTable                   {width:715px; float:left; font-family:verdana;}
+.sectionHeaderTitleRow            {display:table-row;  width:715px; float:left; font-family:verdana; vertical-align:text-bottom;}
+.header2                          {display:table-cell; width:562px; font-family:verdana; float:left; margin-botton:-0.1em;}
+.sectionHeaderTitleCell3          {display:table-cell; width:710px; font-family:verdana; float:left;}
+.sectionHeaderTitleCell2          {display:table-cell; width:153px; float:right; font-family:verdana; vertical-align:text-bottom;}
+.sectionInnerTable                {display:table; width:344px; height:38px; float:left; font-family:verdana; font-size: 9px; color: #000000; margin-top:0.1em;}
+.sectionOuterRow2                 {display:table-row; width:351px; float:left; font-family:verdana;}
+.sectionInnerCella                {display:table-cell; width:122px; height:20px; float:left; font-family:verdana;}
+.sectionInnerCell1                {display:table-cell; width:125px; float:left; font-family:verdana;}
+.sectionInnerCell2                {display:table-cell; width:178px; float:left; font-family:verdana;}
+.sectionInnerCell3                {display:table-cell; width:275px; float:left; font-family:verdana;}
+.sectionInnerCell4                {display:table-cell; width:275px; float:left; font-family:verdana;}
+.outerTable                       {display:table; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid; border-bottom-width:5px; border-bottom-color:#eeeeee; border-bottom-style:solid; border-top-width:5px; border-top-color:#eeeeee; border-top-style:solid; float:left;}
+.outerTable1                      {display:table; width:708px; float:left;}
+.outerRow                         {display:table-row; width:705px;float:left; font-family:verdana; font-size: 9px; color: #000000;}
+.outerCell1                       {display:table-cell; width:353px; float:left; font-family:verdana; font-size: 9px; color: #000000;}
+.outerCell1a                      {display:table-cell; width:357px; float:left; font-family:verdana; font-size: 9px; color: #000000;}
+.outerCell2                       {display:table-cell; float:left; font-family:verdana; font-size: 9px; color: #000000; font-family: verdana;}
+.innerspace1                      {height:1px; width:708px; float:left; font-size: 4px;}
+.innerspace2                      {width:352px; height:14px; float:left;}
+.hrLine1 			                {float:left;width:708px; border-top:2px solid #000000;height:2px; border-color:#999999;}
+.crNotes                          {display:table-cell; font-size: 9px; color: #000000; font-family: verdana; background-color: #efefef; margin-left:0.5em; margin-top:0.5em; margin-right:0.5em; margin-bottom:0.5em;  float:left;}
+.sectionCRNotes                   {display:table; width:715px; color: #000000; font-family: verdana; background-color: #efefef; border-width:0.5px; border-color:#efefef; border-style:solid; float:left;}
+.sectionCRAddress                 {width:708px; color: #000000; float:left; border-left-width:4px; border-left-color:#efefef; border-left-style:solid; border-bottom-width:5px; border-bottom-color:#efefef; border-bottom-style:solid; border-right-width:4px; border-right-color:#efefef; border-right-style:solid;  float:left;}
+.addressInnerRow                  {display:table-row; width:705px; color: #000000; font-family: verdana; float:left;}
+.addressInnerRow1                 {display:table-row; width:362px; color: #000000; font-family: verdana; float:left;}
+.addressInnerRow2                 {display:table-row; width:342px; color: #000000; font-family: verdana; float:left;}
+.addressInnerCell1a               {display:table-cell; width:359px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.addressInnerCell2                {display:table-cell; height:30px; width:253px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.addressInnerCell3                {display:table-cell; height:30px; width:143px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.addressInnerCell3a               {display:table-cell; width:315px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.addressInnerCell4                {display:table-cell; height:30px; width:172px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.employmentInnerCell1             {display:table-cell; height:13px; width: 100px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.employmentInnerCell2             {display:table-cell; height:13px; width: 229px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.employmentInnerCell3             {display:table-cell; height:13px; width:125px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.employmentInnerCell4             {display:table-cell; height:13px; width: 190px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.crTableSubpressionHeader         {display:table-cell; color: #333333; line-height: 13px; font-family: arial, helvetica, sans-serif; background-color: #ffffff; width:715px; float:left;}
+.crTblRow                         {display:table-row; color: #000000; font-family: verdana; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid;  float:left;}
+.crTblRow1                        {display:table-row; color: #000000; font-family: verdana; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid;  border-bottom-width:5px; border-bottom-color:#eeeeee; border-bottom-style:solid;  float:left;}
+.crTblLeft1                       {display:table-cell; width:213px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTblLeft2a                      {display:table-cell; width:245px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTblLeft4a                      {display:table-cell; width:249px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTableCell                      {display:table-cell; width:715px; color: #000000; font-family: verdana;  float:left;}
+.tableInnerRow                    {display:table-row; width:715px; color: #000000; font-family: verdana; float:left;}
+.crPublicRow1                     {display:table-cell; width:340px; font-size: 9px; color: #000000; font-family: verdana;  float:left; word-wrap:break-word;}
+.crPublicCell                     {display:table-cell; width:180px; font-size: 9px; color: #000000; font-family: verdana;  float:left; word-wrap:break-word;}
+.crPublicCell0                    {display:table-cell; width:150px; font-size: 9px; color: #000000; font-family: verdana;  float:left;}
+.crPublicCell1                    {display:table-cell; width:102px; font-size: 9px; font-family: verdana;  float:left;}
+.crPublicCell2                    {display:table-cell; width:135px; font-size: 9px; font-family: verdana;  float:left;}
+.crPublicCell3                    {display:table-cell; width:100px; font-size: 9px; color: #000000; height:26px; font-family: verdana;  float:left;}
+.crPublicCell4                    {display:table-cell; width:135px; font-size: 9px; color: #000000; height:26px; font-family: verdana;  float:left;}
+.crPublicCell4i                   {display:table-cell; width:135px; font-size: 9px; color: #000000; height:45px; font-family: verdana;  float:left;}
+.crPublicCell5                    {display:table-cell; width:102px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.crPublicCell7                    {display:table-cell; width:100px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.crPublicCell9                    {display:table-cell; width:102px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.crPublicCell10                   {display:table-cell; width:135px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.crPublicCell10t                   {display:table-cell; width:135px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.crPublicCell8                    {display:table-cell; width:135px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.crPublicCell6                    {display:table-cell; width:135px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.crTable1                         {display:table-row; color: #000000; font-family: verdana; float:left; font-size: 9px; color: #000000;  border-width:4px; border-color:#eeeeee; border-style:solid; word-wrap:break-word;}
+.crTableSec                       {display:table-row; width:707px; color: #000000; font-family: verdana; float:left; font-size: 9px; color: #000000;}
+.crTableSec1                      {display:table-row; width:707px; color: #000000; font-family: verdana; float:left; font-size: 9px; color: #000000;  margin-left:0.27em;}
+.bottomtableRow                   {display:table-row; width:700px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crAccountSection                 {display:table; width:715px; font-size: 9px; color: #000000; font-family: verdana; float:left; background-color: #eeeeee;}
+.crAccountRow1                    {display:table; width:715px; font-size: 9px; height:1px; color: #000000; font-family: verdana; float:left; background-color: #eeeeee;}
+.crAccountText                    {font-size: 9px; width:98px; color: #000000; font-family: verdana; height:16px; margin-left:0.4em; float:left;}
+.crAccountText1                   {font-size: 9px; width:88px; color: #000000; font-family: verdana; margin-top:4px; float:left; text-align:center;}
+.crAccountSection1                {display:table-cell; width:110px; font-size: 9px; color: #000000; font-family: verdana; float:left; background-color: #eeeeee;}
+.crAccountSection2                {display:table-cell; width:508px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.AddressLine                      {display:table-cell; width:600px; border-left-width:2px; border-left-color:#808080; border-left-style:solid; float:left;}
+.crTableLeftRightBottom           {border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; border-bottom-width:5px; border-bottom-color:#eeeeee; border-bottom-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid;}
+.textYear                         {font-size:7px; width:17px; float:left;}
+.displayIcon                      {font-size:7px; width:21px; float:left;}
+.headingLevel2                    {font-family: verdana; font-size:2px; vertical-align: text-bottom; margin-bottom: -0.1em;}
+.headingLevel2b                   {display:table; font-family: verdana; font-size:14px; vertical-align: text-bottom;}
+.crSectiontext                    {font-family: verdana; font-size:9px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em;}
+.headingLevel3                    {display:table; font-size: 13px; color: #000000; font-family: verdana; float:left; font-weight:bold; margin-top:0.1em; margin-bottom:0.1em;}
+.headingLevel3a                   {display:table; font-size: 13px; color: #000000; font-family: verdana; float:left; font-weight:bold; margin-top:0.1em; margin-bottom:0.1em; margin-left:5px;}
+.spaceHt8px                       {display:table-cell; height:4px; font-size:4px;}
+.spaceHt2px                       {display:table-cell; height:2px; font-size:2px;}
+.crLightTableBackground1          {display:table; font-size: 9px; font-family: verdana; vertical-align:text-top;}
+.crLightTableBackground3          {display:table; text-align:right; font-size: 9px; font-family: verdana; vertical-align:text-top;}
+.tblLeftside                      {display:table; width:26px; color: #000000; font-family: verdana; float:left;}
+.tbltopside                       {display:table; width:688px; color: #000000; font-family: verdana; float:left;}
+.tblbodyside                      {display:table; width:688px; color: #000000; font-family: verdana; float:left;}
+.tblcapHeader                     {display:table-header-group; width:86px; font-family: "verdana"; color:#333333; float:left; word-wrap:break-word; }
+.tblHeader                        {display:table-cell; width:86px; font-size:9px; font-family: "verdana"; color:#333333; float:left; word-wrap:break-word; border-left-width:1px; border-left-color:#808080; border-left-style:solid;}
+.tblrightside                     {display:table; width:86px; color: #000000; font-family: verdana; float:left;}
+.accountBalanceTable              {display:table; width:715px; font-family: "arial","helvetica", sans-serif; color:#333333; float:left;}
+.accountTableCell3                {display:table; width:85px; font-size:9px; font-family: "verdana"; color:#333333; float:left; background-color:#efefef; word-wrap:break-word; border-left-width:1px; border-left-color:#808080; border-left-style:solid;}
+.accountTableCell4                {display:table; width:85px; font-size:9px; font-family: "verdana"; color:#333333; float:left; word-wrap:break-word; border-left-width:1px; border-left-color:#808080; border-left-style:solid;}
+.accountTableCell1a               {display:table; scope:row; width:26px; font-size:9px; font-family: "verdana"; color:#333333; float:left; background-color:#efefef; word-wrap:break-word;}
+.accountTableCell2a               {display:table; scope:row; width:26px; font-size:9px; font-family: "verdana"; color:#333333; float:left; word-wrap:break-word;}
+.armTblLeft1                      {display:table-cell; width:182px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.armPublicCell1                   {display:table-cell; width:195px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.armPublicCell4                   {display:table-cell; width:141px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.armPublicCell2                   {display:table-cell; width:75px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.armTblLeft2a                     {display:table-cell; width:277px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.armTblLeft4a                     {display:table-cell; width:248px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.armTblRow                        {display:table-row; color: #000000; font-family: verdana; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid; border-bottom-width:4px; border-bottom-color:#eeeeee; border-bottom-style:solid;  float:left;}
+.OtherInformationHeaders          {display:table; width:715px; color: #000000; font-family: verdana; float:left;}
+.borrowerOtherNameRow             {display:table-row; width:709px; color: #000000; font-family: verdana;  float:left;}
+.otherInfoEmptyRow                {display:table-row; font-size:2px; height:2px; width:709px; color: #000000; font-family: verdana;  float:left;}
+.otherPersonalTelephoneRow        {display:table-row; width:709px; color: #000000; font-family: verdana;  float:left;}
+.borrowerOtherNameCell            {display:table-cell; width: 174px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.otherInfoTblLeftRightBottom      {display:table-cell; border-left-width:3px; border-left-color:#efefef; border-left-style:solid; FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; border-bottom-width:5px; border-bottom-color:#efefef; border-bottom-style:solid; border-right-width:3px; border-right-color:#efefef; border-right-style:solid;  float:left;}
+.previousAddressRow               {display:table-row; width:709px; color: #000000; font-family: verdana;  float:left;}
+.previousAddressCell              {display:table-cell; width:174px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.otherPersonalEmploymentRow        {display:table-row; width:709px; color: #000000; font-family: verdana;  float:left;}
+.otherPersonalEmploymentCell       {display:table-cell; width: 175px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.otherInforEmptyTable              {display:table; width:709px; height:10px; color: #000000; font-family: verdana; float:left;}
+.spacerCRGroupDivider              {height:18px;width:710px;float:left}
+.spacerCRGroupDivider2             {height:55px;width:710px;float:left}
+.inquiryCellWhite                  {display:table-cell; width:353px; color: #000000; font-family: verdana; float:left; word-wrap:break-word; background-color:#FFFFFF;}
+.inquiryCellGray                   {display:table-cell; width:353px; color: #000000; font-family: verdana; float:left; word-wrap:break-word; background-color:#E1E2E3;}
+.inquiryInnerRow1                  {display:table-row; width:345px; font-family: verdana; font-size:9px;  float:left;}
+.inquiryInnerCell6                 {display:table-cell; width:195px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCell4                 {display:table-cell; width:140px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCell9                 {display:table-cell; width:340px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCell5                 {display:table-cell; width:8px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCell2                 {display:table-cell; width:350px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCell3                 {display:table-cell; width:353px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left; background-color: #e1e3e2;}
+.inquiryInnerCellLabel             {display:table-cell; width:110px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCellValue             {display:table-cell; width:82px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquirySectionText                {float:left;}
+.inquiryColor                      {background-color:#E1E3E2;}
+.inquiryCellGrayBackGroundColor2   {background-color:#E1E3E2; font-size:9px; width:348px; word-wrap:break-word; float:left; }
+.inquiryRequest1                   {display:table-cell; width:320px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryHeading3                   {display:table; width:315px; font-size:11px; color: #000000; font-family: verdana; float:left;  margin-top:0.4em; margin-left:0.25em; margin-bottom:0.1em;}
+.inquiryHeading3d                  {display:table; width:345px; margin-left:0.3em; float:left;}
+.inquiryHeading3a                  {display:table; width:340px; font-size:11px; color: #000000; font-family: verdana; float:left; background-color:#E1E3E2; margin-top:0.4em; margin-bottom:0.1em;margin-left:0.25em;}
+.inquiryHeading3e                  {display:table; width:345px; margin-left:0.3em; float:left;}
+.crTableCellRow                    {display:table-cell; float:left; width:706px;}
+.inquiryTableLeftRightBottom       {display:table-cell; color: #000000; font-family: verdana; border-left-width:5px; border-left-color:#E1E3E2; border-left-style:solid; border-bottom-width:4px; border-bottom-color:#E1E3E2; border-bottom-style:solid; border-right-width:4px; border-right-color:#E1E3E2; border-right-style:solid; float:left;}
+.clearImage                        {display:table; height:1px; word-wrap:break-word;  float:left;}
+.header3                          {display:table; color: #000000; font-family: verdana; float:left; font-weight:bold;}
+.fieldText                         {font-size: 9px; color: #000000; font-family: verdana;}
+.csWidth{width:567px;}
+.vsText {font-family: arial, geneva, sans-serif; font-size:13px; color:#333333; float:left;}
+.vsSubText {font-family: arial, geneva, sans-serif; font-size:11px; color:#333333; float:left; width:567px;}
+.vsSubText2{font-family: arial, geneva, sans-serif; font-size:11px; color:#333333; float:left; width:567px; margin-bottom:0.1em;}
+.grayBorder {background-color:#818286; line-height:2px; width:567px; float:left; margin-bottom:5px;}
+.imgRight                      {width:5px;float:right;}
+.imgRight1                     {display:table; float:left;}
+.sectionCSTitleRow             {display:table; width:567px; float:left;}
+.classHeader                   {height:20px; float:left; background-color:#525252; }
+.csHeader2                     {display:table; float:left; margin-top:-0.1em;}
+.spacerCRGroupDivider1         {height:18px;width:567px;float:left;}
+.spacerCRGroupDivider2         {height:45px; width:567px; float:left;}
+.spacerCRGroupDivider3         {height:30px; width:567px; float:left;}
+.lightGrey                     {background-color: #EEEEEE; width:567px; float:left;}
+.csHeader3                     {display:table; float:left; margin-bottom:0.1em;}
+.csFactorCode                  {display:table; font-weight:bold; float:left;}
+.csFactortext                  {font-family: arial, geneva, sans-serif; font-size:12px; float:left; margin-left:1.2em; margin-right:2em;}
+.factorSection                 {display:table; margin-left:0.3em; margin-right:-0.5em; float:left;}
+.Header1Section                {display:table; width:567px; float:left;}
+.header1                       {font-family: arial,helvetica, sans-serif; font-size:18px; color:#333333; font-weight:700; margin-bottom: -0.1em; margin-top: -0.1em; float:left;}
+.subTitleVantage               {font-family: arial,helvetica, sans-serif; font-size:11px; color:#333333; margin-bottom: 0.1em; float:left; width:567px;}
+.csSection                     {display:table; width:567px; float:left;}
+.csTitle                       {height:25px; float:left; background-color:#4c95b8; }
+.sectionCSTitleRow1            {width:195px; float:left; height:20px;}
+.csSubHeader                   {width:567px; float:left; height:20px; background-color:#525252; color: #FFFFFF; font-weight:bold; text-align:center; font-family: "arial","helvetic", sans-serf; font-size:12px;}
+.csSubHeader1                  {width:189px; float:left; padding:4px 0px 0px 0px; vertical-align:text-bottom; color:#ffffff;}
+.csSubHeader2                  {width:184px; float:left; padding:4px 0px 0px 0px; vertical-align:text-bottom; color:#ffffff;}
+.csSubBody                     {display:table; width:567px; float:left; background-color:#EEEEEE; text-align:center; }
+.csSubBody1                    {width:189px; float:left; padding:0px 0px 0px 0px; text-align:center;  border-right-width:2px; border-right-style:solid; border-right-color: #808080;}
+.csSubBody2                    {width:181px; float:left; padding:0px 0px 0px 0px; text-align:center;}
+.emptyText                     {width:189px; margin-top:0.1px; margin-bottom:-5px; float:left;}
+.scoreText                     {font-family: arial, geneva, sans-serif; font-size:11px; color:#333333; text-align:center;}
+.gradeText                     {font-family: arial, geneva, sans-serif; font-size:11px; height:14px; color:#333333; text-align:center;}
+.scoreText1                    {font-family: arial, geneva, sans-serif; font-size:11px; height:12px; color:#333333; text-align:center; float:left; vertical-align:text-bottom;}
+.bigBlueText                   {font-family: "arial","helvetic", sans-serf; font-size:30px; height:34px; font-weight:bold; color: #006699; text-align:center;}
+.vsErrorText                   {font-family: "arial","helvetic", sans-serf; font-size:12px; color: #990000; text-align:center;}
+.emptySpaceImage               {}
+.emptySpaceImage1              {width:550px;}
+.AddressLine2                 {display:table-cell; width:560px; float:left;}
+.imgRight2                     {display:table; width:567px; float:left;}
+.imgRgt2                       {display:table; width:567px; text-align:center;}
+.sectionCS                     {display:table; width:567px; font-family:verdana; word-wrap:break-word; margin-left:5px; float:left;}
+.vsSubText1                    {font-family: "arial","helvetica", sans-serif; font-size:13px; color:#333333; float:left; width:567px;}
+.label                         {margin-top:3px; margin-bottom:3px; margin-left:30px;}
+.label1                        {margin-top:9px; margin-bottom:3px; margin-left:10px;}
+.label2                        {margin-top:9px; margin-bottom:3px; margin-left:30px;}
+.label3                        {margin-top:3px; margin-bottom:3px; margin-left:50px;}
+.label4                        {margin-top:3px; margin-bottom:3px; margin-left:75px;}
+.label5                        {margin-top:3px; margin-bottom:3px; margin-left:90px;}
+.innerTable                    {font-family: "arial","helvetica", sans-serif; font-size:12px; width:100%; padding:0; margin:0; float:left;}
+.sectionTable                  {margin-left: 15px; margin-bottom: 1px; margin-right: 2px; margin-top:2px; float:left;}
+.headerSec2                    {display:table; width:567px; font-family: arial,helvetica, sans-serif; font-size:12px; color:#333333; margin-top:-1em;}
+.headerSec3                    {display:table; width:567px; font-family: arial,helvetica, sans-serif; font-size:12px; color:#333333; margin-top:-1.5em;}
+.headerSec4                    {display:table; width:567px; font-family: arial,helvetica, sans-serif; font-size:12px; color:#333333;}
+.AddressLine2                 {display:table-cell; width:560px; float:left;}
+.h1Section{font-face: Arial; font-size:25px;}
+.outerCell3                       {display:table-cell; width:350px; float:left; font-family:verdana; font-size: 9px; color: #000000; font-family: verdana;}
+.outerCell4                       {display:table-cell; float:right; width:354px; font-family:verdana; font-size: 9px; color: #000000; font-family: verdana; border-left-width:2px; border-left-style:solid; border-left-color: #808080;  border-top-width:2px; border-top-style:solid; border-top-color: #808080; margin-top:-10px;}
+.outerCell9                       {display:table-cell; width:353px; float:left; font-family:verdana; font-size: 9px; color: #000000;border-right-width:2px; border-right-style:solid; border-right-color: #808080;}
+.outerCell0                       {display:table-cell; float:left; font-family:verdana; font-size: 9px; color: #000000; font-family: verdana;}
+.prtblRow                        {display:table-row; color: #000000; font-family: verdana; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid; float:left;}
+.crTblLeft2a                      {display:table-cell; width:245px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTblLeft4a                      {display:table-cell; width:249px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crImageText                   {display:table; float:left;}
+#sectionPI1                       {float:left; font-family:verdana; font-size: 9px; font-weight:bold; vertical-align:text-top; color: #000000;}
+#sectionPI2                       {float:left; font-family:verdana; font-size: 9px; vertical-align:text-top; color: #000000; font-weight:normal;}
+#crSectiontext1                   {font-family: verdana; font-size:9px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em; font-weight:bold; vertical-align:text-top;}
+#crSectiontext2                   {font-family: verdana; font-size:9px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em; vertical-align:text-top;}
+#inquiryGray                       {background-color:#E1E3E2; float:left;}
+#fieldImageStyle1                  {background-color:#E1E3E2;}
+#inquiryWhite                      {background-color:#ffffff;}
+#boldedText                         {font-weight:bold; float:left; padding:0px 0px 0px 0px; }
+#specialText                        {font-weight:bold; float:left; word-wrap:break-word; }
+#fieldLabel                         {font-weight:bold; float:left; vertical-align:text-top;}
+#fieldValue                         {}
+#specialNotes                       {}
+#PRAddressValue                     {}
+#PRPhoneValue                       {}
+#crFieldLabel                       {font-weight:bold; float:left; vertical-align:text-top; color: #000000; }
+#crFieldValue                       {color: #000000; }
+#crFieldValue1                      {color: #000000; width:710px;}
+#crCollSuppressHeader               {font-size: 12px; font-weight:bold;}
+#crGranSuppressHeader               {font-size: 12px; font-weight:bold;}
+#crPublSuppressHeader               {font-size: 12px; font-weight:bold;}
+#borrowerOtherNameHeader            {FONT-SIZE: 13px;}
+#previousAddressHeader              {FONT-SIZE: 13px;}
+#otherPersonalTelephoneHeader       {FONT-SIZE: 13px;}
+#otherPersonalEmploymentHeader      {FONT-SIZE: 13px;}
+#borrowerOtherNameTableLeftRightBottom          {width:709px;}
+#previousAddressTableLeftRightBottom            {width:709px;}
+#otherPersonalTelephoneTableLeftRightBottom     {width:709px;}
+#otherPersonalEmploymentTableLeftRightBottom    {width:709px;}
+#header2AdjustableRate             {font-weight:bold;}
+#header2AccountInfo                {font-weight:bold;}
+#header2AdverseAccount             {font-weight:bold;}
+#header2Satisfactory               {font-weight:bold;}
+#header2RegInquiry                 {font-weight:bold;}
+#header2PromoInquiry               {font-weight:bold;}
+#header2AccountRevInquiry          {font-weight:bold;}
+#header2Consumer                   {font-weight:bold;}
+#header2Special                    {font-weight:bold;}
+#header2Accbalance                 {font-weight:bold;}
+#header2Personal                   {font-weight:bold;}
+#header2OtherInfo                  {font-weight:bold;}
+#header2Public                     {font-weight:bold;}
+#header3AccountBalance            {width:715px; font-size: 13px; background-color: #efefef;}
+#header3ARM                       {width:715px; font-size: 13px; background-color: #efefef;}
+#header3CurrentAddress            {font-size: 13px; background-color: #efefef;}
+#header3EmploymentData            {width:708px; font-size: 13px; background-color: #efefef;}
+#header3OtherNames                {width:715px; font-size: 13px; background-color: #efefef;}
+#header3PreviousAddress           {width:715px; font-size: 13px; background-color: #efefef;}
+#header3Telephone                 {width:715px; font-size: 13px; background-color: #efefef;}
+#header3EmploymentReport          {width:715px; font-size: 13px; background-color: #efefef;}
+#header3Collection                {width:715px; font-size: 13px; background-color: #efefef;}
+#header3Adverse                   {width:715px; font-size: 13px; background-color: #efefef;}
+#header3Satisfactory              {width:715px; font-size: 13px; background-color: #efefef;}
+#header3InquiryWhite              {width:350px; font-size: 13px; word-wrap:break-word;}
+#header3InquiryGray               {background-color:#E1E3E2; width:350px; word-wrap:break-word;}
+#header3Public                    {width:715px; background-color: #efefef; font-size: 13px; }
+#sectionDescription               {}
+#fieldImageStyle                  {padding :0px 0px 0px 0px;float:left;}
+#fieldImageStyleReq               {padding :0px 0px 0px 0px;float:center;  background-color: #eeeeee;}
+#ARMAddressValue                    {}
+#ARMPhoneValue                      {}
+#csHeader2Factors              {width:562px; color: #FFFFFF; font-weight:bold; margin-top:0.1em; height:19px; padding:3px 0px 0px 0px; vertical-align:text-bottom; float:left; font-family: arial, helvetica, sans-serif; font-size:12px; }
+#abtTUPCS                      {font-family: arial, geneva, sans-serif; font-size:13px; color:#333333; float:left; font-weight:bold; margin-bottom:0.1em;}
+#csSummary                     {font-family: arial, geneva, sans-serif; font-size:13px; color:#333333; float:left; font-weight:bold; margin-bottom:0.1em;}
+#csQA                          {font-family: arial, geneva, sans-serif; font-size:13px; color:#333333; float:left; font-weight:bold; margin-bottom:0.1em;}
+#csAI                          {font-family: arial, geneva, sans-serif; font-size:13px; color:#333333; float:left; font-weight:bold; margin-bottom:0.1em;}
+#csFactorH3                    {float:left; font-family: arial, helvetica, sans-serif; font-size:13px; word-wrap:break-word; width:550px; padding-left: 1em; text-indent: -1em; margin-top:0.1em;}
+#csQAH3                        {float:left; width:567px; font-family: arial, geneva, sans-serif; font-size:13px; color:#333333; font-weight:bold; margin-top:0.1em;}
+#csHeader2Title                {width:190px; height:25px; color: #FFFFFF; font-weight:bold; margin-top:0.1em; height:19px; padding:3px 0px 0px 0px; vertical-align:text-bottom; float:left; font-family: "arial","helvetic", sans-serif; font-size:12px;}
+#vsErrorText1                  {font-weight:bold; margin-bottom:0.1em;}
+#vsErrorText2                  {}
+#centerText                    {text-align:center;}
+#crFieldLabel2                 {font-weight:bold; float:left; vertical-align:text-top; color: #000000; float:left;}
+#crFieldValue2                 {color: #000000; float:left;}
+#crFieldLabel3                 {font-weight:bold; float:left; vertical-align:text-top; color: #000000; float:left; margin-top:-0.5em;}
+#crFieldValue3                 {color: #000000; float:left; margin-top:-0.5em;}
+#rightCell2                    {margin-top:1em; margin-bottom:-0.5em;}
+#rightCell1                    {margin-bottom:-0.2em;}
+#leftMargin                    {margin-left:-15px;}
+#csAddtionalInformation {}
+#csQuestionAnswer {}
+#AbtCreditScore{}
+#scoreHeadings {font-weight:bold;}
+#QAHeadings {font-weight:bold;}
+#ABTCreditScoreHeadings{font-weight:bold;}
+#grayscale {}
+.spacerCRGroupDivider4             {height:55px;width:710px;float:left}
+#CSAdvt     {width:567px; float:left;}
+.outerTableBorr               {display:table; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid; border-bottom-width:5px; border-bottom-color:#eeeeee; border-bottom-style:solid; border-top-width:5px; border-top-color:#eeeeee; border-top-style:solid; float:left;}
+.scoreTexts                    {font-family: arial, geneva, sans-serif; font-size:11px; color:#333333; text-align:center; margin-left:2em; margin-right:2em;}
+#crFieldLabel1                {font-weight:bold; text-align:center; vertical-align:text-top; color: #000000; }
+#crFieldValue6                {color: #000000; text-align:center;}
+.crAccountText2               {font-size: 9px; width:98px; color: #000000; font-family: verdana; height:16px; margin-left:1.2em; float:center;}
+.gradeText                     {font-family: arial, geneva, sans-serif; font-size:11px; height:14px; color:#333333; text-align:center;}
+
+
+
+
+.sectionReq                       {width:715px; padding:0px 0px 0px  0px; font-family:arial;word-wrap:break-word; background-color: #daecfd;}
+.sectionReqa                      {width:715px; padding:0px 0px 0px  0px; font-family:arial;word-wrap:break-word; background-color: #e1e2e3;}
+.spaceRow                  {width: 10px}
+.crTradelineHeaderBackgroundReq   {font-size: 9px;width:347px; color: #000000; font-family: verdana; marginfloat:left;}
+.crTradelineHeaderBackgroundReq1  {font-size: 9px;width:358px; height:70px; color: #000000; font-family: verdana; background-color: #e1e2e3; float:left;}
+.crTradelineHeaderBackgroundReq2  {font-size: 9px;width:357px; height:70px; color: #000000; font-family: verdana; background-color: #daecfd; float:left;}
+.crTradelineHeadertextColorReq    {font-size: 9px; padding:4px 4px 4px 4px; width:345px; color: #000000; font-family: verdana; float:left;}
+.crTradelineHeadertextColorReq1   {font-size: 9px; width:345px; color: #000000; font-family: verdana;background-color: #daecfd;float:left;}
+#otherNamesSection		      {float:left;}
+.hrLine 			      {float:left;width:344px; border-top:2px solid #000000;height:2px; border-color:#999999;}
+.sectionCRAddress1                {width:344px; color: #000000; float:left; border-left-width:4px; border-left-color:#efefef; border-left-style:solid; border-bottom-width:5px; border-bottom-color:#efefef; border-bottom-style:solid; border-right-width:4px; border-right-color:#efefef; border-right-style:solid;  float:left;}
+.addressInnerCell12               {display:table-cell; width:213px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.addressInnerCell2a               {display:table-cell; height:30px; width:153px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.addressInnerSubRow               {display:table-row; width:342px; color: #000000; font-family: verdana; float:left;}
+.addressInnerSubRow1              {display:table-row; width:342px; color: #000000; font-family: verdana; float:left;}
+.employmentInnerCell1             {display:table-cell; height:13px; width: 90px; color: #000000; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.employmentInnerCell1Req          {display:table-cell; height:13px; width:122px; color: #000000; font-family: verdana; font-size: 9px; Margin-left:0.2em; float:left;}
+.spacerCRGroupDivider             {height:18px;width:709px;float:left;}
+.spacerCRGroupDiv                 {height:18px;width:706px;float:left;}
+.inquiryCellWhiteReq              {display:table-cell; width:700px; color: #000000; font-family: verdana; float:left; word-wrap:break-word; background-color:#FFFFFF;}
+.inquiryCellWhiteReqb             {display:table-cell; width:706px; font-family: verdana; float:left; word-wrap:break-word; border-top-width:4px;border-top-color:#E1E3E2;border-top-style:solid; }
+.inquiryCellGrayReq               {display:table-row; width:706px; color: #000000; font-family: verdana; float:left; word-wrap:break-word; background-color:#E1E2E3;}
+.inquirySectionTextReq            {width:715px;border-left-width:5px; border-left-color:#E1E3E2; border-left-style:solid; border-bottom-width:4px;border-bottom-color:#E1E3E2; border-bottom-style:solid;border-top-width:4px;border-top-color:#E1E3E2;border-top-style:solid; border-right-width:4px; border-right-color:#E1E3E2; border-right-style:solid;}
+
+.clear                             {display:table; height:3px;width:10px; word-wrap:break-word;  float:left;}
+.clear1                            {height:10px; word-wrap:break-word;  float:left;}
+#header3CurrentAddress1           {width:308px; font-size: 13px; background-color: #efefef;}
+#header3InquiryWhite1            {width:700px; font-size: 13px; word-wrap:break-word;}
+#header3InquiryGray1               {background-color:#E1E3E2; width:700px; word-wrap:break-word;}
+.header3Req                       {display:table; color: #000000; font-family: verdana; float:left;}
+.header31                        {display:table; color: #000000; font-family: verdana; float:left; font-weight:bold;width: 344px;font-size: 13px;background-color: #efefef;}
+.fieldText1                        {font-size: 9px; color: #000000; font-family: verdana;width: 108px}
+#fieldImageStyle                  {padding :0px 0px 0px 0px;float:right;}
+.spacerCRGroupDivider11         {height:8px;width:157px;float:left;}
+.spacerCRGroupDivider2         {height:45px; width:710px; float:left;}
+.addressInnerCell1            {display:table-cell; height:20px; width:125px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.sectionInnerCell2a                {display:table-cell; width:158px; float:right; font-family:verdana;}
+.otherNames                        {width:280px; float:left;}
+.sectionOuterRow1                 {display:table-row; width:351px; float:left; font-family:verdana;}
+.crPublicCell9b                    {display:table-cell; width:120px; font-size: 9px; color: #000000; height:25px; font-family: verdana;  float:left;}
+.crPublicCell9a                    {display:table-cell; width:120px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crTblLeft4b                      {display:table-cell; width:250px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crPublicCell1a                    {display:table-cell; width:120px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crPublicCell10a                   {display:table-cell; width:75px; font-size: 9px; color: #000000; font-family: verdana;  float:left;}
+.crPublicCell2a                    {display:table-cell; width:125px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.armPublicCell1                   {display:table-cell; width:200px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.armPublicCell4                   {display:table-cell; width:145px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.inquiryInnerCell5a               {display:table-cell; width:18px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCell4a               {display:table-cell; width:160px; font-family: verdana; font-size: 9px; Margin-left:0.1em; Margin-top:0.1em; float:left;}
+.inquiryInnerRow1a                {display:table-row; width:240px; font-family: verdana; font-size:9px;  float:left;}
+.inquiryInnerCell6a               {display:table-cell; width:275px; font-family: verdana; Margin-top:0.1em; float:left;}
+.fieldTextInq                    {font-size: 9px; color: #000000; font-family: verdana; width:150px; float:left;}
+.inquiryInnerCellValuea          {display:table-cell; width:150px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryInnerCellValueb          {display:table-cell; width:120px; font-family: verdana; font-size: 9px; Margin-top:0.1em; float:left;}
+.inquiryHeading3dReq             {display:table; margin-left:0.2em; float:left;}
+#header3InquiryWhitea            {width:706px; font-size: 13px; word-wrap:break-word;}
+#header3InquiryGraya             {background-color:#E1E3E2; width:706px; word-wrap:break-word;}
+.inquirySectionTextTopLess       {display:table-cell; width:706px; font-family: verdana; float:left; word-wrap:break-word; border-left-width:5px; border-left-color:#E1E3E2; border-left-style:solid; border-bottom-width:4px;border-bottom-color:#E1E3E2; border-bottom-style:solid;border-right-width:4px; border-right-color:#E1E3E2; border-right-style:solid;}
+#divInquiryAnalysis1             {float:left; width:319px;}
+#divInquiryAnalysis2             {float:right; width:386px;}
+#header3InquiryAnalysisWhitea    {width:275px; font-size: 13px; word-wrap:break-word;}
+.inquiryHeading3                 {display:table; width:275px; font-size:11px; color: #000000; font-family: verdana; float:left;  margin-top:0.4em; margin-left:0.25em; margin-bottom:0.1em;}
+.inquiryCellWhiteReqa            {font-family: verdana; float:left; border-left-width:5px; border-left-color:#E1E3E2; border-left-style:solid; border-bottom-width:4px;border-bottom-color:#E1E3E2; border-bottom-style:solid;border-top-width:5px;border-top-color:#E1E3E2;border-top-style:solid; border-right-width:5px; border-right-color:#E1E3E2; border-right-style:solid;}
+.inquiryCellWhiteReqc            {font-family: verdana; float:left; border-left-width:5px; border-left-color:#E1E3E2; border-left-style:solid; border-bottom-width:4px;border-bottom-color:#E1E3E2; border-bottom-style:solid;border-right-width:5px; border-right-color:#E1E3E2; border-right-style:solid;}
+.inquiryTableLeftRightBottomReq  {display:table; width:710px;}
+#fieldImageStylea                {padding :0px 0px 0px 0px;float:left;}
+.crPublicRow1a                   {display:table-cell; width:340px; font-size: 9px; color: #000000; font-family: verdana;  float:left; margin-top: 5px; word-wrap:break-word;}
+.crPublicCell9PR                 {display:table-cell; width:100px; font-size: 9px; color: #000000; height:36px; font-family: verdana;  float:left;}
+.crPublicCell10PR                {display:table-cell; width:100px; font-size: 9px; color: #000000; height:36px; font-family: verdana;  float:left;}
+.crPublicCell9aPR                {display:table-cell; width:120px; font-size: 9px; height:36px; font-family: verdana;  float:left;}
+.bottomtableRow1                 {display:table-row; font-size: 9px; color: #000000;font-family: verdana;}
+
+.sectionHeaderTitleCell           {width:153px; float:left; font-family:verdana; vertical-align:text-bottom;}
+.sectionInnerCellb                {display:table-cell; width:172px; height:13px; float:left; font-family:verdana;}
+.sectionInnerCellNRV              {display:table-cell; width:195px; height:20px; float:left; font-family:verdana;}
+.sectionInnerCell1a               {display:table-cell; width:100px; float:left; font-family:verdana;}
+.sectionInnerCellSSN              {display:table-cell; width:30px; float:left; font-family:verdana;}
+.sectionTN                        {display:table-cell; width:95px; float:left; font-family:verdana; margin-left:0.3em; font-size: 9px;}
+.employeeCell2                    {display:table-cell; width:150px; float:left; font-family:verdana;}
+.employeeCell3                    {display:table-cell; width:120px; float:left; font-family:verdana;}
+.employeeCell4                    {display:table-cell; width:90px; float:left; font-family:verdana;}
+.employeeCell5                    {display:table-cell; width:100px; float:left; font-family:verdana;}
+.employeeCell6                    {display:table-cell; width:90px; float:left; font-family:verdana;}
+.crTblLeft11                      {display:table-cell; width:700px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.prtblRowk                        {display:table-row; color: #000000; font-family: verdana; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid; float:left;width:707px}
+.addressInnerCell12m              {display:table-cell; width:220px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.sectionFull                      {display:table-cell; width:700px; color: #000000; font-family: verdana; font-size: 9px; float:left;}
+.sectionOuterRowTN1               {display:table-row; width:700px; float:left; font-family:verdana;}
+.pageBreakBefore                  { page-break-before: auto;}
+.pageBreakAfter                   { page-break-after: auto;}
+.crClosingSectiontext             {width:428px; height:50px; font-family: verdana; font-size:12px; font-style:italic; COLOR: #000000; margin-bottom:-0.2em; margin-top:1em; font-weight:bold; vertical-align:text-top;}
+.sinceSection                     {width:240px; float:left; font-family:verdana; font-size: 9px;  margin-top:1em;}
+.header1Personal                  {display:table-cell; width:362px; font-family:verdana; float:left; margin-botton:-0.1em;}
+#crNameSectiontext1               {font-family: verdana; font-size:12px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0em; font-weight:bold; vertical-align:text-top;}
+.sectionNameOuterRow1             {display:table-row; width:700px; float:left; font-family:verdana;}
+.sectionInnerCellNR               {display:table-cell; width:125px; height:20px; float:left; font-family:verdana;}
+#crAddressSectiontext1            {height:20px; font-family: verdana; font-size:12px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em; font-weight:bold; vertical-align:text-top;padding-left:5px}
+.addressLineText                  {font-family: verdana; font-size:9px; height:20px; color:#000000;}
+.addressInnerCell2k               {display:table-cell;color: #000000; font-family: verdana; font-size: 9px; float:left;}
+#crTelephoneSectiontext1          {height:20px; font-family: verdana; font-size:12px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em; font-weight:bold; vertical-align:text-top;padding-left:5px}
+#crEmployeeSectiontext1           {height:20px; font-family: verdana; font-size:12px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em; font-weight:bold; vertical-align:text-top;padding-left:5px}
+.sectionOuterRowEmpHead           {display:table-row; width:708px; float:left; font-family:verdana; font-weight:bold;padding-left:5px}
+.sectionOuterRowEmp               {display:table-row; width:708px; float:left; font-family:verdana;padding-left:5px}
+.employeeCell1                    {display:table-cell; width:140px; float:left; font-family:verdana;}
+#crSectiontext1                   {font-family: verdana; font-size:9px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em; font-weight:bold; vertical-align:text-top;padding-left:5px}
+.headingLevel3b                   {display:table; font-size: 13px; color: #000000; font-family: verdana; float:left; font-weight:normal; margin-top:0.1em; margin-bottom:0.1em; margin-left:5px;}
+.bottomtableRows                  {display:table-row; width:707px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crPublicCell1f                   {display:table-cell; width:80px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crPublicCell2f                   {display:table-cell; width:100px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crPublicCell3f                   {display:table-cell; width:80px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.crPublicCell4f                   {display:table-cell; width:120px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.spacerCRGroupDivider4k           {width:710px;float:left}
+.tableInnerRow1                   {display:table-row; width:700px; color: #000000; font-family: verdana; float:left;}
+
+#crFieldValues                   {font-size: 9px; color: #000000; font-family: verdana; float:right; width:230px;}
+.sectionInnerCellText            {display:table-cell; width:30px; height:15px; float:left; font-family:verdana;}
+.sectionInnerCellText2           {display:table-cell; width:178px; height:15px; float:left; font-family:verdana;}
+#crsFieldValue                   {color: #000000; vertical-align: text-bottom;}
+#crsFieldLabel                   {font-weight:bold; color: #000000; vertical-align: text-bottom;}
+.displayIconText                 {font-size:10px; width:21px; text-align:center; vertical-align: top;}
+.accountBorder                   {border-bottom: #e1e2e3 2px solid; border-left: #e1e2e3 2px solid; border-top: #e1e2e3 2px solid; border-right: #e1e2e3 2px solid;}
+
+.crTableLeft1                    {display:table-cell; width:185px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crAccountCell1                  {display:table-cell; width:122px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crAccountCell3                  {display:table-cell; width:122px; font-size: 9px; color: #000000; height:26px; font-family: verdana;  float:left;}
+.crAccountCell5                  {display:table-cell; width:122px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.crAccountCell2                  {display:table-cell; width:125px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crAccountCell4                  {display:table-cell; width:125px; font-size: 9px; color: #000000; height:26px; font-family: verdana;  float:left;}
+.crAccountCell4i                 {display:table-cell; width:125px; font-size: 9px; color: #000000; height:45px; font-family: verdana;  float:left;}
+.crTableLeft2a                   {display:table-cell; width:250px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.accountBottomtableRow           {display:table-row; width:706px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.accountReportSection            {display:table-row; width:706px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTradelineHeadertextColorReqC3 {font-size: 9px; padding:4px 4px 4px 4px; width:715px; color: #000000; font-family: verdana; float:left;}
+.crTradelineHeaderBackground2C3  {font-size: 9px;width:715px; height:30px; color: #000000; font-family: verdana; background-color: #daecfd; float:left;}
+.crTradelineHeaderBackground1C3  {font-size: 9px;width:715px; height:30px; color: #000000; font-family: verdana; background-color: #e1e2e3; float:left;}
+.crAccountSectionC3              {display:table-cell; width:710px; font-size: 9px; color: #000000; font-family: verdana; float:left;page-break-inside:avoid;}
+.sectionInnerTablek                {display:table; width:344px; height:25px; float:left; font-family:verdana; font-size: 9px; color: #000000; margin-top:0.1em;}
+#crSectiontext2k                   {font-family: verdana; font-size:9px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em;}
+#crSectiontext2n                   {font-family: verdana; font-size:9px; COLOR: #000000; margin-bottom:-0.2em; margin-top:0.2em;width:570px;}
+.crC3ClosingSectiontext              {width:428px; height:50px; font-family: verdana; font-size:11px; font-style:italic; COLOR: #000000; margin-bottom:-0.2em; margin-top:1px; font-weight:bold; vertical-align:text-top;}
+.prtblRowk1                        {display:table-row; color: #000000; font-family: verdana; border-left-width:4px; border-left-color:#eeeeee; border-left-style:solid; border-right-width:4px; border-right-color:#eeeeee; border-right-style:solid; border-bottom-width:4px; border-bottom-color:#eeeeee; border-bottom-style:solid;  float:left;}
+.crTableLeftRightBottomk           {border-left-color:#eeeeee;FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; border-bottom-color:#eeeeee;border-right-color:#eeeeee;}
+.tableInnerRowk                    {display:table-row; width:707px; color: #000000; font-family: verdana; float:left;}
+.headingLevel2                    {font-family: verdana; font-size:2px; vertical-align: text-bottom; margin-bottom: -0.1em;}
+.crPublicCell4j                   {display:table-cell; width:135px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.headingLevelC33a                 {font-size: 13px; color: #000000; font-family: verdana; float:left; font-weight:bold; margin-top:0.1em; margin-bottom:0.1em;}
+.employeeC3Cell1                 {display:table-cell; float:left; font-family:verdana; font-size:9px;}
+.sectionOuterC3RowEmpHead           {width:705px; float:left; font-family:verdana; font-weight:bold; margin-left:5px; margin-bottom:1px;}
+.sectionInnerCell1C3            {display:table-cell; float:left; width:160px; font-family:verdana; font-size:9px;}
+.sectionInnerCell2C3            {display:table-cell; float:left; width:130px; font-family:verdana; font-size:9px;}
+.sectionInnerCell3C3            {display:table-cell; float:left; width:120px; font-family:verdana; font-size:9px;}
+.sectionInnerCell4C3            {display:table-cell; float:left; width:75px; font-family:verdana; font-size:9px;}
+.sectionInnerCell5C3            {display:table-cell; float:left; width:100px; font-family:verdana; font-size:9px;}
+.employeeC3Cell1                 {display:table-cell; float:left; width:160px; font-family:verdana; font-size:9px;}
+.employeeC3Cell2                 {display:table-cell; float:left; width:130px; font-family:verdana; font-size:9px;}
+.employeeC3Cell3                 {display:table-cell; float:left; width:120px; font-family:verdana; font-size:9px;}
+.employeeC3Cell4                 {display:table-cell; float:left; width:75px; font-family:verdana; font-size:9px;}
+.employeeC3Cell5                 {display:table-cell; float:left; width:100px; font-family:verdana; font-size:9px;}
+.Label0BorderTBLR               {background:#58595B; color:#ffffff; border-left: #000000 1px solid; border-top: #000000 1px solid; border-right: #000000 1px solid;}
+.Label1BorderTBLR               {border-left: #000000 1px solid; border-top: #000000 1px solid; border-right: #000000 1px solid;}
+.Label2BorderTBLR               {border-bottom: #000000 1px solid; border-left: #000000 1px solid; border-top: #000000 1px solid; border-right: #000000 1px solid;}
+.Value0BorderTBLR               {background:#58595B; color:#ffffff; border-top: #000000 1px solid; border-right: #000000 1px solid;}
+.Value1BorderTBLR               {border-top: #000000 1px solid; border-right: #000000 1px solid; padding-right: 2px;}
+.Value2BorderTBLR               {border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid;}
+.otherNames                     {width:350px;}
+.fieldFullTextGray              {font-size: 9px; font-family: verdana; color:#ffffff; background: #dcddde; height:18px;}
+.fieldFullTextWhite              {font-size: 9px; font-family: verdana; color:#ffffff; background: #ffffff; height:18px;}
+.fieldACHText                   {font-size: 9px; font-family: verdana; color:#ffffff;}
+.bwRatingText                   {font-size: 10px; font-family: verdana; text-align:center; font-weight:bold; color:#ffffff;}
+.wbRatingText                   {font-size: 10px; font-family: verdana; text-align:center; font-weight:bold; color:#000000;}
+.displayBWIcon                  {background:#000000; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px;}
+.displayWBIcon                  {background:#FFFFFF; color:#000000; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px;}
+
+.displayOKIcon                 {font-size: 10px; font-family: verdana; text-align:center; background:#009966; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display30Icon                 {font-size: 10px; font-family: verdana; text-align:center; background:#ff9900; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display60Icon                 {font-size: 10px; font-family: verdana; text-align:center; background:#ff6600; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display90Icon                 {font-size: 10px; font-family: verdana; text-align:center; background:#ff3300; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display120Icon                {font-size: 10px; font-family: verdana; text-align:center; background:#DE1429; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display150Icon                {font-size: 10px; font-family: verdana; text-align:center; background:#DE1808; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+
+.displayOKBWIcon               {font-size: 10px; font-family: verdana; text-align:center; background:#ffffff; color:#000000; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display30BWIcon               {font-size: 10px; font-family: verdana; text-align:center; background:#B5B6B5; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display60BWIcon               {font-size: 10px; font-family: verdana; text-align:center; background:#9C9A9C; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display90BWIcon               {font-size: 10px; font-family: verdana; text-align:center; background:#636163; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display120BWIcon              {font-size: 10px; font-family: verdana; text-align:center; background:#636563; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+.display150BWIcon              {font-size: 10px; font-family: verdana; text-align:center; background:#848284; color:#ffffff; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; height:18px; font-weight:bold;}
+#accHistHeight                 {height:18px;}
+.Label1BorderTBLRGray          {border-left: #000000 1px solid; background: #dcddde; border-top: #000000 1px solid; border-right: #000000 1px solid;}
+.crAccountTable                {display:table-cell; width:700px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crAccountTable1               {display:table-cell; width:248px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.c3AccountLabel1               {display:table-cell; width:120px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.c3AccountLabel2               {display:table-cell; width:120px; font-size: 9px; color: #000000; height:26px; font-family: verdana;  float:left;}
+.c3AccountLabel3               {display:table-cell; width:80px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.c3AccountLabel4               {display:table-cell; width:80px; font-size: 9px; color: #000000; height:26px; font-family: verdana;  float:left;}
+.c3AccountLabel5               {display:table-cell; width:80px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.c3AccountLabel6               {display:table-cell; width:120px; font-size: 9px; color: #000000; height:40px; font-family: verdana;  float:left;}
+.c3AccountValue1               {display:table-cell; width:100px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.c3AccountValue2               {display:table-cell; width:100px; font-size: 9px; height:26px; font-family: verdana;  float:left;}
+.c3AccountValue3               {display:table-cell; width:100px; font-size: 9px; height:40px; font-family: verdana;  float:left;}
+.c3AccountValue4               {display:table-cell; width:143px; font-size: 9px; height:26px; font-family: verdana;  float:left;}
+.c3AccountValue5               {display:table-cell; width:143px; font-size: 9px; height:40px; font-family: verdana;  float:left;}
+.c3AccountValue6               {display:table-cell; width:225px; font-size: 9px; height:40px; font-family: verdana;  float:left;}
+.crAccountTable2               {display:table-cell; width:250px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crAccountTable3               {display:table-cell; width:224px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.c3AccountLabel7               {display:table-cell; width:80px; font-size: 9px; color: #000000; height:13px; font-family: verdana;  float:left;}
+.c3AccountValue7               {display:table-cell; width:143px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+
+.crTblLeft6a			{display:table-cell; width:245px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTableLeft1j                  {display:table-cell; width:185px; font-size: 9px; color: #000000; font-family: verdana; float:none;}
+.crTableLeft2aj			{display:table-cell; width:215px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crAccountCell1j                {display:table-cell; width:100px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.crAccountCell2j                {display:table-cell; width:105px; font-size: 9px; height:13px; font-family: verdana;  float:left;}
+.accountReportSectionj          {display:table-row; width:710px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.prtblRowj                        {display:table-row; color: #000000; font-family: verdana;float:left;}
+.sinceSectionk                     {width:350px; float:left; font-family:verdana; font-size: 9px;  margin-top:1em;}
+.outerCellk                       {display:table-cell; width:364px; float:left; font-family:verdana; font-size: 9px; color: #000000;}
+#header3Publicj                    {width:715px;font-size: 13px;}
+.crTblRowj                        {display:table-row; color: #000000; font-family: verdana;float:left;}
+.crTablej                         {display:table-row; color: #000000; font-family: verdana; float:left; font-size: 9px; color: #000000;word-wrap:break-word;}
+.armTblRowj                       {display:table-row; color: #000000; font-family: verdana;float:left;}
+.inquiryCellGrayj                   {display:table-cell; width:357px; color: #000000; font-family: verdana; float:left; word-wrap:break-word; background-color:#E1E2E3;}
+.inquiryTableLeftRightBottomj       {display:table-cell; color: #000000; font-family: verdana;float:left;}
+#header3ARMj                      {width:715px; font-size: 13px;}
+#header3InquiryGrayj               {background-color:#E1E3E2; width:713px; word-wrap:break-word;}
+
+#sectionPI3                       {float:left; font-family:verdana; font-size: 9px; margin-bottom:-0.2em; margin-top:0.2em; vertical-align:text-top; color: #000000; font-weight:normal;}
+#header3Adversej                  {width:715px; font-size: 13px;}
+.displayXIconText                 {font-size:10px; width:21px; text-align:center; vertical-align: top; color:#ffffff;}
+.displayBWIconText                 {font-size:10px; width:21px; text-align:center; vertical-align: top; color:#000000;}
+.remarkText                       {font-size: 9px; color: #000000; font-family: verdana; background-color: #EFEFEF; font-weight:bold; text-decoration:underline; margin-top:2px; margin-bottom:1px; margin-left: 4px; margin-right:2px;}
+.remarkDescription                {font-size: 9px; color: #000000; font-family: verdana; background-color: #EFEFEF; margin-left: 4px; margin-right:2px;}
+.crTradelineHeaderC3              {font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.crTradelineRemarkC3              {font-size: 9px; color: #000000; font-family: verdana; float:left; margin-left:2px; margin-right:2px; width:708px;}
+.crTDTradelineRemarkC3            {font-size: 9px; color: #000000; font-family: verdana; }
+.crTradelineSectionC3             {background-color: #EFEFEF; margin-top:-3px; float:left; width:715px;}
+#fieldImageStyleX                 {float:left;}
+.sectionInnerCellSSN4             {margin-left:4px;}
+.headingLevelC3a                   {font-size: 13px; color: #000000; font-family: verdana; float:left; font-weight:bold; margin-top:0.1em; margin-bottom:0.1em; margin-left:0px;}
+.headingLevelC3b                   {font-size: 13px; color: #000000; font-family: verdana; float:left; font-weight:normal; margin-top:0.1em; margin-bottom:0.1em; margin-left:0px;}
+.inquiryHeadingC3A                {display:table; height:13px; width:700px; font-size:11px; color: #000000; font-family: verdana; float:left;  margin-top:0.4em; margin-left:0.25em; margin-bottom:0.1em;}
+.accountReportSectionC3            {display:table-row; width:715px; font-size: 9px; color: #000000; font-family: verdana; float:left;}
+.c3AccountLabel8               {display:table-cell; width:120px; font-size: 9px; color: #000000; height:36px; font-family: verdana;  float:left;}
+.c3AccountValue8               {display:table-cell; width:100px; font-size: 9px; height:36px; font-family: verdana;  float:left;}
+.hrGrayBorder                  {background-color:#818286; border: 1; height:2px; width:567px; float:left; margin-bottom:5px;}
+.crAccountCell4C3               {display:table-cell; width:128px; font-size: 9px; color: #000000;font-family: verdana;  float:left;}
+.c3AccountValue2i               {display:table-cell; width:100px; font-size: 9px; font-family: verdana;  float:left;}
+
+.crAccountCellcn1              {display:table-cell; width:122px; font-size: 9px; font-family: verdana;  float:left;}
+.crAccountCellcn2              {display:table-cell; width:125px; font-size: 9px; font-family: verdana;  float:left;}
+.c3AccountCellcn3              {display:table-cell; width:120px; font-size: 9px; color: #000000; font-family: verdana;  float:left;}
+.c3AccountCellcn4              {display:table-cell; width:100px; font-size: 9px; color: #000000; font-family: verdana;  float:left;}
+.c3AccountValuecn2             {display:table-cell; width:225px; font-size: 9px; font-family: verdana;  float:left;}
+.crTradelineSectionC3a         {background-color:#EFEFEF; float:left; width:715px;}
+.crTradelineSectionC3a         {background-color:#EFEFEF; float:left; width:715px;}
+.introductionDisplayText       {display:block; float:left; margin-left: 1px; font-family: "arial","helvetica", sans-serif; font-size:11px; color:#333333; font-weight:700; }
+.crTopAccountSectionC3         {page-break-inside:avoid;}
+div.dataDisplaySection h3, div.formFieldSection h3 { font-family: Verdana; font-size: 13px; padding: 0px 0px 0px 0px; margin-top: 2px; margin-bottom: 5px; font-weight: bold; margin-left: 0px; margin-right: 0px; float: left; display: block; text-align: left;}
+b {font-weight: bold;}
+span.sectionActions{ display: block; margin-top:-1px; float: right;}
+input.disputeButton{     height: 26px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+	background-repeat: no-repeat;
+	background-position: right;
+    float:right;
+}
+.introBoldText {
+    font-weight: 700;
+}
+DIV.groupArea P { margin-right: 25px; }
+P {
+    line-height: 16px;
+    margin: 0px;
+    padding: 0px 15px 5px 15px;
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+P.copyright {
+    width:270px;
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.crCRS3 {
+    line-height:16px;
+    margin-bottom:-1px;
+    width:725px;
+    float:left;
+}
+.crText {
+    float:left;
+    width:725px;
+    margin-top: -3px;
+}
+div.dataDisplaySection h3, div.formFieldSection h3.inquiryHead{
+    width:353px;
+}
+div.formActionsHorizontal {border-bottom: 1px solid #0295BE; padding: 4px 7px 10px 7px; height: 22px;}
+div.dataDisplaySection { border-top: 0px;}
+div.extraBorder {border-bottom: 1px solid #0295BE; margin-top:20px; margin-bottom:1px;}

@@ -1,0 +1,21 @@
+Project Instructor Phone Interview Questions
+
+General Questions
+1. Why are you interested in applying at OSU?
+2. How does this position fit into your career aspirations?
+
+Teaching Questions
+3. Can you describe a time when you explained a difficult technical concept to students in an ECE/CS class, seminar or mentoring session?
+4. Please give us some examples of instances where you had teaching assistants or engineers under your management. 
+What methods, ideals, or processes did you use and how effective were they?
+5. Please give an example of when you successfully engaged students. What was the measure of 'engagement' you used?
+6. Please provide examples of when you noted a weakness in your teaching and what did you do to correct it?
+7. Please share with us an example of your commitment to promoting and enhancing diversity.
+
+Project Instructor Questions
+8. Share with us an experience with mentoring early career engineers or student groups in engineering.
+9. Can you give us an example of when you acted as a bridge between your institution and industry/other university labs/government agencies?
+10. What are programming tools, frameworks and languages currently in high demand among employers in the software industry? What is your proficiency in them?
+ 
+
+

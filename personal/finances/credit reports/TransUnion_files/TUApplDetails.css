@@ -1,0 +1,2942 @@
+/* DATA/FORM LAYOUT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.dataDisplayArea,
+div.formArea {
+	padding: 5px 0 0 0;
+	display: block;
+}
+
+/* DATA/FORM FIELD LAYOUT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.dataDisplaySection,
+div.formFieldSection {
+	border-top: 1px solid #0295BE;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 5px 0px;
+	clear: none;
+}
+div.dataDisplaySection div.sectionHeaderArea,
+div.dataDisplaySection div.sectionHeaderAreaNoControls,
+div.formFieldSection div.sectionHeaderArea {
+	border-bottom: 1px solid #0295BE;
+	clear: none;
+	display: block;
+	width: 100%;
+	height: 36px;
+}
+body.withContext div.dataDisplaySection div.sectionHeaderArea,
+body.withContext div.dataDisplaySection div.sectionHeaderAreaNoControls,
+body.withContext div.formFieldSection div.sectionHeaderArea,
+div.popupForm div.dataDisplaySection div.sectionHeaderArea,
+div.popupForm div.dataDisplaySection div.sectionHeaderAreaNoControls,
+div.popupForm div.formFieldSection div.sectionHeaderArea {
+}
+div.narrowPopupForm div.dataDisplaySection div.sectionHeaderArea,
+div.narrowPopupForm div.formFieldSection div.sectionHeaderArea {
+}
+
+span.sectionControls,
+span.sectionControlsWithStatus {
+	text-align: left;
+	float: left;
+	display: block;
+	padding: 8px 0px 5px 7px;
+	width: 187px;
+}
+span.sectionControlsWithStatus {
+	width: 18px;
+}
+
+div.dataDisplaySection h3,
+div.formFieldSection h3 {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 13px;
+	padding: 6px 10px 6px 10px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	display: block;
+	text-align: center;
+	width: 481px;
+    text-transform: uppercase;
+}
+body.withContext div.dataDisplaySection h3,
+body.withContext div.formFieldSection h3,
+div.popupForm div.dataDisplaySection h3,
+div.popupForm div.formFieldSection h3 {
+	width: 207px;
+}
+div.narrowPopupForm div.formFieldSection h3 {
+	width: 341px;
+}
+
+div.dataDisplaySection div.sectionHeaderAreaNoControls h3 {
+	width: 100%;
+}
+body.withContext div.dataDisplaySection div.sectionHeaderAreaNoControls h3 {
+	width: 100%;
+}
+div.popupForm div.dataDisplaySection div.sectionHeaderAreaNoControls h3 {
+	width: 100%;
+}
+
+div.dataDisplaySection h3 a,
+div.formFieldSection h3 a {
+    text-decoration: none;
+    border-bottom: 1px solid #0295BE;
+}
+
+span.sectionActions{
+	text-align: right;
+	display: block;
+	padding: 4px 7px 3px 0px;
+	margin-top:2px;
+	float: left;
+	width: 290px;
+}
+span.sectionActions span.actions,
+span.wideGroupActions span.actions {
+	float: right;
+}
+span.sectionActions span.actions a,
+span.wideGroupActions span.actions a {
+    text-decoration: none;
+}
+span.sectionActions span.button,
+span.sectionActions span.buttonWide,
+span.sectionActions span.buttonWidest,
+span.sectionActions span.buttonUpdate,
+span.sectionActions span.buttonMore,
+span.sectionActions span.buttonDisabled,
+span.wideGroupActions span.button {
+	margin-left: 4px;
+}
+
+div.sectionFooterArea span.actions span.action {
+	float: right;
+	display: inline;
+}
+div.sectionFooterArea span.description {
+	float: right;
+	display: inline;
+	margin-right: 3px;
+	padding-top: 2px;
+}
+
+span.sectionStatus {
+	display: block;
+	float: left;
+	width: 165px;
+	padding: 6px 7px 0px 0px;
+}
+span.sectionStatus span.statusIcon {
+	margin-left: 3px;
+}
+
+
+div.sectionFooterArea {
+	clear: none;
+	display: block;
+	width: 885px;
+	padding: 1px 0px 0px 0px;
+	height: 28px;
+	margin-top: 5px;
+}
+div.sectionFooterArea span.sectionActions {
+	width: 878px;
+}
+body.withContext div.sectionFooterArea,
+div.popupForm div.sectionFooterArea {
+	width: 721px;
+}
+div.narrowPopupForm div.sectionFooterArea {
+	width: 361px;
+}
+
+body.withContext div.sectionFooterArea span.sectionActions,
+div.popupForm div.sectionFooterArea span.sectionActions {
+	width: 714px;
+}
+div.narrowPopupForm div.sectionFooterArea span.sectionActions {
+	width: 354px;
+}
+
+span.sectionActions span.links,
+span.wideGroupActions span.links {
+	float: right;
+	display: inline;
+}
+span.sectionActions span.links ul,
+span.wideGroupActions span.links ul {
+	list-style: none;
+}
+span.sectionActions span.links li,
+span.wideGroupActions span.links li {
+	float: left;
+	display: inline;
+	margin: 3px 0px 0px 15px;
+	font-size: 11px;
+}
+span.sectionActions span.links li.first,
+span.wideGroupActions span.links li.first {
+}
+
+div.dataDisplaySection div.introductionArea,
+div.formFieldSection div.introductionArea {
+	padding-top: 10px;
+}
+
+div.dataDisplaySection div.introductionArea p,
+div.formFieldSection div.introductionArea p {
+	font-size: 11px;
+	padding: 0px 15px 5px 15px;
+	margin-right: 165px;
+}
+body.withContext div.dataDisplaySection div.introductionArea p,
+body.withContext div.formFieldSection div.introductionArea p {
+	margin-right: 0px;
+}
+div.dataDisplaySection div.footnoteArea p,
+div.formFieldSection div.footnoteArea p {
+	font-size: 11px;
+	padding: 5px 15px 5px 15px;
+	margin-right: 165px;
+}
+body.withContext div.dataDisplaySection div.footnoteArea p,
+body.withContext div.formFieldSection div.footnoteArea p {
+	margin-right: 0px;
+}
+
+div.dataFields1Column,
+div.dataFields2Columns,
+div.dataFields2ColsNoDiv,
+div.dataFields3Columns,
+div.dataFields3ColsNoDiv,
+div.formFields1Column,
+div.formFields2Columns,
+div.formFields2ColsNoDiv,
+div.formFields3Columns,
+div.formFields3ColsNoDiv,
+div.dataFields4Columns,
+div.dataFields4ColsNoDiv,
+div.formFields4Columns,
+div.formFields4ColsNoDiv,
+div.dataFieldsWideLeftCol,
+div.dataFieldsWideCenterCol {
+    display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 1px;
+}
+
+div.dataFields2Columns,
+div.formFields2Columns {
+	background-image: url("../images/coss/data_fields_background_2columns.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+body.withContext div.dataFields2Columns,
+body.withContext div.formFields2Columns,
+div.popupForm div.dataFields2Columns,
+div.popupForm div.formFields2Columns {
+	background-image: url("../images/coss/data_fields_background_2columns_with_context.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+div.dataFields3Columns,
+div.formFields3Columns {
+	background-image: url("../images/coss/data_fields_background_3columns.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+body.withContext div.dataFields3Columns,
+body.withContext div.formFields3Columns,
+div.popupForm div.dataFields3Columns,
+div.popupForm div.formFields3Columns {
+	background-image: url("../images/coss/data_fields_background_3columns_with_context.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+div.dataFields4Columns,
+div.formFields4Columns {
+	background-image: url("../images/coss/data_fields_background_4columns.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+body.withContext div.dataFields4Columns,
+body.withContext div.formFields4Columns {
+	background-image: url("../images/coss/data_fields_background_4columns_with_context.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+
+div.dataFieldsWideLeftCol {
+	background-image: url("../images/coss/data_fields_background_wideLeftCol.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+div.dataFieldsWideCenterCol {
+	background-image: url("../images/coss/data_fields_background_wideCenterCol.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+
+div.columnArea,
+div.firstColumnArea,
+div.centerColumnArea {
+	float: left;
+	display: block;
+}
+
+div.dataFields1Column div.firstColumnArea,
+div.formFields1Column div.firstColumnArea {
+	width: 883px;
+}
+body.withContext div.dataFields1Column div.firstColumnArea,
+body.withContext div.formFields1Column div.firstColumnArea,
+div.popupForm div.dataFields1Column div.firstColumnArea,
+div.popupForm div.formFields1Column div.firstColumnArea {
+	width: 718px;
+}
+div.narrowPopupForm div.formFields1Column div.firstColumnArea {
+	width: 359px;
+}
+
+div.dataFields2Columns div.firstColumnArea,
+div.formFields2Columns div.firstColumnArea,
+div.dataFields2ColsNoDiv div.firstColumnArea,
+div.formFields2ColsNoDiv div.firstColumnArea {
+	width: 442px;
+}
+div.dataFields2Columns div.columnArea,
+div.formFields2Columns div.columnArea,
+div.dataFields2ColsNoDiv div.columnArea,
+div.formFields2ColsNoDiv div.columnArea {
+	width: 441px;
+}
+body.withContext div.dataFields2Columns div.firstColumnArea,
+body.withContext div.formFields2Columns div.firstColumnArea,
+body.withContext div.dataFields2ColsNoDiv div.firstColumnArea,
+body.withContext div.formFields2ColsNoDiv div.firstColumnArea,
+div.popupForm div.dataFields2Columns div.firstColumnArea,
+div.popupForm div.dataFields2ColsNoDiv div.firstColumnArea,
+div.popupForm div.formFields2Columns div.firstColumnArea,
+div.popupForm div.formFields2ColsNoDiv div.firstColumnArea {
+	width: 359px;
+}
+body.withContext div.dataFields2Columns div.columnArea,
+body.withContext div.formFields2Columns div.columnArea,
+body.withContext div.dataFields2ColsNoDiv div.columnArea,
+body.withContext div.formFields2ColsNoDiv div.columnArea,
+div.popupForm div.dataFields2Columns div.columnArea,
+div.popupForm div.dataFields2ColsNoDiv div.columnArea,
+div.popupForm div.formFields2Columns div.columnArea,
+div.popupForm div.formFields2ColsNoDiv div.columnArea {
+	width: 359px;
+}
+
+div.dataFields3Columns div.firstColumnArea,
+div.dataFields3ColsNoDiv div.firstColumnArea,
+div.formFields3Columns div.firstColumnArea,
+div.formFields3ColsNoDiv div.firstColumnArea {
+	width: 295px;
+}
+div.dataFields3Columns div.columnArea,
+div.dataFields3ColsNoDiv div.columnArea,
+div.formFields3Columns div.columnArea,
+div.formFields3ColsNoDiv div.columnArea,
+div.dataFieldsWideLabel div.columnArea {
+	width: 294px;
+}
+body.withContext div.dataFields3Columns div.firstColumnArea,
+body.withContext div.dataFields3ColsNoDiv div.firstColumnArea,
+body.withContext div.formFields3Columns div.firstColumnArea,
+body.withContext div.formFields3ColsNoDiv div.firstColumnArea,
+div.popupForm div.dataFields3Columns div.firstColumnArea,
+div.popupForm div.formFields3Columns div.firstColumnArea {
+	width: 241px;
+}
+body.withContext div.dataFields3Columns div.columnArea,
+body.withContext div.dataFields3ColsNoDiv div.columnArea,
+body.withContext div.formFields3Columns div.columnArea,
+body.withContext div.formFields3ColsNoDiv div.columnArea,
+div.popupForm  div.dataFields3Columns div.columnArea,
+div.popupForm  div.formFields3Columns div.columnArea {
+	width: 240px;
+}
+
+div.dataFields4Columns div.firstColumnArea,
+div.formFields4Columns div.firstColumnArea,
+div.dataFieldsWideCenterCol div.firstColumnArea {
+	width: 220px;
+}
+div.dataFields4Columns div.columnArea,
+div.formFields4Columns div.columnArea,
+div.dataFieldsWideCenterCol div.columnArea {
+	width: 221px;
+}
+body.withContext div.dataFields4Columns div.firstColumnArea,
+body.withContext div.dataFields4Columns div.columnArea,
+body.withContext div.dataFields4ColsNoDiv div.firstColumnArea,
+body.withContext div.dataFields4ColsNoDiv div.columnArea,
+body.withContext div.formFields4Columns div.firstColumnArea,
+body.withContext div.formFields4Columns div.columnArea,
+body.withContext div.formFields4ColsNoDiv div.firstColumnArea,
+body.withContext div.formFields4ColsNoDiv div.columnArea {
+	width: 179px;
+}
+
+div.dataFieldsWideLeftCol div.firstColumnArea {
+	width: 589px;
+}
+div.dataFieldsWideCenterCol div.centerColumnArea {
+	width: 442px;
+}
+
+
+/* COMMON DATA/FORM FIELD DISPLAY
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.groupArea {
+	padding: 5px 4px 0px 4px;
+	clear: both;
+}
+div.groupArea h4 {
+	color: #0295BE;
+	font-size: 13px;
+	display: block;
+	padding: 2px 0px 5px 11px;
+	margin: 0px;
+}
+
+div.dataDisplaySection div.subGroupArea,
+div.dataDisplaySection div.subGroupAreaFirst,
+div.dataDisplaySection div.subGroupAreaFinal,
+div.dataDisplaySection div.subGroupAreaOnly,
+div.dataDisplaySection div.followUpSubGroupArea,
+div.formFieldSection div.subGroupArea,
+div.formFieldSection div.subGroupAreaFirst,
+div.formFieldSection div.subGroupAreaFinal,
+div.formFieldSection div.subGroupAreaOnly,
+div.formFieldSection div.followUpSubGroupArea {
+	padding: 5px 0px 5px 0px;
+	clear: both;
+	display: block;
+}
+div.dataDisplaySection div.subGroupAreaFirst,
+div.formFieldSection div.subGroupAreaFirst {
+	padding: 0px 0px 5px 0px;
+}
+div.dataDisplaySection div.subGroupAreaFinal,
+div.formFieldSection div.subGroupAreaFirst {
+	padding: 5px 0px 0px 0px;
+}
+div.dataDisplaySection div.subGroupAreaOnly,
+div.formFieldSection div.subGroupAreaOnly {
+	padding: 0px;
+}
+div.dataDisplaySection div.followUpSubGroupArea,
+div.formFieldSection div.followUpSubGroupArea {
+	padding: 5px 0px 5px 15px;
+}
+
+div.groupArea h5,
+div.subGroupArea h5,
+div.subGroupAreaFirst h5,
+div.subGroupAreaFinal h5,
+div.subGroupAreaOnly h5,
+div.followUpSubGroupArea h5 {
+	font-size: 11px;
+	display: block;
+	padding: 5px 0px 5px 12px;
+	margin: 0px;
+}
+div.subGroupArea div.contentStretchHackLeft,
+div.subGroupArea div.contentStretchHackRight,
+div.subGroupAreaOnly div.contentStretchHackLeft,
+div.subGroupAreaOnly div.contentStretchHackRight,
+div.subGroupAreaFinal div.contentStretchHackLeft,
+div.subGroupAreaFinal div.contentStretchHackRight,
+div.followUpSubGroupArea div.contentStretchHackRight{
+	width: 200px;
+}
+
+div.fieldArea {
+}
+div.fieldAreaInstructions {
+	padding: 5px 0px 3px 0px;
+	display: block;
+	clear: both;
+}
+div.fieldAreaInstructions p {
+	padding: 0px 12px 5px 12px;
+
+}
+
+div.field,
+div.fieldFullWidth,
+div.fieldFullWidthNoLabel,
+div.fieldWideLabel,
+div.required,
+div.requiredWideLabel,
+div.requiredFullWidth,
+div.requiredDisabled,
+div.requiredFullWidthDisabled,
+div.requiredReadOnly,
+div.requiredFullWidthReadOnly,
+div.requiredError,
+div.requiredWideLabelError,
+div.requiredFullWidthError,
+div.optional,
+div.optionalWideLabel,
+div.optionalFullWidth,
+div.optionalDisabled,
+div.optionalFullWidthDisabled,
+div.optionalReadOnly,
+div.optionalFullWidthReadOnly,
+div.optionalError,
+div.optionalWideLabelError,
+div.optionalFullWidthError,
+div.question,
+div.questionShort,
+div.questionShortOptional,
+div.compoundFieldFullWidth {
+	clear: both;
+	padding-left: 2px;
+}
+
+div.field span.label,
+div.fieldFullWidth span.label,
+div.fieldWideLabel span.label,
+div.compoundFieldFullWidth span.label {
+	font-weight: 700;
+}
+div.required span.label,
+div.requiredWideLabel span.label,
+div.requiredFullWidth span.label,
+div.requiredError span.label,
+div.requiredFullWidthError span.label {
+	font-weight: 700;
+}
+div.requiredDisabled span.label,
+div.requiredFullWidthDisabled span.label {
+}
+div.optional span.label,
+div.optionalWideLabel span.label,
+div.optionalFullWidth span.label,
+div.optionalError span.label,
+div.optionalFullWidthError span.label,
+div.formFieldSection div.questionShortOptional span.question {
+}
+div.optionalDisabled span.label {
+}
+div.requiredReadOnly span.label,
+div.requiredFullWidthReadOnly span.label {
+	font-weight: 700;
+}
+div.optionalReadOnly span.label,
+div.optionalFullWidthReadOnly span.label {
+}
+
+div.fieldArea div.required span.label,
+div.fieldArea div.requiredWideLabel span.label,
+div.fieldArea div.requiredReadOnly span.label,
+div.fieldArea div.requiredError span.label,
+div.fieldArea div.requiredWideLabelError span.label {
+	width: 130px;
+	padding: 5px 0px 7px 0px;
+	float: left;
+	display: block;
+}
+div.fieldArea div.requiredFullWidth span.label,
+div.fieldArea div.requiredFullWidthError span.label,
+div.fieldArea div.requiredFullWidthReadOnly span.label,
+div.fieldArea div.requiredFullWidthDisabled span.label {
+	float: none;
+	display: block;
+	padding: 1px 0px 1px 0px;
+}
+div.fieldArea div.requiredFullWidthDisabled span.label {
+	margin-left: 10px;
+}
+div.followUpSubGroupArea div.fieldArea div.required span.label,
+div.subGroupAreaOnly div.followUpSubGroupArea div.fieldArea div.required span.label {
+	width: 115px;
+}
+
+span.labelIconLeft {
+	width: 10px;
+	float: left;
+	display:block;
+	margin-top: 4px;
+}
+div.requiredFullWidth span.labelIconLeft,
+div.requiredFullWidthError span.labelIconLeft,
+div.requiredFullWidthReadOnly span.labelIconLeft {
+	margin-top: 0px;
+}
+
+div.fieldArea div.field span.label,
+div.fieldArea div.fieldWideLabel span.label,
+div.fieldArea div.optional span.label,
+div.fieldArea div.optionalWideLabel span.label,
+div.fieldArea div.optionalDisabled span.label,
+div.fieldArea div.optionalReadOnly span.label,
+div.fieldArea div.optionalError span.label,
+div.fieldArea div.optionalWideLabelError span.label,
+div.fieldArea div.requiredDisabled span.label,
+div.formFieldSection div.questionShortOptional span.question,
+div.dataDisplaySection div.questionShort span.question {
+	width: 130px;
+	padding: 5px 0px 7px 0px;
+	margin-left: 10px;
+	float: left;
+	display: block;
+}
+div.formFields3Columns div.fieldArea div.field span.label,
+div.formFields3Columns div.fieldArea div.required span.label,
+div.formFields3Columns div.fieldArea div.requiredDisabled span.label,
+div.formFields3Columns div.fieldArea div.requiredReadOnly span.label,
+div.formFields3Columns div.fieldArea div.requiredError span.label,
+div.formFields3Columns div.fieldArea div.optional span.label,
+div.formFields3Columns div.fieldArea div.optionalDisabled span.label,
+div.formFields3Columns div.fieldArea div.optionalReadOnly span.label,
+div.formFields3Columns div.fieldArea div.optionalError span.label {
+	width: 65px;
+}
+div.formFields4Columns div.fieldArea div.field span.label,
+div.formFields4Columns div.fieldArea div.optional span.label,
+div.formFields4Columns div.fieldArea div.optionalError span.label {
+	width: 45px;
+}
+div.followUpSubGroupArea div.fieldArea div.field span.label,
+div.followUpSubGroupArea div.fieldArea div.optional span.label,
+div.subGroupAreaOnly div.followUpSubGroupArea div.fieldArea div.field span.label,
+div.subGroupAreaOnly div.followUpSubGroupArea div.fieldArea div.optional span.label {
+	width: 115px;
+}
+div.formFields1Column div.firstColumnArea div.fieldArea div.requiredWideLabel span.label,
+div.formFields1Column div.firstColumnArea div.fieldArea div.requiredWideLabelError span.label {
+	width: 439px;
+}
+div.formFields1Column div.firstColumnArea div.fieldArea div.requiredWideLabel span.value,
+div.formFields1Column div.firstColumnArea div.fieldArea div.requiredWideLabelError span.value {
+	margin-left: 449px;
+}
+
+div.fieldArea div.fieldFullWidth span.label,
+div.fieldArea div.optionalFullWidth span.label,
+div.fieldArea div.optionalFullWidthError span.label,
+div.fieldArea div.optionalFullWidthReadOnly span.label,
+div.fieldArea div.optionalFullWidthDisabled span.label,
+div.fieldArea div.compoundFieldFullWidth span.label {
+	float: none;
+	display: block;
+	padding: 5px 0px 1px 0px;
+	margin-left: 10px;
+}
+
+div.fieldArea div.field span.input,
+div.fieldArea div.disabled span.input,
+div.fieldArea div.readOnly span.input,
+div.fieldArea div.required span.input,
+div.fieldArea div.requiredDisabled span.input,
+div.fieldArea div.requiredReadOnly span.input,
+div.fieldArea div.requiredError span.input,
+div.fieldArea div.requiredWideLabel span.input,
+div.fieldArea div.requiredWideLabelError span.input,
+div.fieldArea div.optional span.input,
+div.fieldArea div.optionalDisabled span.input,
+div.fieldArea div.optionalReadOnly span.input,
+div.fieldArea div.optionalError span.input,
+div.fieldArea div.optionalWideLabel span.input,
+div.fieldArea div.optionalWideLabelError span.input {
+	float: left;
+	display: block;
+	padding: 3px 0px 3px 0px;
+}
+
+div.fieldArea div.requiredFullWidth span.input,
+div.fieldArea div.requiredFullWidthError span.input,
+div.fieldArea div.requiredFullWidthReadOnly span.input,
+div.fieldArea div.requiredFullWidthDisabled span.input,
+div.fieldArea div.optionalFullWidth span.input ,
+div.fieldArea div.optionalFullWidthError span.input,
+div.fieldArea div.optionalFullWidthReadOnly span.input,
+div.fieldArea div.optionalFullWidthDisabled span.input,
+div.fieldArea div.compoundFieldFullWidth span.input {
+	float: none;
+	display: block;
+	padding: 3px 0px 3px 10px;
+}
+
+div.dataDisplaySection span.value,
+div.formFieldSection span.value {
+	display: block;
+	margin-left: 140px;
+	padding: 5px 0px 5px 3px;
+}
+div.dataDisplaySection span.value h2,
+div.formFieldSection span.value h2 {
+	font-size: 14px;
+}
+div.dataDisplaySection div.followUpSubGroupArea span.value,
+div.formFieldSection div.followUpSubGroupArea span.value,
+div.subGroupAreaOnly div.dataDisplaySection div.followUpSubGroupArea span.value,
+div.subGroupAreaOnly div.formFieldSection div.followUpSubGroupArea span.value {
+	margin-left: 125px;
+}
+
+div.dataFields3Columns div.fieldArea div.field span.label,
+div.dataFields3ColsNoDiv div.fieldArea div.field span.label,
+div.dataFields4Columns div.fieldArea div.field span.label,
+div.dataFieldsWideLeftCol div.columnArea div.fieldArea div.field span.label,
+div.dataFieldsWideCenterCol div.firstColumnArea div.fieldArea div.field span.label,
+div.dataFieldsWideCenterCol div.columnArea div.fieldArea div.field span.label {
+	width: 110px;
+}
+div.dataDisplaySection div.dataFields3Columns span.value,
+div.dataDisplaySection div.dataFields3ColsNoDiv span.value,
+div.dataDisplaySection div.dataFields4Columns span.value,
+div.dataDisplaySection div.dataFieldsWideLeftCol span.value,
+div.dataFieldsWideCenterCol div.firstColumnArea div.fieldArea div.field span.value,
+div.dataFieldsWideCenterCol div.columnArea div.fieldArea div.field span.value {
+	margin-left: 120px;
+}
+div.dataFields1Column div.firstColumnArea div.fieldArea div.fieldWideLabel span.label,
+div.formFields1Column div.firstColumnArea div.fieldArea div.fieldWideLabel span.label,
+div.formFields1Column div.firstColumnArea div.fieldArea div.optionalWideLabel span.label,
+div.formFields1Column div.firstColumnArea div.fieldArea div.optionalWideLabelError span.label {
+	width: 439px;
+}
+div.dataFields1Column div.firstColumnArea div.fieldArea div.fieldWideLabel span.value,
+div.formFields1Column div.firstColumnArea div.fieldArea div.fieldWideLabel span.value,
+div.formFields1Column div.firstColumnArea div.fieldArea div.optionalWideLabel span.value,
+div.formFields1Column div.firstColumnArea div.fieldArea div.optionalWideLabelError span.value {
+	margin-left: 449px;
+}
+div.dataFieldsWideLeftCol div.firstColumnArea div.fieldArea div.fieldWideLabel span.label,
+div.dataFieldsWideCenterCol div.centerColumnArea div.fieldArea div.fieldWideLabel span.label {
+	width: 400px;
+}
+div.dataFieldsWideLeftCol div.firstColumnArea div.fieldWideLabel span.value,
+div.dataFieldsWideCenterCol div.centerColumnArea div.fieldWideLabel span.value {
+	margin-left: 410px;
+}
+
+div.fieldFullWidth span.value {
+	float: none;
+	display: block;
+	padding: 5px 10px 2px 10px;
+	margin: 0px;
+}
+div.fieldFullWidthNoLabel span.value {
+	float: none;
+	display: block;
+	padding: 10px 10px 2px 10px;
+	margin: 0px;
+}
+
+div.groupArea p {
+	margin-right: 165px;
+}
+body.withContext div.groupArea p,
+div.popupForm div.groupArea p,
+div.narrowPopupForm div.groupArea p {
+	margin-right: 0px;
+}
+
+span.value p {
+	padding: 0px 0px 5px 0px;
+}
+span.value ol {
+	margin: 0px 15px 0px 27px;
+	padding: 0px 20px 0px 0px;
+}
+span.value ol li {
+	padding: 0px 3px 0px 0px;
+	line-height: 18px;
+}
+span.value ul {
+	margin: 0px 1px 3px 1px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+span.value ul li {
+	padding: 0px 20px 0px 15px;
+	margin: 0px 15px 0px 10px;
+	background-image: url("../images/coss/bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 8px;
+	line-height: 16px;
+}
+
+span.value h5,
+span.value ul li h5 {
+	font-size: 12px;
+	padding: 5px 0px 10px 0px;
+}
+span.value ul li h5 {
+	padding: 0px 0px 2px 0px;
+}
+
+span.value ul li p span.note span.label {
+	display: inline;
+	margin-left: 0px;
+}
+
+span.input span.value {
+	margin-left: 0px;
+	display: inline;
+}
+
+div.formFieldSection div.checkboxOptional {
+	display: block;
+	padding: 5px 0px 5px 10px;
+	clear: both;
+}
+div.formFieldSection div.checkboxRequired {
+	display: block;
+	padding: 5px 0px 5px 0px;
+}
+
+div.formFieldSection div.checkboxRequired span.labelIconLeft {
+	margin-top: -1px;
+}
+
+div.formFieldSection div.checkboxOptional span.input,
+div.formFieldSection div.checkboxRequired span.input {
+	margin-left: 0px;
+	display: inline;
+	float: none;
+}
+div.formFieldSection div.checkboxOptional span.checkbox,
+div.formFieldSection div.checkboxOptional span.checkboxFirst {
+	float: left;
+	display: block;
+}
+
+div.formFieldSection div.checkboxOptional span.value,
+div.formFieldSection div.checkboxRequired span.value {
+	float: left;
+	display: block;
+	width: 390px;
+	margin-top: 1px;
+}
+body.withContext div.formFieldSection div.checkboxOptional span.value,
+body.withContext div.formFieldSection div.checkboxRequired span.value,
+div.popupForm div.formFieldSection div.checkboxOptional span.value,
+div.popupForm div.formFieldSection div.checkboxRequired span.value,
+div.narrowPopupForm div.formFieldSection div.checkboxOptional span.value,
+div.narrowPopupForm div.formFieldSection div.checkboxRequired span.value {
+	width: 305px;
+}
+div.formFieldSection div.formFields3Columns div.checkboxOptional span.value,
+div.formFieldSection div.formFields3Columns div.checkboxRequired span.value,
+div.formFieldSection div.formFields3ColsNoDiv div.checkboxOptional span.value,
+div.formFieldSection div.formFields3ColsNoDiv div.checkboxRequired span.value {
+	width: 240px;
+}
+body.withContext div.formFieldSection div.formFields3Columns div.checkboxOptional span.value,
+body.withContext div.formFieldSection div.formFields3Columns div.checkboxRequired span.value,
+body.withContext div.formFieldSection div.formFields3ColsNoDiv div.checkboxOptional span.value,
+body.withContext div.formFieldSection div.formFields3ColsNoDiv div.checkboxRequired span.value {
+	width: 185px;
+}
+
+div.formFieldSection div.checkboxRequired span.value {
+	font-weight: 700;
+}
+
+div.formFieldSection div.question,
+div.formFieldSection div.questionOptional,
+div.formFieldSection div.questionShort,
+div.formFieldSection div.questionShortOptional,
+div.formFieldSection div.questionError,
+div.formFieldSection div.questionShortError,
+div.followUpForm div.questionShort,
+div.followUpForm div.questionShortError {
+	display: block;
+	padding: 0px 0px 3px 2px;
+	clear: both;
+}
+div.formFieldSection div.question span.questionArea,
+div.formFieldSection div.questionError span.questionArea {
+	display: block;
+	width: 415px;
+	height: 25px;
+}
+div.formFieldSection div.question span.question,
+div.formFieldSection div.questionError span.question {
+	font-weight: 700;
+	float: left;
+	display: block;
+	padding: 5px 10px 5px 0px;
+	margin: 0px;
+}
+div.formFieldSection div.questionOptional span.question {
+	float: left;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	margin: 0px;
+}
+div.dataDisplaySection div.question span.question {
+	font-weight: 700;
+	float: left;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	margin: 0px;
+}
+div.formFieldSection div.questionShort span.question,
+div.formFieldSection div.questionShortError span.question,
+div.followUpForm div.questionShort span.question,
+div.followUpForm div.questionShortError span.question {
+	font-weight: 700;
+	width: 130px;
+	float: left;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+}
+div.dataDisplaySection div.questionShort span.question {
+	font-weight: 700;
+	width: 130px;
+	float: left;
+	display: block;
+	padding: 5px 0px 5px 10px;
+	margin: 0px;
+}
+div.formFieldSection div.question span.input,
+div.formFieldSection div.questionOptional span.input,
+div.formFieldSection div.questionError span.input,
+div.formFieldSection div.questionShort span.input,
+div.formFieldSection div.questionShortOptional span.input,
+div.formFieldSection div.questionShortError span.input,
+div.followUpForm div.questionShort span.input,
+div.followUpForm div.questionShortError span.input {
+	padding: 3px 0px 3px 0px;
+	display: block;
+	float: left;
+}
+div.dataDisplaySection div.question span.value,
+div.dataDisplaySection div.questionOptional span.value {
+	padding: 5px 0px 5px 3px;
+	display: block;
+	float: left;
+	margin: 0px;
+}
+div.formFieldSection div.questionShort span.labelIconLeft,
+div.formFieldSection div.questionShortError span.labelIconLeft,
+div.followUpForm div.questionShort span.labelIconLeft,
+div.followUpForm div.questionShortError span.labelIconLeft {
+	margin-top: 4px;
+}
+
+span.subFieldArea {
+	display: block;
+	width: 275px;
+}
+body.withContext span.subFieldArea {
+	width: 195px;
+}
+div.dataDisplaySection span.subField,
+div.formFieldSection span.subField {
+	margin-right: 2px;
+}
+span.subField span.radioArea {
+	display: inline;
+	margin-right: 0px;
+}
+
+span.subField span.radioFirst {
+	margin-right: 2px;
+}
+span.subField span.radio {
+	margin-left: 5px;
+	margin-right: 2px;
+}
+
+
+div.dataDisplaySection span.formattingIndLeft,
+div.formFieldSection span.formattingIndLeft {
+	font-size: 14px;
+	vertical-align: 0px;
+	margin-right: 2px;
+}
+div.dataDisplaySection span.formattingIndRight,
+div.formFieldSection span.formattingIndRight {
+	font-size: 14px;
+	vertical-align: 0px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+div.dataDisplaySection span.concatenator,
+div.formFieldSection span.concatenator {
+	font-size: 12px;
+	vertical-align: 0px;
+	margin-right: 2px;
+}
+
+div.dataDisplaySection span.labelRight,
+div.formFieldSection span.labelRight {
+	margin-right: 10px;
+}
+
+span.selectionLinkRight {
+	float: left;
+	display: block;
+	padding-left: 3px;
+	padding-top: 3px;
+}
+span.input span.selectionLinkRight {
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px -3px;
+	vertical-align: -3px;
+}
+div.filterFieldArea span.input span.selectionLinkRight {
+	margin-left: 0px;
+}
+
+div.fieldNoLabel {
+	display: block;
+	padding: 0px 10px 1px 10px;
+	clear: both;
+}
+div.fieldArea div.fieldNoLabel span.value {
+	display: block;
+	margin-left: 0px;
+	padding: 5px 0px 5px 2px;
+}
+
+span.charCount {
+	display: block;
+	font-size: 10px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+div.requiredFullWidth span.charCount,
+div.requiredFullWidthError span.charCount,
+div.optionalFullWidth span.charCount,
+div.optionalFullWidthError span.charCount {
+	margin-bottom: 0px;
+}
+
+div.fieldArea div.required span.error,
+div.fieldArea div.requiredReadOnly span.error,
+div.fieldArea div.optional span.error,
+div.fieldArea div.optionalReadOnly span.error,
+div.fieldArea div.questionShort span.error,
+div.fieldArea div.question span.error,
+div.fieldArea div.requiredWideLabel span.error,
+div.fieldArea div.optionalWideLabel span.error,
+div.fieldArea div.requiredFullWidth span.error,
+div.fieldArea div.optionalFullWidth span.error,
+div.questionArea div.required span.error,
+div.questionArea div.optional span.error {
+	display: none;
+}
+div.fieldArea div.requiredError span.error,
+div.fieldArea div.requiredWideLabelError span.error,
+div.fieldArea div.optionalError span.error,
+div.fieldArea div.optionalWideLabelError span.error,
+div.fieldArea div.questionShortError span.error {
+	color: #e14025;
+	font-weight: 700;
+	display: block;
+	padding: 25px 0px 0px 0px;
+	margin: 3px 0px 8px 143px;
+}
+div.formFields3Columns div.fieldArea div.requiredError span.error,
+div.formFields3Columns div.fieldArea div.optionalError span.error {
+	margin-left: 78px;
+}
+div.fieldArea div.requiredWideLabelError span.error,
+div.fieldArea div.optionalWideLabelError span.error {
+	padding: 25px 0px 0px 0px;
+	margin: 3px 0px 8px 452px;
+}
+div.fieldArea span.value span.error {
+	display: inline;
+	margin: 0px;
+}
+div.fieldArea div.requiredFullWidthError span.error,
+div.fieldArea div.optionalFullWidthError span.error {
+	display:block;
+	margin: 0px 0px 5px 10px;
+}
+div.fieldArea div.questionError span.error {
+	display:block;
+	margin-left: 10px;
+	padding: 0px 0px 3px 0px;
+}
+
+div.questionArea div.requiredError span.error,
+div.questionArea div.optionalError span.error {
+	color: #e14025;
+	font-weight: 700;
+	display: block;
+	padding: 25px 0px 0px 0px;
+	margin: 3px 0px 8px 500px;
+}
+
+div.fieldArea span.fieldLink {
+	display: block;
+	float: left;
+	padding: 5px 0px 0px 8px;
+}
+
+div.fieldArea span.hint {
+	display: block;
+	font-size: 10px;
+}
+div.formFields2Columns span.hint {
+	width: 250px;
+}
+body.withContext div.formFields2Columns span.hint {
+	width: 195px;
+}
+div.formFields1Column span.hint {
+	width: 730px;
+}
+body.withContext div.formFields1Column span.hint {
+	width: 545px;
+}
+body.withContext div.formFields1Column div.questionArea span.hint {
+	width: 470px;
+}
+
+div.fieldArea p.hint {
+	display: block;
+	font-size: 10px;
+	line-height: 12px;
+	clear: left;
+	padding: 0px 10px 10px 10px;
+}
+
+/* VALUE LISTS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.valueList {
+}
+div.valueList ul {
+	list-style: none;
+	padding: 0px 10px 0px 10px;
+}
+div.valueList li {
+	padding: 5px 0px 5px 0px;
+}
+
+/* WIDE GROUPS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.dataDisplayWideGroups,
+div.formFieldsWideGroups {
+	padding-bottom: 3px;
+}
+
+div.wideGroupArea {
+	background-image: url("../images/coss/wide_group_separator_with_group.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 5px 0px 5px 0px;
+}
+div.firstWideGroupArea {
+	padding: 5px 0px 5px 0px;
+}
+div.followUpWideGroupArea {
+	padding: 0px 0px 5px 0px;
+}
+div.lastWideGroupArea {
+	background-image: url("../images/coss/wide_group_separator.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 5px 0px 0px 0px;
+}
+div.wideGroupAreaNoDiv {
+	padding: 0px 0px 0px 0px;
+}
+
+body.withContext div.wideGroupArea,
+body.withContext div.lastWideGroupArea,
+div.popupForm div.wideGroupArea,
+div.popupForm div.lastWideGroupArea {
+	background-image: url("../images/coss/wide_group_separator_with_context.gif");
+}
+
+div.wideSubGroupArea {
+	background-image: url("../images/coss/wide_subgroup_separator.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding: 5px 0px 0px 0px;
+}
+div.firstWideSubGroupArea {
+}
+body.withContext div.wideSubGroupArea {
+	background-image: url("../images/coss/wide_subgroup_separator_with_context.gif");
+}
+
+div.wideGroupHeaderArea {
+	width: 870px;
+	padding: 0px 0px 0px 8px;
+	height: 24px;
+}
+body.withContext div.wideGroupHeaderArea,
+div.popupForm div.wideGroupHeaderArea {
+	width: 713px;
+}
+
+span.wideGroupControls {
+	text-align: left;
+	float: left;
+	display: block;
+	padding: 7px 0px 0px 0px;
+}
+div.wideGroupHeaderArea h4 {
+	color: #0295BE;
+	font-size: 13px;
+	display: block;
+	padding: 5px 6px 0px 6px;
+	margin: 0px;
+	float: left;
+	display: block;
+}
+div.wideGroupHeaderArea h4 a {
+	color: #0295BE;
+}
+div.wideGroupHeaderArea h5 {
+	font-size: 11px;
+	display: block;
+	padding: 5px 6px 0px 6px;
+	margin: 0px;
+	float: left;
+	display: block;
+}
+div.wideGroupHeaderArea h4 span.label {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+	letter-spacing: 1px;
+	float: left;
+	display: block;
+	padding: 1px 7px 0px 0px;
+    text-transform: uppercase;
+}
+
+div.wideGroupIntroductionArea {
+	padding-top: 5px;
+}
+div.wideGroupIntroductionArea p {
+	margin-right: 165px;
+}
+
+span.wideGroupActions {
+	text-align: right;
+	display: block;
+	padding: 4px 7px 3px 0px;
+}
+span.wideGroupActions span.button {
+	margin-left: 4px;
+}
+
+div.wideGroupLabelRequired {
+	padding: 5px 15px 5px 5px;
+}
+div.wideGroupLabelRequired span.label {
+	font-weight: 700;
+}
+div.wideGroupLabelRequired span.labelIconLeft {
+	margin-top: -1px;
+}
+
+div.wideGroupLabelOptional,
+div.wideGroupLabel {
+	padding: 5px 15px 5px 15px;
+}
+div.wideGroupLabelOptional span.label,
+div.wideGroupLabel span.label {
+	font-weight: 700;
+}
+
+div.sectionRequired,
+div.sectionRequiredError,
+div.sectionOptional,
+div.sectionOptionalError,
+div.sectionField {
+	padding: 5px 0px 0px 0px;
+}
+div.sectionRequired div.labelArea,
+div.sectionRequiredError div.labelArea {
+	padding: 5px 15px 5px 5px;
+}
+div.sectionRequired div.labelArea span.label,
+div.sectionRequiredError div.labelArea span.label {
+	display: block;
+	font-weight: 700;
+	margin-left: 10px;
+}
+div.sectionRequired div.labelArea span.labelIconLeft,
+div.sectionRequiredError div.labelArea span.labelIconLeft {
+	float: left;
+	margin-top: -1px;
+}
+div.sectionRequired span.hint {
+	display: block;
+	font-size: 10px;
+}
+
+
+div.sectionOptional div.labelArea,
+div.sectionOptionalError div.labelArea,
+div.sectionField div.labelArea {
+	padding: 5px 15px 5px 15px;
+}
+div.sectionOptional div.labelArea span.label,
+div.sectionOptionalError div.labelArea span.label,
+div.sectionField div.labelArea span.label {
+	font-weight: 700;
+}
+
+div.sectionRequired span.error,
+div.sectionOptional span.error {
+	display: none;
+}
+div.sectionRequiredError span.error,
+div.sectionOptionalError span.error {
+	display: block;
+	padding: 0px 0px 10px 15px;
+}
+
+div.dataDisplaySection div.callouts,
+div.formFieldSection div.callouts {
+	padding: 5px 15px 10px 16px;
+}
+div.wideGroupArea div.callouts,
+div.firstWideGroupArea div.callouts {
+	padding: 0px 15px 0px 16px;
+}
+div.dataDisplaySection div.columnArea div.callouts li,
+div.formFieldSection div.columnArea div.callouts li,
+div.wideGroupArea div.callouts li,
+div.firstWideGroupArea div.callouts li {
+	font-size: 11px;
+	padding: 5px 0px 5px 18px;
+	background-position: 0px 8px;
+}
+div.dataFieldSection div.callouts li.noBullet,
+div.formFieldSection div.callouts li.noBullet,
+div.wideGroupArea div.callouts li.noBullet,
+div.firstWideGroupArea div.callouts li.noBullet {
+	padding: 5px 0px 0px 0px;
+}
+div.groupArea div.callouts {
+	padding: 5px 15px 10px 10px;
+}
+div.groupArea div.callouts li {
+	font-size: 11px;
+}
+
+div.dataDisplaySection div.columnArea div.callouts li.highlight {
+	font-size: 14px;
+	background-image: url("../images/coss/callout_bullet_large.gif");
+	background-position: 0px 7px;
+}
+
+div.wideGroupArea div.dataFields1Column,
+div.firstWideGroupArea div.dataFields1Column,
+div.lastWideGroupArea div.dataFields1Column,
+div.wideGroupArea div.dataFields2Columns,
+div.firstWideGroupArea div.dataFields2Columns,
+div.lastWideGroupArea div.dataFields2Columns,
+div.wideGroupArea div.dataFields3Columns,
+div.firstWideGroupArea div.dataFields3Columns,
+div.lastWideGroupArea div.dataFields3Columns,
+div.wideGroupArea div.dataFields3ColsNoDiv,
+div.firstWideGroupArea div.dataFields3ColsNoDiv,
+div.lastWideGroupArea div.dataFields3ColsNoDiv,
+div.wideGroupArea div.formFields1Column,
+div.firstWideGroupArea div.formFields1Column,
+div.lastWideGroupArea div.formFields1Column,
+div.wideGroupArea div.formFields2Columns,
+div.firstWideGroupArea div.formFields2Columns,
+div.lastWideGroupArea div.formFields2Columns,
+div.wideGroupArea div.formFields3Columns,
+div.firstWideGroupArea div.formFields3Columns,
+div.followUpWideGroupArea div.dataFields2Columns,
+div.wideGroupAreaNoDiv div.dataFields1Column,
+div.lastWideGroupArea div.formFields3Columns,
+div.wideGroupArea div.dataFields2ColsNoDiv,
+div.firstWideGroupArea div.dataFields2ColsNoDiv,
+div.wideGroupArea div.formFields2ColsNoDiv,
+div.firstWideGroupArea div.formFields2ColsNoDiv,
+div.wideGroupArea div.formFields3ColsNoDiv,
+div.firstWideGroupArea div.formFields3ColsNoDiv,
+div.wideGroupArea div.dataFields4Columns,
+div.firstWideGroupArea div.dataFields4Columns {
+	margin-top: 0px;
+}
+
+div.followUpWideGroupArea div.dataFields1Column,
+div.wideGroupAreaNoDiv div.dataFields2Columns,
+div.followUpWideGroupArea div.dataFields3Columns,
+div.wideGroupAreaNoDiv div.dataFields3Columns,
+div.followUpWideGroupArea div.dataFields3ColsNoDiv,
+div.wideGroupAreaNoDiv div.dataFields3ColsNoDiv,
+div.followUpWideGroupArea div.formFields1Column,
+div.wideGroupAreaNoDiv div.formFields1Column,
+div.followUpWideGroupArea div.formFields2Columns,
+div.wideGroupAreaNoDiv div.formFields2Columns,
+div.followUpWideGroupArea div.formFields3Columns,
+div.wideGroupAreaNoDiv div.formFields3Columns,
+div.followUpWideGroupArea div.formFields3ColsNoDiv,
+div.wideGroupAreaNoDiv div.formFields3ColsNoDiv {
+	margin-top: 0px;
+}
+
+div.firstWideSubGroupArea div.dataFields2ColsNoDiv,
+div.wideSubGroupArea div.dataFields2ColsNoDiv,
+div.firstWideSubGroupArea div.dataFields3ColsNoDiv,
+div.wideSubGroupArea div.dataFields3ColsNoDiv,
+div.firstWideSubGroupArea div.formFields2ColsNoDiv,
+div.wideSubGroupArea div.formFields2ColsNoDiv,
+div.firstWideSubGroupArea div.formFields3ColsNoDiv,
+div.wideSubGroupArea div.formFields3ColsNoDiv {
+	margin-top: -5px;
+}
+
+div.followUpWideGroupArea div.groupArea,
+div.wideGroupAreaNoDiv div.groupArea {
+	padding-top: 0px;
+}
+
+div.wideGroupArea div.groupArea h4,
+div.firstWideGroupArea div.groupArea h4,
+div.followUpWideGroupArea div.groupArea h4,
+div.lastWideGroupArea div.groupArea h4,
+div.wideGroupAreaNoDiv div.groupArea h4 {
+	padding-top: 0px;
+}
+
+/* WIDE GROUP ACTIONS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.wideGroupActionArea {
+	padding: 5px 15px 0px 15px;
+}
+
+div.wideGroupActionArea p {
+	padding: 0px 0px 2px 0px;
+}
+
+div.wideGroupActionArea div.wideGroupActionsHorizontal {
+	display: block;
+	height: 18px;
+	padding-bottom: 5px;
+}
+
+div.wideGroupActionArea div.wideGroupActionsHorizontal div.action {
+	float: left;
+	display: inline;
+}
+div.wideGroupActionArea div.wideGroupActionsHorizontal span.button {
+	margin-right: 5px;
+}
+div.wideGroupActionArea div.wideGroupActionsVertical div.action {
+	height: 18px;
+	display: block;
+	padding-bottom: 5px;
+}
+div.wideGroupActionArea div.wideGroupActionsVertical span.button {
+	float: left;
+	display: inline;
+}
+div.wideGroupActionArea div.wideGroupActionsHorizontal span.description,
+div.wideGroupActionArea div.wideGroupActionsVertical span.description {
+	float: left;
+	display: inline;
+	padding-top: 2px;
+}
+div.wideGroupActionArea div.wideGroupActionsVertical span.description {
+	margin-left: 10px;
+}
+
+div.wideGroupActionArea a span.buttonMore {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #0295BE;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-image: url("../images/coss/multi_action_button_add_symbol.gif");
+}
+
+
+/* FORM COLUMNS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.formArea2Columns {
+	padding: 5px 14px 0px 14px;
+	display: block;
+	background-image: url("../images/coss/form_area_background_2columns.gif");
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+div.firstFormColumnArea {
+	width: 429px;
+	float: left;
+	display: block;
+}
+div.formColumnArea {
+	width: 430px;
+	float: left;
+	display: block;
+	margin-left: 27px;
+}
+
+div.formArea2Columns div.formFields {
+	padding-bottom: 5px;
+}
+
+div.formArea2Columns div.columnArea {
+	width: 427px;
+}
+
+div.formArea2Columns div.formActionsHorizontal {
+	margin-bottom: 1px;
+}
+
+div.formArea2Columns div.firstFormColumnArea div.sectionHeaderArea {
+	width: 427px;
+}
+div.formArea2Columns div.firstFormColumnArea div.sectionHeaderArea h3 {
+	width: 407px;
+}
+div.formArea2Columns div.formColumnArea div.sectionHeaderArea {
+	width: 428px;
+}
+div.formArea2Columns div.formColumnArea div.sectionHeaderArea h3 {
+	width: 408px;
+}
+
+div.firstFormColumnArea div.contentStretchHackLeft,
+div.firstFormColumnArea div.contentStretchHackRight,
+div.formColumnArea div.contentStretchHackLeft,
+div.formColumnArea div.contentStretchHackRight {
+	width: 410px;
+}
+
+/* DATA ACTIONS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.dataDisplaySection span.sectionActions span.button,
+div.dataDisplaySection span.sectionActions span.buttonWide,
+div.dataDisplaySection span.sectionActions span.buttonWidest,
+div.dataDisplaySection span.sectionActions span.buttonUpdate,
+div.formFieldSection span.sectionActions span.buttonUpdate,
+div.dataDisplaySection span.sectionActions span.alternateButton,
+div.formFieldSection span.sectionActions span.alternateButton,
+div.dataDisplaySection span.sectionActions span.buttonMore,
+div.formFieldSection span.sectionActions span.buttonMore,
+div.dataDisplaySection span.sectionActions span.buttonDisabled,
+span.wideGroupActions span.button {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+	display: inline;
+	margin-left: 7px;
+
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+div.dataDisplaySection span.sectionActions span.button:hover,
+div.dataDisplaySection span.sectionActions span.buttonWide:hover,
+div.dataDisplaySection span.sectionActions span.buttonWidest:hover,
+div.dataDisplaySection span.sectionActions span.buttonUpdate:hover,
+div.formFieldSection span.sectionActions span.buttonUpdate:hover,
+div.dataDisplaySection span.sectionActions span.alternateButton:hover,
+div.formFieldSection span.sectionActions span.alternateButton:hover,
+div.dataDisplaySection span.sectionActions span.buttonMore:hover,
+div.formFieldSection span.sectionActions span.buttonMore:hover,
+div.dataDisplaySection span.sectionActions span.buttonDisabled:hover,
+span.wideGroupActions span.button:hover {
+    background-color: #e0c000;
+}
+div.dataDisplaySection span.sectionActions span.button,
+div.dataDisplaySection span.sectionActions span.buttonWide,
+div.dataDisplaySection span.sectionActions span.buttonWidest,
+span.wideGroupActions span.button {
+}
+div.dataDisplaySection span.sectionActions span.buttonUpdate,
+div.formFieldSection span.sectionActions span.buttonUpdate {
+	background-color: #0295BE;
+    color: #fff;
+	background-image: url("../images/coss/form_button_previous_symbol.gif");
+}
+div.dataDisplaySection span.sectionActions span.alternateButton,
+div.formFieldSection span.sectionActions span.alternateButton {
+	background-color: #0295BE;
+    color: #fff;
+}
+div.dataDisplaySection span.sectionActions span.buttonMore,
+div.formFieldSection span.sectionActions span.buttonMore {
+	background-color: #0295BE;
+    color: #fff;
+	background-image: url("../images/coss/form_button_more_symbol.gif");
+}
+div.dataDisplaySection span.sectionActions span.buttonDisabled {
+	background-color: #ededed;
+	color: #000;
+}
+div.dataDisplaySection span.sectionActions span.buttonWide {
+	width: 73px;
+}
+div.dataDisplaySection span.sectionActions span.buttonWidest {
+	width: 88px;
+}
+
+
+/* FORM FIELDS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+input, select, textarea {
+	background-color: #fff;
+    border: 1px solid #c8c9cb;
+	font-size: 11px;
+}
+div.requiredDisabled input,
+div.requiredDisabled select,
+div.requiredDisabled textarea,
+div.optionalDisabled input,
+div.optionalDisabled select,
+div.optionalDisabled textarea {
+	background-color: #ededed;
+    color: #7f7f7f;
+}
+
+input.passwordStdWidth,
+input.passwordWideWidth {
+	font-size: 18px;
+	margin-bottom: -3px;
+}
+
+
+input.radio,
+input.checkbox {
+	background-color: transparent;
+}
+
+input {
+	padding: 1px 5px 1px 5px;
+	height: 21px;
+    vertical-align:bottom;
+}
+select {
+	height: 23px;
+}
+option.category {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input.stdWidth,
+input.stdWidthWithFormat,
+input.passwordStdWidth,
+div.formFields1Column input.stdWidth,
+div.formFields1Column input.stdWidthWithFormat,
+div.formFields2Columns input.stdWidth,
+div.formFields2Columns input.stdWidthWithFormat,
+div.formFields2ColsNoDiv input.stdWidth,
+div.formFields2ColsNoDiv input.stdWidthWithFormat {
+	width: 264px;
+}
+select.stdWidth,
+select.stdWidthWithFormat {
+	width: 279px;
+}
+body.withContext input.stdWidth,
+body.withContext input.stdWidthWithFormat,
+body.withContext div.formFields1Column input.stdWidth,
+body.withContext div.formFields1Column input.stdWidthWithFormat,
+body.withContext div.formFields2Columns input.stdWidth,
+body.withContext div.formFields2Columns input.stdWidthWithFormat,
+body.withContext div.formFields2ColsNoDiv input.stdWidth,
+body.withContext div.formFields2ColsNoDiv input.stdWidthWithFormat,
+div.popupForm input.stdWidth,
+div.popupForm input.stdWidthWithFormat,
+div.popupForm div.formFields1Column input.stdWidth,
+div.popupForm div.formFields1Column input.stdWidthWithFormat,
+div.popupForm div.formFields2Columns input.stdWidth,
+div.popupForm div.formFields2Columns input.stdWidthWithFormat,
+div.popupForm div.formFields2ColsNoDiv input.stdWidth,
+div.popupForm div.formFields2ColsNoDiv input.stdWidthWithFormat,
+div.narrowPopupForm input.stdWidth,
+div.narrowPopupForm input.stdWidthWithFormat {
+	width: 184px;
+}
+body.withContext select.stdWidth,
+body.withContext select.stdWidthWithFormat,
+div.popupForm select.stdWidth,
+div.popupForm select.stdWidthWithFormat,
+div.narrowPopupForm div.formFields1Column select.stdWidth,
+div.narrowPopupForm div.formFields1Column select.stdWidthWithFormat {
+	width: 199px;
+}
+
+div.formArea2Columns input.stdWidth,
+div.formArea2Columns input.stdWidthWithFormat {
+	width: 254px;
+}
+div.formArea2Columns select.stdWidth,
+div.formArea2Columns select.stdWidthWithFormat {
+	width: 269px;
+}
+
+
+input.stdWithSelect,
+input.stdWithSelectWithFormat {
+	width: 243px;
+}
+body.withContext div.formFields1Column input.stdWithSelect,
+body.withContext div.formFields1Column input.stdWithSelectWithFormat,
+body.withContext div.formFields2Columns input.stdWithSelect,
+body.withContext div.formFields2Columns input.stdWithSelectWithFormat,
+body.withContext div.formFields2ColsNoDiv input.stdWithSelect,
+body.withContext div.formFields2ColsNoDiv input.stdWithSelectWithFormat,
+div.popupForm div.formFields1Column input.stdWithSelect,
+div.popupForm div.formFields1Column input.stdWithSelectWithFormat,
+div.popupForm div.formFields2Columns input.stdWithSelect,
+div.popupForm div.formFields2Columns input.stdWithSelectWithFormat,
+div.popupForm div.formFields2ColsNoDiv input.stdWithSelect,
+div.popupForm div.formFields2ColsNoDiv input.stdWithSelectWithFormat,
+div.narrowPopupForm input.stdWithSelect,
+div.narrowPopupForm input.stdWithSelectWithFormat {
+	width: 163px;
+}
+
+div.formArea1Column input.stdWithSelect,
+div.formArea1Column input.stdWithSelectWithFormat,
+div.formArea2Columns input.stdWithSelect,
+div.formArea2Columns input.stdWithSelectWithFormat,
+div.formArea2ColsNoDiv input.stdWithSelect,
+div.formArea2ColsNoDiv input.stdWithSelectWithFormat {
+	width: 233px;
+}
+
+input.stdWithMiniButton {
+	width: 245px;
+}
+
+input.wideWidth,
+input.wideWidthWithFormat {
+	width: 566px;
+}
+select.wideWidth {
+	width: 581px;
+}
+body.withContext input.wideWidth,
+body.withContext input.wideWidthWithFormat,
+div.popupForm input.wideWidth,
+div.popupForm input.wideWidthWithFormat {
+	width: 401px;
+}
+body.withContext select.wideWidth,
+div.popupForm select.wideWidth {
+	width: 416px;
+}
+
+div.formFields3Columns input.stdWidth,
+div.formFields3Columns input.stdWidthWithFormat {
+	width: 130px;
+}
+div.formFields3Columns select.stdWidth {
+	width: 145px;
+}
+
+div.formFields4Columns input.stdWidth,
+div.formFields4Columns input.stdWidthWithFormat {
+	width: 90px;
+}
+
+input.std2Char {
+	width: 20px;
+}
+input.num2Char {
+	width: 20px;
+}
+input.std3Char,
+input.std3CharWithFormat {
+	width: 30px;
+}
+select.std3Char {
+	width: 60px;
+}
+input.num3Char {
+	width: 26px;
+}
+input.std4Char,
+input.std4CharWithFormat {
+	width: 40px;
+}
+input.num4Char {
+	width: 36px;
+}
+input.std5Char,
+input.std5CharWithFormat {
+	width: 50px;
+}
+input.num5Char {
+	width: 35px;
+}
+input.std7Char {
+	width: 70px;
+}
+input.num7Char {
+	width: 42px;
+}
+
+select.hours {
+	width: 30px;
+}
+select.minutes {
+	width: 30px;
+}
+
+input.fullWidth {
+	width: 870px;
+}
+
+input.stdCurrency {
+	width: 42px;
+}
+
+input.stdDate,
+input.stdDateWithFormat {
+	width: 92px;
+	display: block;
+}
+
+input.stdUserId {
+	width: 92px;
+}
+
+input.stdWidthWithFormat,
+input.wideWidthWithFormat,
+input.std2CharWithFormat,
+input.std3CharWithFormat,
+input.std4CharWithFormat,
+input.std5CharWithFormat,
+input.stdDateWithFormat,
+select.stdWidthWithFormat,
+input.stdWithSelectWithFormat {
+}
+
+div.formFields1Column input.stdFileUpload {
+	font-size: 11px;
+	width: 343px;
+	height: 19px;
+}
+div.formFields1Column input.wideFileUpload {
+	font-size: 11px;
+	width: 628px;
+	height: 19px;
+}
+div.formFields1Column input.wideFileUploadWithLink {
+	font-size: 11px;
+	width: 460px;
+	height: 19px;
+}
+body.withContext div.formFields1Column input.stdFileUpload,
+div.popupForm div.formFields1Column input.stdFileUpload,
+div.narrowPopupForm input.stdFileUpload {
+	width: 262px;
+}
+body.withContext div.formFields1Column input.wideFileUpload,
+div.popupForm div.formFields1Column input.wideFileUpload {
+	width: 578px;
+}
+body.withContext div.formFields1Column input.wideFileUploadWithLink,
+div.popupForm div.formFields1Column input.wideFileUploadWithLink {
+	width: 410px;
+}
+
+span.radioArea,
+span.checkboxArea {
+	display: block;
+	margin: 1px 0px 3px 0px;
+}
+div.required span.radioArea,
+div.optional span.radioArea,
+div.requiredError span.radioArea,
+div.required span.checkboxArea,
+div.optional span.checkboxArea,
+div.requiredError span.checkboxArea,
+div.questionShort span.radioArea,
+div.questionShortError span.radioArea,
+div.questionShort span.checkboxArea,
+div.questionShortError span.checkboxArea {
+	width: 285px;
+}
+body.withContext div.required span.radioArea,
+body.withContext div.optional span.radioArea,
+body.withContext div.requiredError span.radioArea,
+body.withContext div.required span.checkboxArea,
+body.withContext div.optional span.checkboxArea,
+body.withContext div.requiredError span.checkboxArea,
+body.withContext div.questionShort span.radioArea,
+body.withContext div.questionShortError span.radioArea,
+body.withContext div.questionShort span.checkboxArea,
+body.withContext div.questionShortError span.checkboxArea {
+	width: 200px;
+}
+
+
+span.radioArea span.input,
+span.checkboxArea span.input {
+	margin-top: 2px;
+}
+span.checkboxArea span.value {
+	vertical-align: 2px;
+}
+
+
+span.radio,
+span.checkbox {
+	display: inline;
+	margin: 0px 5px 0px 20px;
+	padding: 2px 2px 1px 2px;
+}
+span.radioFirst,
+span.checkboxFirst {
+	display: inline;
+	margin: 0px 5px 0px 0px;
+	padding: 2px 2px 1px 2px;
+}
+div.questionShort span.radio,
+div.questionShort span.radioFirst,
+div.questionShortOptional span.radio,
+div.questionShortOptional span.radioFirst,
+div.questionShortError span.radio,
+div.questionShortError span.radioFirst {
+	padding: 1px 2px 2px 2px;
+}
+
+
+input.radio {
+	vertical-align: -7px;
+}
+
+span.radioVerticalArea,
+span.checkboxVerticalArea {
+	display: block;
+	padding-bottom: 3px;
+}
+div.requiredError span.radioVerticalArea,
+div.requiredWideLabelError span.radioVerticalArea,
+div.optionalError span.radioVerticalArea,
+div.optionalWideLabelError span.radioVerticalArea,
+div.requiredError span.checkboxVerticalArea,
+div.requiredWideLabelError span.checkboxVerticalArea,
+div.optionalError span.checkboxVerticalArea,
+div.optionalWideLabelError span.checkboxVerticalArea {
+	padding-bottom: 0px;
+}
+
+span.radioVertical {
+	display: block;
+	width: 277px;
+	margin: 1px 0px 5px 0px;
+	clear: left;
+}
+span.checkboxVertical {
+	display: block;
+	width: 277px;
+	margin: 1px 0px 6px 0px;
+	clear: left;
+}
+body.withContext span.radioVertical,
+body.withContext span.checkboxVertical {
+	width: 192px;
+}
+div.formFields1Column span.radioVertical,
+div.formFields1Column span.checkboxVertical {
+	width: 855px;
+}
+body.withContext div.formFields1Column span.radioVertical,
+body.withContext div.formFields1Column span.checkboxVertical {
+	width: 690px;
+}
+
+span.radioVertical span.radio,
+span.radioVertical span.radioFirst,
+span.checkboxVertical span.checkbox,
+span.checkboxVertical span.checkboxFirst {
+	margin-left: 0px;
+	display: block;
+	float: left;
+	width: 15px;
+}
+span.radioVertical span.value,
+span.checkboxVertical span.value {
+	margin-left: 25px;
+	display: block;
+	width: 252px;
+	padding: 2px 0px 0px 0px;
+}
+body.withContext span.radioVertical span.value,
+body.withContext span.checkboxVertical span.value {
+	width: 167px;
+}
+div.formFields1Column span.radioVertical span.value,
+div.formFields1Column span.checkboxVertical span.value {
+	width: 680px;
+}
+
+span.input select.stdWidth5Rows {
+	width: 279px;
+	height: 76px;
+}
+span.input select.stdWidth15Rows {
+	width: 279px;
+	height: 216px;
+}
+span.input select.stdWidth15RowsWithFilter {
+	width: 279px;
+	height: 170px;
+}
+body.withContext span.input select.stdWidth5Rows,
+body.withContext span.input select.stdWidth15Rows,
+body.withContext span.input select.stdWidth15RowsWithFilter {
+	width: 199px;
+}
+
+option.unavailable {
+}
+
+div.requiredError input,
+div.requiredWideLabelError input,
+div.optionalError input,
+div.optionalWideLabelError input {
+	border: 1px solid #CC0000;
+	height: 15px;
+}
+div.requiredError input.stdFileUpload {
+	background-color: #fff;
+    border: 1px solid #c8c9cb;
+	height: 19px;
+}
+
+div.requiredError select,
+div.requiredWideLabelError select,
+div.optionalError select,
+div.optionalWideLabelError select {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+
+div.requiredError span.radio,
+div.requiredError span.radioFirst,
+div.requiredWideLabelError span.radio,
+div.requiredWideLabelError span.radioFirst,
+div.requiredFullWidthError span.radio,
+div.requiredFullWidthError span.radioFirst,
+div.optionalError span.radio,
+div.optionalError span.radioFirst,
+div.optionalWideLabelError span.radio,
+div.optionalWideLabelError span.radioFirst,
+div.questionError span.radio,
+div.questionError span.radioFirst,
+div.questionShortError span.radio,
+div.questionShortError span.radioFirst,
+div.requiredError span.checkbox,
+div.requiredError span.checkboxFirst,
+div.requiredWideLabelError span.checkbox,
+div.requiredWideLabelError span.checkboxFirst,
+div.optionalError span.checkbox,
+div.optionalError span.checkboxFirst,
+div.optionalWideLabelError span.checkbox,
+div.optionalWideLabelError span.checkboxFirst,
+div.questionError span.checkbox,
+div.questionError span.checkboxFirst,
+div.sectionRequiredError span.checkbox,
+div.sectionRequiredError span.checkboxFirst,
+div.sectionOptionalError span.checkbox,
+div.sectionOptionalError span.checkboxFirst,
+div.questionShortError span.checkbox,
+div.questionShortError span.checkboxFirst {
+	border: 1px solid #CC0000;
+	margin-right: 3px;
+}
+div.requiredFullWidthError span.radio,
+div.requiredFullWidthError span.radioFirst,
+div.questionError span.radio,
+div.questionError span.radioFirst {
+	padding: 1px 2px 2px 2px;
+}
+
+div.requiredError span.checkbox,
+div.requiredError span.checkboxFirst,
+div.requiredFullWidthError span.checkbox,
+div.requiredFullWidthError span.checkboxFirst,
+div.optionalError span.checkbox,
+div.optionalError span.checkboxFirst {
+	border: 1px solid #CC0000;
+	padding: 6px 2px 0px 2px;
+	margin-right: 5px;
+}
+
+div.requiredError span.radioVertical,
+div.requiredWideLabelError span.radioVertical,
+div.optionalError span.radioVertical,
+div.optionalWideLabelError span.radioVertical,
+div.requiredError span.checkboxVertical,
+div.requiredWideLabelError span.checkboxVertical,
+div.optionalError span.checkboxVertical,
+div.optionalWideLabelError span.checkboxVertical {
+	margin: 0px 0px 5px 0px;
+}
+div.requiredError span.radioVertical span.radio,
+div.requiredError span.radioVertical span.radioFirst,
+div.requiredWideLabelError span.radioVertical span.radio,
+div.requiredWideLabelError span.radioVertical span.radioFirst,
+div.optionalError span.radioVertical span.radio,
+div.optionalError span.radioVertical span.radioFirst,
+div.optionalWideLabelError span.radioVertical span.radio,
+div.optionalWideLabelError span.radioVertical span.radioFirst {
+	padding-right: 0px;
+}
+div.requiredError span.checkboxVertical span.checkbox,
+div.requiredError span.checkboxVertical span.checkboxFirst,
+div.requiredWideLabelError span.checkboxVertical span.checkbox,
+div.requiredWideLabelError span.checkboxVertical span.checkboxFirst,
+div.optionalError span.checkboxVertical span.checkbox,
+div.optionalError span.checkboxVertical span.checkboxFirst,
+div.optionalWideLabelError span.checkboxVertical span.checkbox,
+div.optionalWideLabelError span.checkboxVertical span.checkboxFirst {
+	padding: 2px 1px 0px 2px;
+	margin-top: -2px;
+	margin-bottom: 3px;
+}
+div.requiredError span.radioVerticalArea,
+div.requiredWideLabelError span.radioVerticalArea,
+div.optionalError span.radioVerticalArea,
+div.optionalWideLabelError span.radioVerticalArea {
+	margin: 1px 0px 0px 0px;
+}
+div.requiredError span.checkboxVerticalArea,
+div.requiredWideLabelError span.checkboxVerticalArea,
+div.optionalError span.checkboxVerticalArea,
+div.optionalWideLabelError span.checkboxVerticalArea {
+	margin: 0px 0px 1px 0px;
+}
+div.requiredError span.radioArea,
+div.requiredWideLabelError span.radioArea,
+div.optionalError span.radioArea,
+div.optionalWideLabelError span.radioArea,
+div.questionError span.radioArea,
+div.questionShortError span.radioArea {
+	margin: 1px 0px 1px 0px;
+}
+div.requiredError span.checkboxArea,
+div.requiredWideLabelError span.checkboxArea,
+div.optionalError span.checkboxArea,
+div.optionalWideLabelError span.checkboxArea,
+div.questionError span.checkboxArea,
+div.questionShortError span.checkboxArea {
+	margin: 0px 0px 1px 0px;
+}
+
+input.stdFileUpload {
+	font-size: 11px;
+}
+
+
+/* FORM ACTION LAYOUT
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.formActionSection {
+}
+div.formActionSection div.sectionHeaderArea {
+	display: none;
+}
+
+div.overallActionSection{
+	background-image: url("../images/coss/list_row_separator.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding-top: 6px;
+	margin-top: 5px;
+}
+div.overallActionSection div.sectionHeaderArea {
+	display: none;
+}
+
+div.formActionsHorizontal,
+div.formActionsLargeHorizontal {
+	border-top: 1px solid #0295BE;
+	height: 18px;
+	padding: 10px 7px 10px 7px;
+	margin: 0px 0px 5px 0px;
+	display: block;
+}
+div.formActionsLargeHorizontal {
+	height: 24px;
+}
+div.formActionsHorizontal div.actionArea,
+div.formActionsLargeHorizontal div.actionArea {
+	float: right;
+	display: inline;
+}
+div.formActionsHorizontal div.action,
+div.formActionsLargeHorizontal div.action {
+	float: left;
+	display: inline;
+}
+div.formActionsHorizontal span.button,
+div.formActionsLargeHorizontal span.button {
+	margin-left: 7px;
+}
+
+div.formActionsVertical,
+div.formActionsLargeVertical {
+	border-top: 1px solid #0295BE;
+	padding: 0px 9px 0px 9px;
+	margin: 0px 0px 5px 0px;
+}
+div.formActionsVertical div.actionArea,
+div.formActionsLargeVertical div.actionArea {
+	display: block;
+	margin-top: 10px;
+    text-align: right;
+}
+
+div.formActionsVertical div.action,
+div.formActionsLargeVertical div.action {
+	height: 29px;
+	display: inline-block;
+}
+div.formActionsLargeVertical div.action {
+	height: 35px;
+}
+div.formActionsVertical span.button,
+div.formActionsLargeVertical span.button {
+	float: right;
+	display: inline;
+}
+div.formActionsVertical span.description,
+div.formActionsLargeVertical span.description {
+	float: right;
+	display: inline;
+	margin-right: 10px;
+	padding-top: 2px;
+}
+
+div.alternatives {
+}
+div.alternatives ul {
+	float: none;
+	display: block;
+	text-align: right;
+	list-style: none;
+	padding: 0px 5px 3px 5px;
+}
+div.alternatives li {
+	font-size: 11px;
+	padding: 0px 0px 7px 15px;
+}
+div.alternatives li span.link {
+	padding-left: 15px;
+	background-image: url("../images/coss/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+}
+
+textarea {
+	padding: 2px 5px 2px 5px;
+}
+div.requiredError textArea,
+div.optionalError textArea,
+div.requiredFullWidthError textArea,
+div.optionalFullWidthError textArea {
+	border: 1px solid #CC0000;
+}
+textarea.fullWidth3rows,
+textarea.fullWidth15rows {
+	width: 692px;
+	height: 42px;
+	padding-right: 150px;
+}
+textarea.fullWidth15rows {
+	height: 216px;
+}
+div.requiredFullWidthError textArea.fullWidth3rows,
+div.optionalFullWidthError textArea.fullWidth3rows {
+	width: 694px;
+	height: 44px;
+}
+div.requiredFullWidthError textArea.fullWidth15rows,
+div.optionalFullWidthError textArea.fullWidth15rows {
+	width: 694px;
+	height: 218px;
+}
+
+body.withContext textarea.fullWidth3rows,
+body.withContext textarea.fullWidth15rows,
+div.popupForm textarea.fullWidth3rows,
+div.popupForm textarea.fullWidth15rows {
+	width: 677px;
+	padding-right: 5px;
+}
+body.withContext div.requiredFullWidthError textArea.fullWidth3rows,
+body.withContext div.optionalFullWidthError textArea.fullWidth3rows,
+body.withContext div.requiredFullWidthError textArea.fullWidth15rows,
+body.withContext div.optionalFullWidthError textArea.fullWidth15rows,
+div.popupForm div.requiredFullWidthError textarea.fullWidth3rows,
+div.popupForm div.optionalFullWidthError textarea.fullWidth15rows {
+	width: 679px;
+}
+
+div.narrowPopupForm textarea.fullWidth3rows,
+div.narrowPopupForm textarea.fullWidth15rows {
+	width: 314px;
+	padding-right: 5px;
+}
+div.narrowPopupForm div.requiredFullWidthError textarea.fullWidth3rows,
+div.narrowPopupForm div.optionalFullWidthError textarea.fullWidth3rows,
+div.narrowPopupForm div.requiredFullWidthError textarea.fullWidth15rows,
+div.narrowPopupForm div.optionalFullWidthError textarea.fullWidth15rows {
+	width: 316px;
+}
+
+textarea.wideWidth3rows {
+	width: 713px;
+	height: 42px;
+}
+div.requiredError textArea.wideWidth3rows,
+div.optionalError textArea.wideWidth3rows {
+	width: 715px;
+	height: 44px;
+}
+
+textarea.stdWidth3rows {
+	width: 264px;
+	height: 42px;
+}
+div.requiredError textArea.stdWidth3rows,
+div.optionalError textArea.stdWidth3rows {
+	width: 266px;
+	height: 44px;
+}
+
+body.withContext textarea.stdWidth3rows,
+div.popupForm textarea.stdWidth3rows,
+div.narrowPopupForm textarea.stdWidth3rows {
+	width: 184px;
+}
+body.withContext div.requiredError textarea.stdWidth3rows,
+body.withContext div.optionalError textarea.stdWidth3rows,
+div.popupForm div.requiredError textarea.stdWidth3rows,
+div.popupForm div.optionalError textarea.stdWidth3rows,
+div.narrowPopupForm div.requiredError textarea.stdWidth3rows,
+div.narrowPopupForm div.optionalError textarea.stdWidth3rows {
+	width: 186px;
+}
+
+/* FORM ACTIONS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.formActionSection input.button,
+div.formActionSection input.alternateButton,
+div.formActionSection input.buttonPrevious,
+div.formActionSection input.buttonCancel,
+div.formActionSection input.buttonDisabled,
+div.formActionSection input.buttonWide,
+div.formActionSection input.alternateButtonWide,
+div.formActionSection input.buttonWideDisabled,
+div.formActionSection input.buttonCancelWide,
+div.formActionSection input.buttonWidest,
+div.formActionSection input.buttonWidestDisabled,
+div.overallActionSection input.button,
+div.overallActionSection input.buttonDisabled {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*  Modified for TU Rebrand and from 100px to 150px*/
+div.formActionSection input.buttonWide {
+	width: 150px;
+}
+
+div.formActionSection input.alternateButtonWide,
+div.formActionSection input.buttonCancelWide,
+div.formActionSection input.buttonWideDisabled {
+	width: 100px;
+}
+div.formActionSection input.buttonWidest,
+div.formActionSection input.buttonWidestDisabled {
+	width: 115px;
+}
+
+div.formActionSection input.button,
+div.overallActionSection input.button,
+div.formActionSection input.buttonWide,
+div.formActionSection input.buttonWidest {
+}
+div.formActionSection input.alternateButton,
+div.formActionSection input.alternateButtonWide {
+	background-color: #0295BE;
+}
+div.formActionSection input.buttonPrevious {
+}
+div.formActionSection input.buttonCancel,
+div.formActionSection input.buttonCancelWide {
+}
+div.formActionSection input.buttonDisabled,
+div.overallActionSection input.buttonDisabled,
+div.formActionSection input.buttonWideDisabled,
+div.formActionSection input.buttonWidestDisabled {
+	background-color: #ededed;
+	color: #7f7f7f;
+}
+
+div.formActionSection span.buttonLink,
+div.formActionSection span.buttonLinkDisabled,
+div.formActionSection span.buttonCancelLink,
+div.formActionSection span.buttonWidestLink,
+div.formActionSection span.buttonSupremeLink {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	display: block;
+	margin-left: 7px;
+}
+div.formActionSection span.buttonWidestLink {
+	width: 88px;
+}
+div.formActionSection span.buttonSupremeLink {
+	width: 118px;
+}
+div.formActionSection span.buttonLinkDisabled {
+	background-color: #ededed;
+	color: #7f7f7f;
+}
+div.formActionSection span.buttonCancelLink {
+	background-image: url("../images/coss/form_button_cancel_symbol.gif");
+}
+
+div.formActionSection div.formActionsLargeHorizontal input.button,
+div.overallActionSection div.formActionsLargeHorizontal input.button,
+div.formActionSection div.formActionsLargeVertical input.button,
+div.overallActionSection div.formActionsLargeVertical input.button,
+div.formActionSection div.formActionsLargeHorizontal input.buttonDisabled,
+div.overallActionSection div.formActionsLargeHorizontal input.buttonDisabled,
+div.formActionSection div.formActionsLargeVertical input.buttonDisabled,
+div.overallActionSection div.formActionsLargeVertical input.buttonDisabled {
+}
+
+
+/* PROTECTED TEXT AREA
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.protTextareaFullWidth,
+div.protTextareaFullWidth8rows,
+div.protTextareaFullWidth15rows {
+	width: 845px;
+	background-color: #f7f7f7;
+	overflow-y: scroll;
+	padding: 3px 5px 0px 5px;
+	margin-bottom: 10px;
+	border-top: 2px solid #75736E;
+	border-left: 2px solid #75736E;
+	border-right: 2px solid #F2F0EE;
+	border-bottom: 2px solid #F2F0EE;
+}
+div.protTextareaFullWidth8rows {
+	height: 144px;
+}
+div.protTextareaFullWidth15rows {
+	height: 216px;
+}
+body.withContext div.protTextareaFullWidth,
+body.withContext div.protTextareaFullWidth15rows,
+div.popupForm div.protTextareaFullWidth,
+div.popupForm div.portTextareaFullWidth15rows {
+	width: 678px;
+}
+
+div.fieldNoLabel div.protTextAreaFullWidth,
+div.fieldNoLabel div.protTextareaFullWidth8rows,
+div.fieldNoLabel div.protTextareaFullWidth15rows {
+	margin-top: 5px;
+}
+
+div.protTextareaFullWidth p,
+div.protTextareaFullWidth8rows p,
+div.protTextareaFullWidth15rows p {
+	padding: 0px 0px 5px 0px;
+	margin-right: 132px;
+}
+div.protTextareaFullWidth h4,
+div.protTextareaFullWidth8rows h4,
+div.protTextareaFullWidth15rows h4 {
+	padding: 0px 0px 5px 0px;
+	font-size: 12px;
+	color: #000000;
+}
+div.protTextareaFullWidth h5,
+div.protTextareaFullWidth8rows h5,
+div.protTextareaFullWidth15rows h5 {
+	padding: 0px 0px 5px 0px;
+	font-size: 11px;
+	color: #000000;
+}
+div.protTextareaFullWidth ol,
+div.protTextareaFullWidth8rows ol,
+div.protTextareaFullWidth15rows ol {
+	margin: 0px 0px 0px 18px;
+	padding-right: 0px;
+}
+div.protTextareaFullWidth li,
+div.protTextareaFullWidth8rows li,
+div.protTextareaFullWidth15rows li {
+	padding-bottom: 3px;
+}
+
+/* FORM WIZARD HEADER
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div#wizardStepHeaderArea {
+	padding: 0px 15px 10px 15px;
+}
+div#wizardStepHeaderComponents {
+	width: 885px;
+	height: 22px;
+	background-image: url("../images/coss/wizard_header_separator.gif");
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+body.withContext div#wizardStepHeaderComponents {
+	width: 720px;
+}
+
+div#wizardStepTitle {
+	float: left;
+	display: block;
+	width: 700px;
+}
+body.withContext div#wizardStepTitle {
+	width: 535px;
+}
+
+div#wizardStepTitle span.label {
+    font-family: IntroCaps, IntroSemiBold, Intro, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+	font-size: 11px;
+	letter-spacing: 1px;
+	float: left;
+	display: block;
+	padding: 3px 7px 0px 0px;
+    text-transform: uppercase;
+}
+div#wizardStepHeaderArea h3 {
+	color: #0295BE;
+	font-size: 15px;
+	padding: 0px;
+	margin: 1px;
+}
+div#wizardStepSkipLink {
+	padding: 3px 0px 0px 0px;
+	float: left;
+	width: 185px;
+	display: block;
+	text-align: right;
+	text-transform: lowercase;
+}
+
+/* INLINE FIELDS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.inlineFieldArea {
+	padding: 5px 0px 0px 0px;
+	margin-left: -10px;
+}
+body.withContext div.inlineFieldArea {
+	padding: 5px 0px 0px 0px;
+	margin-left: -12px;
+}
+div.inlineFieldArea div.inlineRequired,
+div.inlineFieldArea div.inlineOptional,
+div.inlineFieldArea div.inlineField {
+	clear: none;
+	float: left;
+	display: inline;
+	margin-right: 20px;
+}
+body.withContext div.inlineFieldArea div.inlineRequired,
+body.withContext div.inlineFieldArea div.inlineOptional,
+body.withContext div.inlineFieldArea div.inlineField {
+	clear: none;
+	float: left;
+	display: inline;
+	margin-right: 5px;
+}
+
+div.inlineFieldArea div.inlineField span.label,
+div.inlineFieldArea div.inlineRequired span.label {
+	font-weight: 700;
+}
+div.inlineFieldArea div.inlineOptional span.label {
+}
+
+div.inlineFieldArea div.inlineRequired span.label {
+	float: left;
+	display: inline;
+	padding: 5px 0px 7px 0px;
+	margin: 0px 10px 0px 0px;
+}
+body.withContext div.inlineFieldArea div.inlineRequired span.label {
+	margin-right: 5px;
+	float: left;
+	display: inline;
+}
+div.inlineFieldArea div.inlineOptional span.label,
+div.inlineFieldArea div.inlineField span.label {
+	padding: 5px 0px 2px 0px;
+	margin: 0px 10px 0px 10px;
+	float: left;
+	display: inline;
+}
+body.withContext div.inlineFieldArea div.inlineOptional span.label {
+	margin: 0px 5px 0px 10px;
+	float: left;
+	display: inline;
+}
+body.withContext div.inlineFieldArea div.inlineField span.label {
+	margin: 0px 5px 0px 10px;
+	float: left;
+	display: inline;
+}
+div.inlineFieldArea div.inlineField span.value {
+	display:block;
+	margin: 0px;
+	padding: 5px 0px 0px 3px;
+}
+body.withContext div.inlineFieldArea div.inlineField span.value {
+	margin: 0px;
+}
+
+/* DATA FIELD MESSAGE
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.dataFieldMessage {
+	padding: 15px 15px 15px 15px;
+}
+div.dataFieldMessage p {
+	padding: 0px 0px 5px 0px;
+	margin-right: 165px;
+}
+body.withContext div.dataFieldMessage p,
+div.popupForm div.dataFieldMessage p,
+div.narrowPopupForm div.dataFieldMessage p {
+	margin-right: 0px;
+}
+
+/* SECTION CALLOUTS
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.sectionCalloutArea,
+div.sectionCalloutAreaNoTopMargin {
+	padding: 5px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
+}
+div.sectionCalloutAreaNoTopMargin {
+	margin-top: 0px;
+}
+
+div.sectionCalloutArea div.callouts,
+div.sectionCalloutAreaNoTopMargin div.callouts{
+	display: block;
+	float: left;
+	width: 697px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+}
+div.sectionCalloutArea div.calloutIcons,
+div.sectionCalloutAreaNoTopMargin div.calloutIcons {
+	display: block;
+	float: left;
+	width: 165px;
+}
+div.sectionCalloutArea div.calloutIcons ul,
+div.sectionCalloutAreaNoTopMargin div.calloutIcons ul {
+	list-style: none;
+	float: right;
+}
+div.sectionCalloutArea div.calloutIcons ul li,
+div.sectionCalloutAreaNoTopMargin div.calloutIcons ul li {
+	float: left;
+	padding: 6px 7px 0px 0px;
+}
+
+div.required span.action,
+div.requiredError span.action,
+div.optional span.action,
+div.optionalError span.action {
+	margin-left: 5px;
+}
+div.required span.action input.button,
+div.requiredError span.action input.button,
+div.optional span.action input.button,
+div.optionalError span.action input.button {
+    height: 26px;
+    padding: 2px 30px;
+    background-color: #fcd800;
+    font-family: IntroSemiBold, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    border: none;
+	cursor: pointer;
+    box-shadow: 4px 4px 0 #d3d2d2;
+
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 3px;
+}
+
+/* DETAIL PAGING
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.detailPagingTop {
+	padding: 5px;
+	margin: 5px 10px 10px 10px;
+	height: 15px;
+	width: 855px;
+	border-bottom: 1px solid #ededed;
+}
+div.detailPagingBottom {
+	padding: 5px;
+	margin: 10px 10px 5px 10px;
+	height: 15px;
+	width: 855px;
+	border-top: 1px solid #ededed;
+}
+body.withContext div.detailPagingTop,
+body.withContext div.detailPagingBottom {
+	width: 690px;
+}
+
+div.detailPagingTop ul,
+div.detailPagingBottom ul {
+	list-style: none;
+	float: right;
+}
+
+div.detailPagingTop li,
+div.detailPagingBottom li {
+	float: left;
+	margin-left: 8px;
+	padding-left: 10px;
+	background-image: url("../images/coss/link_separator.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+}
+
+div.detailPagingTop li.first,
+div.detailPagingBottom li.first {
+	background-image: none;
+}
+
+div.detailPagingTop li.followUp,
+div.detailPagingBottom li.followUp {
+	background-image: none;
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+/* LOOKUP LINK
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+span.lookupLink {
+	float: left;
+	display: block;
+	background-image: url("../images/coss/callout_bullet.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 12px;
+	margin: 5px 0px 0px 7px;
+}
+
+span.requiredDBError input.stdDateWithFormat {
+    border: 1px solid #CC0000;
+}
+input.requiredError {
+    border: 1px solid #CC0000;
+}
+
+input#buttonWidestWrapper
+{
+	width: 220px;
+}
+input#buttonWiderWrapper
+{
+	width: 180px;
+}
+input.backButton {
+    margin-top: 10px;
+}
+span.checkboxVertical span.checkBoxShowValue {
+    width: 290px;
+    margin-left: 25px;
+    display: block;
+    padding: 2px 0px 0px 0px;
+
+}
+span.optionalScoreHint {
+    width: 440px;
+}
+span.hintText{
+	margin-top: -15px;
+    margin-left: 450px;
+}
+.introBoldText {
+       font-weight: 700;
+}
+span.checkboxVertical span.checkboxFirst {
+	margin-top: -5px;
+}
+span.checkboxVertical span.checkboxValue span.checkboxFirst {
+	margin-top: -5px;
+}
+span.radioVertical span.radioFirst {
+	margin-top: -2px;
+}
+div.formFields1Column span.radioVertical span.value {
+    line-height: 18px;
+}
+span.requiredSelectedError select.stdWidth {
+    border: 1px solid #CC0000;
+}
+div.optional span.radioArea {
+    width: 855px;
+}
+span.radioArea span.hint {
+    margin-left: 30px;
+}
+div.formFieldSection div.formFields1Column div.checkboxOptional span.value {
+    width: 700px;
+}
+
+span.sectionFreezeControls {
+    text-align: left;
+    float: left;
+    display: block;
+    padding: 8px 0px 5px 7px;
+    width: 70px;
+}
+
+div.columnArea,
+div.firstColumnArea,div.firstFreezeColumnArea
+div.centerColumnArea {
+    float: left;
+    display: block;
+}
+
+div.formFields1Column div.firstFreezeColumnArea {
+    width: 643px;
+}
+
+div.formFieldSection div.sectionHeaderFreezeArea {
+    clear: none;
+    display: block;
+    height: 28px;
+	padding-bottom: 5px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #0295BE;
+}
+.requiredPhoneError {
+    border: 1px solid #CC0000;
+    width: 32px;
+    height: 25px;
+}
+
+.requiredExtError {
+    border: 1px solid #CC0000;
+    width: 42px;
+    height: 25px;
+}
+span.checkboxVertical span.checkBoxAgree {
+	margin-top: 0px;
+}
+div.checkboxOptional span.checkBoxAgreed {
+	margin-top: 3px;
+    vertical-align: top;
+}
+span.checkboxFirst input{
+    border: 0px;
+    vertical-align: top;
+    margin-top: -5px;
+}
+span.checkBoxAgreed input{
+    border: 0px;
+    vertical-align: top;
+    margin-top: -5px;
+}
+span.requiredError {
+    border: 1px solid #CC0000;
+}
+span.checkboxFirst input{
+    margin-left: -1px;
+}
+.extraSpace {
+    line-height: 10px;
+}
+span.subFieldSubArea {
+    width: 225px;
+}
+span.subFieldText{
+    height: 40px;
+}
+span.radioText input.radio {
+    margin-left: 2px;
+}
+div.optional span.eligibleRadioButton{
+    width: 200px;
+}
+div#formAreaElement{
+    float: left;
+}
+div#formAreaLeftElement{
+    height: 122px;
+}
+div#formAreaLeftElements{
+    height: 100px;
+}
